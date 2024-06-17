@@ -1,0 +1,3419 @@
+{
+  "CVE-2020-36567": {
+    "aliases": [
+      "GO-2020-0001",
+      "GHSA-6vm3-jj99-7229"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0001.json"
+  },
+  "CVE-2020-36568": {
+    "aliases": [
+      "GO-2020-0003",
+      "GHSA-hggr-p7v6-73p5"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0003.json"
+  },
+  "CVE-2020-36569": {
+    "aliases": [
+      "GO-2020-0004",
+      "GHSA-hrm3-3xm6-x33h"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0004.json"
+  },
+  "CVE-2020-15106": {
+    "aliases": [
+      "GO-2020-0005",
+      "CVE-2020-15112",
+      "GHSA-m332-53r6-2w93",
+      "GHSA-p4g4-wgrh-qrg2"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0005.json"
+  },
+  "CVE-2017-15133": {
+    "aliases": [
+      "GO-2020-0006",
+      "GHSA-p55x-7x9v-q8m4"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0006.json"
+  },
+  "CVE-2017-18367": {
+    "aliases": [
+      "GO-2020-0007",
+      "GHSA-58v3-j75h-xr49"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0007.json"
+  },
+  "CVE-2019-19794": {
+    "aliases": [
+      "GO-2020-0008",
+      "GHSA-44r7-7p62-q3fr"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0008.json"
+  },
+  "CVE-2016-9123": {
+    "aliases": [
+      "GO-2020-0009",
+      "GHSA-3fx4-7f69-5mmg"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0009.json"
+  },
+  "CVE-2016-9121": {
+    "aliases": [
+      "GO-2020-0010",
+      "GHSA-86r9-39j9-99wp"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0010.json"
+  },
+  "CVE-2020-9283": {
+    "aliases": [
+      "GO-2020-0012",
+      "GHSA-ffhg-7mh4-33c4"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0012.json"
+  },
+  "CVE-2017-3204": {
+    "aliases": [
+      "GO-2020-0013",
+      "GHSA-xhjq-w7xm-p8qj"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0013.json"
+  },
+  "CVE-2018-17846": {
+    "aliases": [
+      "GO-2020-0014",
+      "GHSA-vfw5-hrgq-h5wf"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0014.json"
+  },
+  "CVE-2020-14040": {
+    "aliases": [
+      "GO-2020-0015",
+      "GHSA-5rcv-m4m3-hfh7"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0015.json"
+  },
+  "CVE-2021-29482": {
+    "aliases": [
+      "GO-2020-0016",
+      "GHSA-25xm-hr59-7c27"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0016.json"
+  },
+  "CVE-2020-26160": {
+    "aliases": [
+      "GO-2020-0017",
+      "GHSA-w73w-5m7g-f7qc"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0017.json"
+  },
+  "CVE-2020-27813": {
+    "aliases": [
+      "GO-2020-0019",
+      "GHSA-3xh2-74w9-5vxm",
+      "GHSA-jf24-p9p9-4rjh"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0019.json"
+  },
+  "CVE-2017-20146": {
+    "aliases": [
+      "GO-2020-0020",
+      "GHSA-jcr6-mmjj-pchw"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0020.json"
+  },
+  "CVE-2014-8681": {
+    "aliases": [
+      "GO-2020-0021",
+      "GHSA-mr6h-chqp-p9g2"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0021.json"
+  },
+  "CVE-2014-125026": {
+    "aliases": [
+      "GO-2020-0022",
+      "GHSA-4wp2-8rm2-jgmh"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0022.json"
+  },
+  "CVE-2015-10004": {
+    "aliases": [
+      "GO-2020-0023",
+      "GHSA-5vw4-v588-pgv8"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0023.json"
+  },
+  "CVE-2013-10005": {
+    "aliases": [
+      "GO-2020-0024",
+      "GHSA-gxgj-xjcw-fv9p"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0024.json"
+  },
+  "CVE-2018-25046": {
+    "aliases": [
+      "GO-2020-0025",
+      "GHSA-32qh-8vg6-9g43"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0025.json"
+  },
+  "CVE-2018-1103": {
+    "aliases": [
+      "GO-2020-0026",
+      "GHSA-w55j-f7vx-6q37"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0026.json"
+  },
+  "CVE-2018-6558": {
+    "aliases": [
+      "GO-2020-0027",
+      "GHSA-qj26-7grj-whg3"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0027.json"
+  },
+  "CVE-2018-17419": {
+    "aliases": [
+      "GO-2020-0028",
+      "GHSA-9jcx-pr2f-qvq5"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0028.json"
+  },
+  "CVE-2019-25073": {
+    "aliases": [
+      "GO-2020-0032",
+      "GHSA-fjgq-224f-fq37"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0032.json"
+  },
+  "CVE-2020-36559": {
+    "aliases": [
+      "GO-2020-0033",
+      "GHSA-vp56-r7qv-783v"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0033.json"
+  },
+  "CVE-2020-36560": {
+    "aliases": [
+      "GO-2020-0034",
+      "GHSA-rmj9-q58g-9qgg"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0034.json"
+  },
+  "CVE-2020-36561": {
+    "aliases": [
+      "GO-2020-0035",
+      "GHSA-f5c5-hmw9-v8hx"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0035.json"
+  },
+  "CVE-2019-11254": {
+    "aliases": [
+      "GO-2020-0036",
+      "GHSA-wxc4-f4m6-wwqv"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0036.json"
+  },
+  "CVE-2019-25072": {
+    "aliases": [
+      "GO-2020-0037",
+      "GHSA-3fm3-m23v-5r46"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0037.json"
+  },
+  "CVE-2019-20786": {
+    "aliases": [
+      "GO-2020-0038",
+      "GHSA-7gfg-6934-mqq2"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0038.json"
+  },
+  "CVE-2020-12666": {
+    "aliases": [
+      "GO-2020-0039",
+      "GHSA-733f-44f3-3frw"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0039.json"
+  },
+  "CVE-2020-36562": {
+    "aliases": [
+      "GO-2020-0040",
+      "GHSA-p6fg-723f-hgpw"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0040.json"
+  },
+  "CVE-2020-7668": {
+    "aliases": [
+      "GO-2020-0041",
+      "GHSA-88jf-7rch-32qc"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0041.json"
+  },
+  "CVE-2020-7667": {
+    "aliases": [
+      "GO-2020-0042",
+      "GHSA-9423-6c93-gpp8"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0042.json"
+  },
+  "CVE-2018-21246": {
+    "aliases": [
+      "GO-2020-0043",
+      "GHSA-gr7w-x2jp-3xgw"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0043.json"
+  },
+  "CVE-2016-15005": {
+    "aliases": [
+      "GO-2020-0045",
+      "GHSA-q9qr-jwpw-3qvv"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0045.json"
+  },
+  "CVE-2020-7711": {
+    "aliases": [
+      "GO-2020-0046",
+      "CVE-2020-7731",
+      "GHSA-gq5r-cc4w-g8xf",
+      "GHSA-mqqv-chpx-vq25",
+      "GHSA-prjq-f4q3-fvfr"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0046.json"
+  },
+  "CVE-2020-36563": {
+    "aliases": [
+      "GO-2020-0047",
+      "GHSA-5rhg-xhgr-5hfj"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0047.json"
+  },
+  "CVE-2020-25614": {
+    "aliases": [
+      "GO-2020-0048",
+      "GHSA-93m7-c69f-5cfj"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0048.json"
+  },
+  "CVE-2020-36564": {
+    "aliases": [
+      "GO-2020-0049",
+      "GHSA-5x84-q523-vvwr"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0049.json"
+  },
+  "CVE-2020-15216": {
+    "aliases": [
+      "GO-2020-0050",
+      "GHSA-q547-gmf8-8jr7"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2020-0050.json"
+  },
+  "CVE-2020-36565": {
+    "aliases": [
+      "GO-2021-0051",
+      "GHSA-j453-hm5x-c46w"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0051.json"
+  },
+  "CVE-2020-28483": {
+    "aliases": [
+      "GO-2021-0052",
+      "GHSA-h395-qcrw-5vmq"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0052.json"
+  },
+  "CVE-2021-3121": {
+    "aliases": [
+      "GO-2021-0053",
+      "GHSA-c3h9-896r-86jm"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0053.json"
+  },
+  "CVE-2020-36067": {
+    "aliases": [
+      "GO-2021-0054",
+      "GHSA-p64j-r5f4-pwwx"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0054.json"
+  },
+  "CVE-2020-35381": {
+    "aliases": [
+      "GO-2021-0057",
+      "GHSA-8vrw-m3j9-j27c"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0057.json"
+  },
+  "CVE-2020-27846": {
+    "aliases": [
+      "GO-2021-0058",
+      "GHSA-4hq8-gmxx-h6w9"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0058.json"
+  },
+  "CVE-2020-35380": {
+    "aliases": [
+      "GO-2021-0059",
+      "GHSA-w942-gw6m-p62c"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0059.json"
+  },
+  "CVE-2020-29509": {
+    "aliases": [
+      "GO-2021-0060",
+      "GHSA-xhqq-x44f-9fgg"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0060.json"
+  },
+  "CVE-2021-4235": {
+    "aliases": [
+      "GO-2021-0061",
+      "GHSA-r88r-gmrh-7j83"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0061.json"
+  },
+  "CVE-2020-26264": {
+    "aliases": [
+      "GO-2021-0063",
+      "GHSA-r33q-22hv-j29q"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0063.json"
+  },
+  "CVE-2020-8565": {
+    "aliases": [
+      "GO-2021-0064",
+      "GHSA-8cfg-vx93-jvxw"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0064.json"
+  },
+  "CVE-2019-11250": {
+    "aliases": [
+      "GO-2021-0065",
+      "GHSA-jmrx-5g74-6v2f"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0065.json"
+  },
+  "CVE-2020-8564": {
+    "aliases": [
+      "GO-2021-0066",
+      "GHSA-8mjg-8c8g-6h85"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0066.json"
+  },
+  "CVE-2021-27919": {
+    "aliases": [
+      "GO-2021-0067"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0067.json"
+  },
+  "CVE-2021-3115": {
+    "aliases": [
+      "GO-2021-0068"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0068.json"
+  },
+  "CVE-2020-28362": {
+    "aliases": [
+      "GO-2021-0069"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0069.json"
+  },
+  "CVE-2016-3697": {
+    "aliases": [
+      "GO-2021-0070",
+      "GHSA-q3j5-32m5-58c2"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0070.json"
+  },
+  "CVE-2015-1340": {
+    "aliases": [
+      "GO-2021-0071",
+      "GHSA-8mpq-fmr3-6jxv"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0071.json"
+  },
+  "CVE-2017-11468": {
+    "aliases": [
+      "GO-2021-0072",
+      "GHSA-h62f-wm92-2cmw"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0072.json"
+  },
+  "CVE-2017-17831": {
+    "aliases": [
+      "GO-2021-0073",
+      "GHSA-w4xh-w33p-4v29"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0073.json"
+  },
+  "CVE-2018-12018": {
+    "aliases": [
+      "GO-2021-0075",
+      "GHSA-p5gc-957x-gfw9"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0075.json"
+  },
+  "CVE-2018-14632": {
+    "aliases": [
+      "GO-2021-0076",
+      "GHSA-gxhv-3hwf-wjp9"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0076.json"
+  },
+  "CVE-2018-16886": {
+    "aliases": [
+      "GO-2021-0077",
+      "GHSA-h6xx-pmxh-3wgp"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0077.json"
+  },
+  "CVE-2018-17075": {
+    "aliases": [
+      "GO-2021-0078",
+      "GHSA-5p4h-3377-7w67"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0078.json"
+  },
+  "CVE-2018-18206": {
+    "aliases": [
+      "GO-2021-0079",
+      "GHSA-vc3x-gx6c-g99f"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0079.json"
+  },
+  "CVE-2019-10214": {
+    "aliases": [
+      "GO-2021-0081",
+      "GHSA-85p9-j7c9-v4gr"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0081.json"
+  },
+  "CVE-2019-11939": {
+    "aliases": [
+      "GO-2021-0082",
+      "GHSA-w3r9-r9w7-8h48"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0082.json"
+  },
+  "CVE-2019-12496": {
+    "aliases": [
+      "GO-2021-0083",
+      "GHSA-vfxc-r2gx-v2vq"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0083.json"
+  },
+  "CVE-2019-16354": {
+    "aliases": [
+      "GO-2021-0084",
+      "CVE-2019-16355",
+      "GHSA-f6px-w8rh-7r89",
+      "GHSA-hf4p-4j9r-3cvx"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0084.json"
+  },
+  "CVE-2019-16884": {
+    "aliases": [
+      "GO-2021-0085",
+      "GHSA-fgv8-vj5c-2ppq"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0085.json"
+  },
+  "CVE-2019-19619": {
+    "aliases": [
+      "GO-2021-0086",
+      "GHSA-wmwp-pggc-h4mj"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0086.json"
+  },
+  "CVE-2019-19921": {
+    "aliases": [
+      "GO-2021-0087",
+      "GHSA-fh74-hm69-rqjw"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0087.json"
+  },
+  "CVE-2019-3564": {
+    "aliases": [
+      "GO-2021-0088",
+      "GHSA-x4rg-4545-4w7w"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0088.json"
+  },
+  "CVE-2020-10675": {
+    "aliases": [
+      "GO-2021-0089",
+      "GHSA-rmh2-65xw-9m6q"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0089.json"
+  },
+  "CVE-2020-15091": {
+    "aliases": [
+      "GO-2021-0090",
+      "GHSA-6jqj-f58p-mrw3"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0090.json"
+  },
+  "CVE-2020-29529": {
+    "aliases": [
+      "GO-2021-0094",
+      "GHSA-2g5j-5x95-r6hr"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0094.json"
+  },
+  "CVE-2020-8918": {
+    "aliases": [
+      "GO-2021-0095",
+      "GHSA-5x29-3hr9-6wpw"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0095.json"
+  },
+  "CVE-2020-8945": {
+    "aliases": [
+      "GO-2021-0096",
+      "GHSA-m6wg-2mwg-4rfq"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0096.json"
+  },
+  "CVE-2020-29242": {
+    "aliases": [
+      "GO-2021-0097",
+      "CVE-2020-29243",
+      "CVE-2020-29244",
+      "CVE-2020-29245",
+      "GHSA-27mh-3343-6hg5",
+      "GHSA-9wm7-rc47-g56m",
+      "GHSA-9xm8-8qvc-vw3p",
+      "GHSA-wg79-2cgp-qrjm"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0097.json"
+  },
+  "CVE-2021-21237": {
+    "aliases": [
+      "GO-2021-0098",
+      "GHSA-cx3w-xqmc-84g5"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0098.json"
+  },
+  "CVE-2021-21272": {
+    "aliases": [
+      "GO-2021-0099",
+      "GHSA-g5v4-5x39-vwhx"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0099.json"
+  },
+  "CVE-2021-20291": {
+    "aliases": [
+      "GO-2021-0100",
+      "GHSA-7qw8-847f-pggm"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0100.json"
+  },
+  "CVE-2019-0210": {
+    "aliases": [
+      "GO-2021-0101",
+      "GHSA-jq7p-26h5-w78r"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0101.json"
+  },
+  "CVE-2019-11289": {
+    "aliases": [
+      "GO-2021-0102",
+      "GHSA-5796-p3m6-9qj4"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0102.json"
+  },
+  "CVE-2020-26242": {
+    "aliases": [
+      "GO-2021-0103",
+      "GHSA-jm5c-rv3w-w83m"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0103.json"
+  },
+  "CVE-2021-28681": {
+    "aliases": [
+      "GO-2021-0104",
+      "GHSA-74xm-qj29-cq8p"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0104.json"
+  },
+  "CVE-2020-26265": {
+    "aliases": [
+      "GO-2021-0105",
+      "GHSA-xw37-57qp-9mm4"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0105.json"
+  },
+  "CVE-2020-36566": {
+    "aliases": [
+      "GO-2021-0106",
+      "GHSA-jpf8-h7h7-3ppm"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0106.json"
+  },
+  "CVE-2021-4236": {
+    "aliases": [
+      "GO-2021-0107",
+      "GHSA-5gjg-jgh4-gppm",
+      "GHSA-jpgg-cp2x-qrw3"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0107.json"
+  },
+  "CVE-2020-15111": {
+    "aliases": [
+      "GO-2021-0108",
+      "GHSA-9cx9-x2gp-9qvh"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0108.json"
+  },
+  "CVE-2020-15223": {
+    "aliases": [
+      "GO-2021-0109",
+      "GHSA-7mqr-2v3q-v2wm"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0109.json"
+  },
+  "CVE-2020-15222": {
+    "aliases": [
+      "GO-2021-0110",
+      "GHSA-v3q9-2p3m-7g43"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0110.json"
+  },
+  "CVE-2021-20329": {
+    "aliases": [
+      "GO-2021-0112",
+      "GHSA-f6mq-5m25-4r72"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0112.json"
+  },
+  "CVE-2021-38561": {
+    "aliases": [
+      "GO-2021-0113",
+      "GHSA-ppp9-7jff-5vj2"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0113.json"
+  },
+  "CVE-2020-16845": {
+    "aliases": [
+      "GO-2021-0142",
+      "GHSA-q6gq-997w-f55g"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0142.json"
+  },
+  "CVE-2014-7189": {
+    "aliases": [
+      "GO-2021-0154"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0154.json"
+  },
+  "CVE-2015-5739": {
+    "aliases": [
+      "GO-2021-0159",
+      "CVE-2015-5740",
+      "CVE-2015-5741"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0159.json"
+  },
+  "CVE-2015-8618": {
+    "aliases": [
+      "GO-2021-0160"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0160.json"
+  },
+  "CVE-2016-3958": {
+    "aliases": [
+      "GO-2021-0163"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0163.json"
+  },
+  "CVE-2017-1000098": {
+    "aliases": [
+      "GO-2021-0172"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0172.json"
+  },
+  "CVE-2017-15042": {
+    "aliases": [
+      "GO-2021-0178"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0178.json"
+  },
+  "CVE-2020-14039": {
+    "aliases": [
+      "GO-2021-0223"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0223.json"
+  },
+  "CVE-2020-15586": {
+    "aliases": [
+      "GO-2021-0224"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0224.json"
+  },
+  "CVE-2020-24553": {
+    "aliases": [
+      "GO-2021-0226"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0226.json"
+  },
+  "CVE-2020-29652": {
+    "aliases": [
+      "GO-2021-0227",
+      "GHSA-3vm4-22fp-5rfm"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0227.json"
+  },
+  "CVE-2020-7664": {
+    "aliases": [
+      "GO-2021-0228",
+      "GHSA-vpx7-vm66-qx8r"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0228.json"
+  },
+  "CVE-2021-27918": {
+    "aliases": [
+      "GO-2021-0234"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0234.json"
+  },
+  "CVE-2021-3114": {
+    "aliases": [
+      "GO-2021-0235"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0235.json"
+  },
+  "CVE-2021-32721": {
+    "aliases": [
+      "GO-2021-0237",
+      "GHSA-mj9r-wwm8-7q52"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0237.json"
+  },
+  "CVE-2021-33194": {
+    "aliases": [
+      "GO-2021-0238",
+      "GHSA-83g2-8m93-v3w7"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0238.json"
+  },
+  "CVE-2021-33195": {
+    "aliases": [
+      "GO-2021-0239"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0239.json"
+  },
+  "CVE-2021-33196": {
+    "aliases": [
+      "GO-2021-0240"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0240.json"
+  },
+  "CVE-2021-33197": {
+    "aliases": [
+      "GO-2021-0241"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0241.json"
+  },
+  "CVE-2021-33198": {
+    "aliases": [
+      "GO-2021-0242"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0242.json"
+  },
+  "CVE-2021-34558": {
+    "aliases": [
+      "GO-2021-0243"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0243.json"
+  },
+  "CVE-2021-36221": {
+    "aliases": [
+      "GO-2021-0245"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0245.json"
+  },
+  "CVE-2021-41230": {
+    "aliases": [
+      "GO-2021-0258",
+      "GHSA-j6wp-3859-vxfg"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0258.json"
+  },
+  "CVE-2021-41771": {
+    "aliases": [
+      "GO-2021-0263"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0263.json"
+  },
+  "CVE-2021-41772": {
+    "aliases": [
+      "GO-2021-0264"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0264.json"
+  },
+  "CVE-2021-42248": {
+    "aliases": [
+      "GO-2021-0265",
+      "CVE-2021-42836",
+      "GHSA-c9gm-7rfj-8w5h",
+      "GHSA-ppj4-34rq-v8j9"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0265.json"
+  },
+  "CVE-2022-23772": {
+    "aliases": [
+      "GO-2021-0317"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0317.json"
+  },
+  "CVE-2022-23806": {
+    "aliases": [
+      "GO-2021-0319"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0319.json"
+  },
+  "CVE-2022-24921": {
+    "aliases": [
+      "GO-2021-0347"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0347.json"
+  },
+  "CVE-2022-27191": {
+    "aliases": [
+      "GO-2021-0356",
+      "GHSA-8c26-wmh5-6g9v"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0356.json"
+  },
+  "CVE-2022-24778": {
+    "aliases": [
+      "GO-2021-0412",
+      "GHSA-8v99-48m9-c8pm"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2021-0412.json"
+  },
+  "CVE-2016-3959": {
+    "aliases": [
+      "GO-2022-0166"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0166.json"
+  },
+  "CVE-2017-1000097": {
+    "aliases": [
+      "GO-2022-0171"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0171.json"
+  },
+  "CVE-2017-15041": {
+    "aliases": [
+      "GO-2022-0177"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0177.json"
+  },
+  "CVE-2017-8932": {
+    "aliases": [
+      "GO-2022-0187"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0187.json"
+  },
+  "CVE-2018-16873": {
+    "aliases": [
+      "GO-2022-0189"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0189.json"
+  },
+  "CVE-2018-16874": {
+    "aliases": [
+      "GO-2022-0190"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0190.json"
+  },
+  "CVE-2018-16875": {
+    "aliases": [
+      "GO-2022-0191"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0191.json"
+  },
+  "CVE-2018-17142": {
+    "aliases": [
+      "GO-2022-0192",
+      "GHSA-2wp2-chmh-r934"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0192.json"
+  },
+  "CVE-2018-17143": {
+    "aliases": [
+      "GO-2022-0193",
+      "GHSA-fcf9-6fv2-fc5v"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0193.json"
+  },
+  "CVE-2018-17847": {
+    "aliases": [
+      "GO-2022-0197",
+      "CVE-2018-17848",
+      "GHSA-4r78-hx75-jjj2",
+      "GHSA-mv93-wvcp-7m7r"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0197.json"
+  },
+  "CVE-2018-6574": {
+    "aliases": [
+      "GO-2022-0201"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0201.json"
+  },
+  "CVE-2018-7187": {
+    "aliases": [
+      "GO-2022-0203"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0203.json"
+  },
+  "CVE-2019-11840": {
+    "aliases": [
+      "GO-2022-0209",
+      "GHSA-r5c5-pr8j-pfp7"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0209.json"
+  },
+  "CVE-2019-14809": {
+    "aliases": [
+      "GO-2022-0211"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0211.json"
+  },
+  "CVE-2019-16276": {
+    "aliases": [
+      "GO-2022-0212"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0212.json"
+  },
+  "CVE-2019-17596": {
+    "aliases": [
+      "GO-2022-0213"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0213.json"
+  },
+  "CVE-2019-6486": {
+    "aliases": [
+      "GO-2022-0217"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0217.json"
+  },
+  "CVE-2019-9634": {
+    "aliases": [
+      "GO-2022-0220"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0220.json"
+  },
+  "CVE-2020-7919": {
+    "aliases": [
+      "GO-2022-0229",
+      "GHSA-cjjc-xp8v-855w"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0229.json"
+  },
+  "CVE-2021-20206": {
+    "aliases": [
+      "GO-2022-0230",
+      "GHSA-xjqr-g762-pxwp"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0230.json"
+  },
+  "CVE-2021-23409": {
+    "aliases": [
+      "GO-2022-0233",
+      "GHSA-xcf7-q56x-78gh"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0233.json"
+  },
+  "CVE-2021-31525": {
+    "aliases": [
+      "GO-2022-0236",
+      "GHSA-h86h-8ppg-mxmh"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0236.json"
+  },
+  "CVE-2021-3538": {
+    "aliases": [
+      "GO-2022-0244",
+      "GHSA-33m6-q9v5-62r7"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0244.json"
+  },
+  "CVE-2021-3761": {
+    "aliases": [
+      "GO-2022-0246",
+      "GHSA-c8xp-8mf3-62h9"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0246.json"
+  },
+  "CVE-2021-38297": {
+    "aliases": [
+      "GO-2022-0247"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0247.json"
+  },
+  "CVE-2021-3907": {
+    "aliases": [
+      "GO-2022-0248",
+      "GHSA-cqh2-vc2f-q4fh",
+      "GHSA-8459-6rc9-8vf8"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0248.json"
+  },
+  "CVE-2021-3910": {
+    "aliases": [
+      "GO-2022-0251",
+      "GHSA-5mxh-2qfv-4g7j"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0251.json"
+  },
+  "CVE-2021-3911": {
+    "aliases": [
+      "GO-2022-0252",
+      "GHSA-w6ww-fmfx-2x22"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0252.json"
+  },
+  "CVE-2021-3912": {
+    "aliases": [
+      "GO-2022-0253",
+      "GHSA-g9wh-3vrx-r7hg"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0253.json"
+  },
+  "CVE-2021-39137": {
+    "aliases": [
+      "GO-2022-0254",
+      "GHSA-9856-9gg9-qcmq"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0254.json"
+  },
+  "CVE-2021-41173": {
+    "aliases": [
+      "GO-2022-0256",
+      "GHSA-59hh-656j-3p7v"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0256.json"
+  },
+  "CVE-2021-23772": {
+    "aliases": [
+      "GO-2022-0272",
+      "GHSA-jcxc-rh6w-wf49"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0272.json"
+  },
+  "CVE-2021-39293": {
+    "aliases": [
+      "GO-2022-0273"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0273.json"
+  },
+  "CVE-2021-43784": {
+    "aliases": [
+      "GO-2022-0274",
+      "GHSA-v95c-p5hm-xq8f"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0274.json"
+  },
+  "CVE-2021-44716": {
+    "aliases": [
+      "GO-2022-0288",
+      "GHSA-vc3p-29h2-gpcp"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0288.json"
+  },
+  "CVE-2021-44717": {
+    "aliases": [
+      "GO-2022-0289"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0289.json"
+  },
+  "CVE-2022-0317": {
+    "aliases": [
+      "GO-2022-0294",
+      "GHSA-99cg-575x-774p"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0294.json"
+  },
+  "CVE-2022-21708": {
+    "aliases": [
+      "GO-2022-0300",
+      "GHSA-mh3m-8c74-74xh"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0300.json"
+  },
+  "CVE-2022-23628": {
+    "aliases": [
+      "GO-2022-0316",
+      "GHSA-hcw3-j74m-qc58"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0316.json"
+  },
+  "CVE-2022-23773": {
+    "aliases": [
+      "GO-2022-0318"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0318.json"
+  },
+  "CVE-2022-21698": {
+    "aliases": [
+      "GO-2022-0322",
+      "GHSA-cg3q-j54f-5p7p"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0322.json"
+  },
+  "CVE-2022-23649": {
+    "aliases": [
+      "GO-2022-0326",
+      "GHSA-ccxc-vr6p-4858"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0326.json"
+  },
+  "CVE-2021-3602": {
+    "aliases": [
+      "GO-2022-0345",
+      "GHSA-7638-r9r3-rmjj"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0345.json"
+  },
+  "CVE-2021-3762": {
+    "aliases": [
+      "GO-2022-0346",
+      "GHSA-mq47-6wwv-v79w"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0346.json"
+  },
+  "CVE-2022-21221": {
+    "aliases": [
+      "GO-2022-0355",
+      "GHSA-fx95-883v-4q4h"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0355.json"
+  },
+  "CVE-2022-24968": {
+    "aliases": [
+      "GO-2022-0370",
+      "GHSA-h289-x5wc-xcv8",
+      "GHSA-m658-p24x-p74r"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0370.json"
+  },
+  "CVE-2020-26892": {
+    "aliases": [
+      "GO-2022-0380",
+      "GHSA-2c64-vj8g-vwrq",
+      "GHSA-4w5x-x539-ppf5"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0380.json"
+  },
+  "CVE-2021-32690": {
+    "aliases": [
+      "GO-2022-0384",
+      "GHSA-56hp-xqp3-w2jf",
+      "GHSA-7jr6-prv4-5wf5"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0384.json"
+  },
+  "CVE-2021-3127": {
+    "aliases": [
+      "GO-2022-0386",
+      "GHSA-62mh-w5cv-p88c",
+      "GHSA-9r5x-fjv3-q6h4",
+      "GHSA-j756-f273-xhp4"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0386.json"
+  },
+  "CVE-2022-2582": {
+    "aliases": [
+      "GO-2022-0391",
+      "GHSA-6jvc-q2x7-pchv",
+      "GHSA-76wf-9vgp-pj7w"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0391.json"
+  },
+  "CVE-2022-2583": {
+    "aliases": [
+      "GO-2022-0400",
+      "GHSA-4348-x292-h437",
+      "GHSA-h2x7-2ff6-v32p"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0400.json"
+  },
+  "CVE-2020-26521": {
+    "aliases": [
+      "GO-2022-0402",
+      "GHSA-h2fg-54x9-5qhq",
+      "GHSA-hmm9-r2m2-qg9w"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0402.json"
+  },
+  "CVE-2021-4238": {
+    "aliases": [
+      "GO-2022-0411",
+      "GHSA-3839-6r69-m497",
+      "GHSA-xg2h-wx96-xgxr"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0411.json"
+  },
+  "CVE-2022-21235": {
+    "aliases": [
+      "GO-2022-0414",
+      "GHSA-6635-c626-vj4r"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0414.json"
+  },
+  "CVE-2022-27651": {
+    "aliases": [
+      "GO-2022-0417",
+      "GHSA-c3g4-w6cv-6v7h"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0417.json"
+  },
+  "CVE-2022-2584": {
+    "aliases": [
+      "GO-2022-0422",
+      "GHSA-967g-cjx4-h7j6",
+      "GHSA-g3vv-g2j5-45f2"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0422.json"
+  },
+  "CVE-2021-4239": {
+    "aliases": [
+      "GO-2022-0425",
+      "GHSA-6cr6-fmvc-vw2p",
+      "GHSA-g9mp-8g3h-3c5c"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0425.json"
+  },
+  "CVE-2022-24863": {
+    "aliases": [
+      "GO-2022-0427",
+      "CVE-2024-25712",
+      "GHSA-49w7-5r33-jm9m",
+      "GHSA-xg75-q3q5-cqmv"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0427.json"
+  },
+  "CVE-2022-24675": {
+    "aliases": [
+      "GO-2022-0433"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0433.json"
+  },
+  "CVE-2022-27536": {
+    "aliases": [
+      "GO-2022-0434"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0434.json"
+  },
+  "CVE-2022-28327": {
+    "aliases": [
+      "GO-2022-0435"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0435.json"
+  },
+  "CVE-2022-29810": {
+    "aliases": [
+      "GO-2022-0438",
+      "GHSA-27rq-4943-qcwp"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0438.json"
+  },
+  "CVE-2022-29173": {
+    "aliases": [
+      "GO-2022-0444",
+      "GHSA-66x3-6cw3-v5gj"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0444.json"
+  },
+  "CVE-2022-29190": {
+    "aliases": [
+      "GO-2022-0460",
+      "GHSA-cm8f-h6j3-p25c"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0460.json"
+  },
+  "CVE-2022-29189": {
+    "aliases": [
+      "GO-2022-0461",
+      "GHSA-cx94-mrg9-rq4j"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0461.json"
+  },
+  "CVE-2022-29222": {
+    "aliases": [
+      "GO-2022-0462",
+      "GHSA-w45j-f832-hxvh"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0462.json"
+  },
+  "CVE-2022-31259": {
+    "aliases": [
+      "GO-2022-0463",
+      "GHSA-qx32-f6g6-fcfr"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0463.json"
+  },
+  "CVE-2022-31022": {
+    "aliases": [
+      "GO-2022-0470",
+      "GHSA-9w9f-6mg8-jp7w"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0470.json"
+  },
+  "CVE-2020-28366": {
+    "aliases": [
+      "GO-2022-0475"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0475.json"
+  },
+  "CVE-2020-28367": {
+    "aliases": [
+      "GO-2022-0476"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0476.json"
+  },
+  "CVE-2022-30634": {
+    "aliases": [
+      "GO-2022-0477"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0477.json"
+  },
+  "CVE-2022-25856": {
+    "aliases": [
+      "GO-2022-0492",
+      "GHSA-qpgx-64h2-gc3c"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0492.json"
+  },
+  "CVE-2022-29526": {
+    "aliases": [
+      "GO-2022-0493",
+      "GHSA-p782-xgp4-8hr8"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0493.json"
+  },
+  "CVE-2022-1962": {
+    "aliases": [
+      "GO-2022-0515"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0515.json"
+  },
+  "CVE-2022-31145": {
+    "aliases": [
+      "GO-2022-0519",
+      "GHSA-qwrj-9hmp-gpxh"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0519.json"
+  },
+  "CVE-2022-32148": {
+    "aliases": [
+      "GO-2022-0520"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0520.json"
+  },
+  "CVE-2022-28131": {
+    "aliases": [
+      "GO-2022-0521"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0521.json"
+  },
+  "CVE-2022-30632": {
+    "aliases": [
+      "GO-2022-0522"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0522.json"
+  },
+  "CVE-2022-30633": {
+    "aliases": [
+      "GO-2022-0523"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0523.json"
+  },
+  "CVE-2022-30631": {
+    "aliases": [
+      "GO-2022-0524"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0524.json"
+  },
+  "CVE-2022-1705": {
+    "aliases": [
+      "GO-2022-0525"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0525.json"
+  },
+  "CVE-2022-30635": {
+    "aliases": [
+      "GO-2022-0526"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0526.json"
+  },
+  "CVE-2022-30630": {
+    "aliases": [
+      "GO-2022-0527"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0527.json"
+  },
+  "CVE-2022-25891": {
+    "aliases": [
+      "GO-2022-0528",
+      "GHSA-477v-w82m-634j"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0528.json"
+  },
+  "CVE-2022-30629": {
+    "aliases": [
+      "GO-2022-0531"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0531.json"
+  },
+  "CVE-2022-30580": {
+    "aliases": [
+      "GO-2022-0532"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0532.json"
+  },
+  "CVE-2022-29804": {
+    "aliases": [
+      "GO-2022-0533"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0533.json"
+  },
+  "CVE-2022-24912": {
+    "aliases": [
+      "GO-2022-0534",
+      "GHSA-jxqv-jcvh-7gr4"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0534.json"
+  },
+  "CVE-2020-0601": {
+    "aliases": [
+      "GO-2022-0535"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0535.json"
+  },
+  "CVE-2019-9512": {
+    "aliases": [
+      "GO-2022-0536",
+      "CVE-2019-9514",
+      "GHSA-39qc-96h7-956f",
+      "GHSA-hgr8-6h9x-f7q9"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0536.json"
+  },
+  "CVE-2022-32189": {
+    "aliases": [
+      "GO-2022-0537"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0537.json"
+  },
+  "CVE-2022-1227": {
+    "aliases": [
+      "GO-2022-0558",
+      "GHSA-66vw-v2x9-hw75"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0558.json"
+  },
+  "CVE-2021-46398": {
+    "aliases": [
+      "GO-2022-0563",
+      "GHSA-72wf-hwcq-65h9"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0563.json"
+  },
+  "CVE-2022-31053": {
+    "aliases": [
+      "GO-2022-0564",
+      "GHSA-75rw-34q6-72cr"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0564.json"
+  },
+  "CVE-2022-31836": {
+    "aliases": [
+      "GO-2022-0569",
+      "GHSA-95f9-94vc-665h"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0569.json"
+  },
+  "CVE-2021-30080": {
+    "aliases": [
+      "GO-2022-0572",
+      "GHSA-28r6-jm5h-mrgg"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0572.json"
+  },
+  "CVE-2022-33082": {
+    "aliases": [
+      "GO-2022-0574",
+      "GHSA-2m4x-4q9j-w97g"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0574.json"
+  },
+  "CVE-2022-26945": {
+    "aliases": [
+      "GO-2022-0586",
+      "CVE-2022-30321",
+      "CVE-2022-30322",
+      "CVE-2022-30323",
+      "GHSA-28r2-q6m8-9hpx",
+      "GHSA-cjr4-fv6c-f3mv",
+      "GHSA-fcgg-rvwg-jv58",
+      "GHSA-x24g-9w7v-vprh"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0586.json"
+  },
+  "CVE-2022-28946": {
+    "aliases": [
+      "GO-2022-0587",
+      "GHSA-x7f3-62pm-9p38"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0587.json"
+  },
+  "CVE-2021-42576": {
+    "aliases": [
+      "GO-2022-0588",
+      "GHSA-x95h-979x-cf3j"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0588.json"
+  },
+  "CVE-2022-28948": {
+    "aliases": [
+      "GO-2022-0603",
+      "GHSA-hp87-p4gw-j4gq"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0603.json"
+  },
+  "CVE-2022-1996": {
+    "aliases": [
+      "GO-2022-0619",
+      "GHSA-r48q-9g5r-8q2h"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0619.json"
+  },
+  "CVE-2019-10223": {
+    "aliases": [
+      "GO-2022-0621",
+      "CVE-2019-17110",
+      "GHSA-2v6x-frw8-7r7f",
+      "GHSA-c92w-72c5-9x59"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0621.json"
+  },
+  "CVE-2020-8568": {
+    "aliases": [
+      "GO-2022-0629",
+      "GHSA-5cgx-vhfp-6cf9"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0629.json"
+  },
+  "CVE-2017-11480": {
+    "aliases": [
+      "GO-2022-0643",
+      "GHSA-9q3g-m353-cp4p"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0643.json"
+  },
+  "CVE-2020-8911": {
+    "aliases": [
+      "GO-2022-0646",
+      "CVE-2020-8912",
+      "GHSA-7f33-f4f5-xwgw",
+      "GHSA-f5pg-7wfw-84q9"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0646.json"
+  },
+  "CVE-2015-5305": {
+    "aliases": [
+      "GO-2022-0701",
+      "GHSA-jp32-vmm6-3vf5"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0701.json"
+  },
+  "CVE-2021-22133": {
+    "aliases": [
+      "GO-2022-0706",
+      "GHSA-qqc5-rgcc-cjqh"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0706.json"
+  },
+  "CVE-2019-13209": {
+    "aliases": [
+      "GO-2022-0755",
+      "GHSA-xhg2-rvm8-w2jh"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0755.json"
+  },
+  "CVE-2022-35929": {
+    "aliases": [
+      "GO-2022-0758",
+      "GHSA-vjxv-45g9-9296"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0758.json"
+  },
+  "CVE-2016-5386": {
+    "aliases": [
+      "GO-2022-0761"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0761.json"
+  },
+  "CVE-2021-29272": {
+    "aliases": [
+      "GO-2022-0762",
+      "GHSA-3x58-xr87-2fcj"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0762.json"
+  },
+  "CVE-2022-37315": {
+    "aliases": [
+      "GO-2022-0942",
+      "GHSA-h3qm-jrrf-cgj3"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0942.json"
+  },
+  "CVE-2016-9122": {
+    "aliases": [
+      "GO-2022-0945",
+      "GHSA-77gc-fj98-665h"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0945.json"
+  },
+  "CVE-2022-36009": {
+    "aliases": [
+      "GO-2022-0952",
+      "GHSA-grvv-h2f9-7v9c"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0952.json"
+  },
+  "CVE-2022-3064": {
+    "aliases": [
+      "GO-2022-0956",
+      "GHSA-6q6q-88xp-6f2r"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0956.json"
+  },
+  "CVE-2020-36066": {
+    "aliases": [
+      "GO-2022-0957",
+      "GHSA-wjm3-fq3r-5x46"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0957.json"
+  },
+  "CVE-2022-36055": {
+    "aliases": [
+      "GO-2022-0962",
+      "GHSA-7hfp-qfw3-5jxh"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0962.json"
+  },
+  "CVE-2022-36078": {
+    "aliases": [
+      "GO-2022-0963",
+      "GHSA-4p6f-m4f9-ch88"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0963.json"
+  },
+  "CVE-2021-43565": {
+    "aliases": [
+      "GO-2022-0968",
+      "GHSA-gwc9-m7rh-j2ww"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0968.json"
+  },
+  "CVE-2022-27664": {
+    "aliases": [
+      "GO-2022-0969",
+      "GHSA-69cg-p879-7622"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0969.json"
+  },
+  "CVE-2022-41719": {
+    "aliases": [
+      "GO-2022-0972",
+      "GHSA-jr77-8gx4-h5qh"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0972.json"
+  },
+  "CVE-2022-36085": {
+    "aliases": [
+      "GO-2022-0978",
+      "GHSA-f524-rf33-2jjr"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0978.json"
+  },
+  "CVE-2022-3346": {
+    "aliases": [
+      "GO-2022-0979",
+      "GHSA-87mm-qxm5-cp3f"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0979.json"
+  },
+  "CVE-2022-38149": {
+    "aliases": [
+      "GO-2022-0980",
+      "GHSA-8449-7gc2-pwrp"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0980.json"
+  },
+  "CVE-2022-32190": {
+    "aliases": [
+      "GO-2022-0988"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0988.json"
+  },
+  "CVE-2022-36056": {
+    "aliases": [
+      "GO-2022-0998",
+      "GHSA-8gw7-4j42-w388"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-0998.json"
+  },
+  "CVE-2022-39213": {
+    "aliases": [
+      "GO-2022-1002",
+      "GHSA-xhmf-mmv2-4hhx"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1002.json"
+  },
+  "CVE-2022-2990": {
+    "aliases": [
+      "GO-2022-1008",
+      "GHSA-fjm8-m7m6-2fjp"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1008.json"
+  },
+  "CVE-2022-3347": {
+    "aliases": [
+      "GO-2022-1026",
+      "GHSA-jr65-gpj5-cw74"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1026.json"
+  },
+  "CVE-2022-40082": {
+    "aliases": [
+      "GO-2022-1027",
+      "GHSA-c9qr-f6c8-rgxf"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1027.json"
+  },
+  "CVE-2022-40083": {
+    "aliases": [
+      "GO-2022-1031",
+      "GHSA-crxj-hrmp-4rwf"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1031.json"
+  },
+  "CVE-2022-2879": {
+    "aliases": [
+      "GO-2022-1037"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1037.json"
+  },
+  "CVE-2022-2880": {
+    "aliases": [
+      "GO-2022-1038"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1038.json"
+  },
+  "CVE-2022-41715": {
+    "aliases": [
+      "GO-2022-1039"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1039.json"
+  },
+  "CVE-2021-21303": {
+    "aliases": [
+      "GO-2022-1040",
+      "GHSA-c38g-469g-cmgx"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1040.json"
+  },
+  "CVE-2022-39273": {
+    "aliases": [
+      "GO-2022-1043",
+      "GHSA-67x4-qr35-qvrm"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1043.json"
+  },
+  "CVE-2022-39237": {
+    "aliases": [
+      "GO-2022-1045",
+      "GHSA-m5m3-46gj-wch8"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1045.json"
+  },
+  "CVE-2021-21271": {
+    "aliases": [
+      "GO-2022-1052",
+      "GHSA-p658-8693-mhvg"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1052.json"
+  },
+  "CVE-2022-32149": {
+    "aliases": [
+      "GO-2022-1059",
+      "GHSA-69ch-w2m2-3vjp"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1059.json"
+  },
+  "CVE-2022-39272": {
+    "aliases": [
+      "GO-2022-1071",
+      "GHSA-f4p5-x4vc-mh4v"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1071.json"
+  },
+  "CVE-2022-43677": {
+    "aliases": [
+      "GO-2022-1083",
+      "GHSA-59hj-62f5-fgmc"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1083.json"
+  },
+  "CVE-2022-38580": {
+    "aliases": [
+      "GO-2022-1086",
+      "GHSA-f2rj-m42r-6jm2"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1086.json"
+  },
+  "CVE-2022-41716": {
+    "aliases": [
+      "GO-2022-1095"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1095.json"
+  },
+  "CVE-2022-44797": {
+    "aliases": [
+      "GO-2022-1098",
+      "GHSA-2chg-86hq-7w38"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1098.json"
+  },
+  "CVE-2022-39383": {
+    "aliases": [
+      "GO-2022-1113",
+      "GHSA-m5xf-x7q6-3rm7"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1113.json"
+  },
+  "CVE-2022-41920": {
+    "aliases": [
+      "GO-2022-1114",
+      "GHSA-pp3f-xrw5-q5j4"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1114.json"
+  },
+  "CVE-2022-36111": {
+    "aliases": [
+      "GO-2022-1117",
+      "GHSA-672p-m5jq-mrh8"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1117.json"
+  },
+  "CVE-2022-39199": {
+    "aliases": [
+      "GO-2022-1118",
+      "GHSA-6cqj-6969-p57x"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1118.json"
+  },
+  "CVE-2022-41912": {
+    "aliases": [
+      "GO-2022-1129",
+      "GHSA-j2jp-wvqg-wc2g"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1129.json"
+  },
+  "CVE-2022-46146": {
+    "aliases": [
+      "GO-2022-1130",
+      "GHSA-7rg2-cxvp-9p7p"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1130.json"
+  },
+  "CVE-2022-41720": {
+    "aliases": [
+      "GO-2022-1143"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1143.json"
+  },
+  "CVE-2022-41717": {
+    "aliases": [
+      "GO-2022-1144",
+      "GHSA-xrjj-mj9h-534m"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1144.json"
+  },
+  "CVE-2022-23492": {
+    "aliases": [
+      "GO-2022-1148",
+      "GHSA-j7qp-mfxf-8xjw"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1148.json"
+  },
+  "CVE-2022-23495": {
+    "aliases": [
+      "GO-2022-1155",
+      "GHSA-x39j-h85h-3f46"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1155.json"
+  },
+  "CVE-2022-4123": {
+    "aliases": [
+      "GO-2022-1159",
+      "GHSA-rprg-4v7q-87v7"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1159.json"
+  },
+  "CVE-2022-23525": {
+    "aliases": [
+      "GO-2022-1165",
+      "GHSA-53c4-hhmh-vw5q"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1165.json"
+  },
+  "CVE-2022-23526": {
+    "aliases": [
+      "GO-2022-1166",
+      "GHSA-67fx-wx78-jx33"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1166.json"
+  },
+  "CVE-2022-23524": {
+    "aliases": [
+      "GO-2022-1167",
+      "GHSA-6rx9-889q-vv2r"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1167.json"
+  },
+  "CVE-2022-23536": {
+    "aliases": [
+      "GO-2022-1175",
+      "GHSA-cq2g-pw6q-hf7j"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1175.json"
+  },
+  "CVE-2022-39304": {
+    "aliases": [
+      "GO-2022-1178",
+      "GHSA-h4q8-96p6-jcgr"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1178.json"
+  },
+  "CVE-2022-47633": {
+    "aliases": [
+      "GO-2022-1180",
+      "GHSA-m3cq-xcx9-3gvm"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1180.json"
+  },
+  "CVE-2022-4643": {
+    "aliases": [
+      "GO-2022-1184",
+      "GHSA-6m4h-hfpp-x8cx"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1184.json"
+  },
+  "CVE-2020-36627": {
+    "aliases": [
+      "GO-2022-1187",
+      "GHSA-jwrv-x6rx-8vfm"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1187.json"
+  },
+  "CVE-2022-4741": {
+    "aliases": [
+      "GO-2022-1188",
+      "GHSA-qvx2-59g8-8hph"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1188.json"
+  },
+  "CVE-2021-4294": {
+    "aliases": [
+      "GO-2022-1201",
+      "GHSA-m7qp-cj9p-gj85"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1201.json"
+  },
+  "CVE-2018-25060": {
+    "aliases": [
+      "GO-2022-1213",
+      "GHSA-hhxg-px5h-jc32"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2022-1213.json"
+  },
+  "CVE-2022-48195": {
+    "aliases": [
+      "GO-2023-1268",
+      "GHSA-gvfj-fxx3-j323"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1268.json"
+  },
+  "CVE-2023-22460": {
+    "aliases": [
+      "GO-2023-1269",
+      "GHSA-c653-6hhg-9x92"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1269.json"
+  },
+  "CVE-2020-36645": {
+    "aliases": [
+      "GO-2023-1295",
+      "GHSA-3hc7-2xcc-7p8f"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1295.json"
+  },
+  "CVE-2014-125064": {
+    "aliases": [
+      "GO-2023-1494",
+      "GHSA-g7mw-9pf9-p2pm"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1494.json"
+  },
+  "CVE-2022-41721": {
+    "aliases": [
+      "GO-2023-1495",
+      "GHSA-fxg5-wq6x-vr4w"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1495.json"
+  },
+  "CVE-2022-23538": {
+    "aliases": [
+      "GO-2023-1497",
+      "GHSA-7p8m-22h4-9pj7"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1497.json"
+  },
+  "CVE-2022-47747": {
+    "aliases": [
+      "GO-2023-1505",
+      "GHSA-hj4g-4w36-x8hp"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1505.json"
+  },
+  "CVE-2022-43756": {
+    "aliases": [
+      "GO-2023-1515",
+      "GHSA-8fcj-gf77-47mg"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1515.json"
+  },
+  "CVE-2022-31249": {
+    "aliases": [
+      "GO-2023-1519",
+      "GHSA-qrg7-hfx7-95c5"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1519.json"
+  },
+  "CVE-2023-24623": {
+    "aliases": [
+      "GO-2023-1526",
+      "GHSA-v9mp-j8g7-2q6m"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1526.json"
+  },
+  "CVE-2023-25151": {
+    "aliases": [
+      "GO-2023-1546",
+      "GHSA-5r5m-65gx-7vrh"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1546.json"
+  },
+  "CVE-2023-25165": {
+    "aliases": [
+      "GO-2023-1547",
+      "GHSA-pwcw-6f5g-gxf8"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1547.json"
+  },
+  "CVE-2023-25163": {
+    "aliases": [
+      "GO-2023-1548",
+      "GHSA-mv6w-j4xc-qpfw"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1548.json"
+  },
+  "CVE-2023-0229": {
+    "aliases": [
+      "GO-2023-1549",
+      "GHSA-5465-xc2j-6p84"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1549.json"
+  },
+  "CVE-2023-23625": {
+    "aliases": [
+      "GO-2023-1557",
+      "GHSA-q264-w97q-q778"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1557.json"
+  },
+  "CVE-2023-23626": {
+    "aliases": [
+      "GO-2023-1558",
+      "GHSA-2h6c-j3gf-xp9r"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1558.json"
+  },
+  "CVE-2023-23631": {
+    "aliases": [
+      "GO-2023-1559",
+      "GHSA-4gj3-6r43-3wfc"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1559.json"
+  },
+  "CVE-2022-25978": {
+    "aliases": [
+      "GO-2023-1566",
+      "GHSA-9w8x-5hv5-r6gw"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1566.json"
+  },
+  "CVE-2022-28923": {
+    "aliases": [
+      "GO-2023-1567",
+      "GHSA-qpm3-vr34-h8w8"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1567.json"
+  },
+  "CVE-2022-41722": {
+    "aliases": [
+      "GO-2023-1568"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1568.json"
+  },
+  "CVE-2022-41725": {
+    "aliases": [
+      "GO-2023-1569"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1569.json"
+  },
+  "CVE-2022-41724": {
+    "aliases": [
+      "GO-2023-1570"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1570.json"
+  },
+  "CVE-2022-41723": {
+    "aliases": [
+      "GO-2023-1571",
+      "GHSA-vvpx-j8f3-3w6h"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1571.json"
+  },
+  "CVE-2022-41727": {
+    "aliases": [
+      "GO-2023-1572",
+      "GHSA-qgc7-mgm3-q253"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1572.json"
+  },
+  "CVE-2023-25153": {
+    "aliases": [
+      "GO-2023-1573",
+      "GHSA-259w-8hf6-59c2"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1573.json"
+  },
+  "CVE-2023-25173": {
+    "aliases": [
+      "GO-2023-1574",
+      "GHSA-hmfx-3pcx-653p"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1574.json"
+  },
+  "CVE-2023-0475": {
+    "aliases": [
+      "GO-2023-1578",
+      "GHSA-jpxj-2jvg-6jv9"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1578.json"
+  },
+  "CVE-2023-25656": {
+    "aliases": [
+      "GO-2023-1589",
+      "GHSA-87x9-7grx-m28v"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1589.json"
+  },
+  "CVE-2023-24533": {
+    "aliases": [
+      "GO-2023-1595",
+      "GHSA-f6hc-9g49-xmx7"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1595.json"
+  },
+  "CVE-2023-26046": {
+    "aliases": [
+      "GO-2023-1597",
+      "GHSA-9f95-hhg4-pg4f"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1597.json"
+  },
+  "CVE-2023-26047": {
+    "aliases": [
+      "GO-2023-1600",
+      "GHSA-p2pf-g8cq-3gq5"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1600.json"
+  },
+  "CVE-2023-26483": {
+    "aliases": [
+      "GO-2023-1602",
+      "GHSA-6gc3-crp7-25w5"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1602.json"
+  },
+  "CVE-2023-27475": {
+    "aliases": [
+      "GO-2023-1611",
+      "GHSA-fx2v-qfhr-4chv"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1611.json"
+  },
+  "CVE-2023-24532": {
+    "aliases": [
+      "GO-2023-1621"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1621.json"
+  },
+  "CVE-2023-27483": {
+    "aliases": [
+      "GO-2023-1623",
+      "GHSA-vfvj-3m3g-m532"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1623.json"
+  },
+  "CVE-2023-24535": {
+    "aliases": [
+      "GO-2023-1631",
+      "GHSA-hw7c-3rfg-p46j"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1631.json"
+  },
+  "CVE-2023-28105": {
+    "aliases": [
+      "GO-2023-1640",
+      "GHSA-5g39-ppwg-6xx8"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1640.json"
+  },
+  "CVE-2023-28119": {
+    "aliases": [
+      "GO-2023-1664",
+      "GHSA-5mqj-xc49-246p"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1664.json"
+  },
+  "CVE-2023-0778": {
+    "aliases": [
+      "GO-2023-1681",
+      "GHSA-qwqv-rqgf-8qh8"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1681.json"
+  },
+  "CVE-2023-24537": {
+    "aliases": [
+      "GO-2023-1702"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1702.json"
+  },
+  "CVE-2023-24538": {
+    "aliases": [
+      "GO-2023-1703"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1703.json"
+  },
+  "CVE-2023-24534": {
+    "aliases": [
+      "GO-2023-1704"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1704.json"
+  },
+  "CVE-2023-24536": {
+    "aliases": [
+      "GO-2023-1705"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1705.json"
+  },
+  "CVE-2023-25000": {
+    "aliases": [
+      "GO-2023-1709",
+      "GHSA-vq4h-9ghm-qmrr"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1709.json"
+  },
+  "CVE-2023-1800": {
+    "aliases": [
+      "GO-2023-1713",
+      "GHSA-xq3x-grrj-fj6x"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1713.json"
+  },
+  "CVE-2023-29194": {
+    "aliases": [
+      "GO-2023-1717",
+      "GHSA-735r-hv67-g38f"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1717.json"
+  },
+  "CVE-2023-26556": {
+    "aliases": [
+      "GO-2023-1732"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1732.json"
+  },
+  "CVE-2023-26557": {
+    "aliases": [
+      "GO-2023-1733"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1733.json"
+  },
+  "CVE-2023-29401": {
+    "aliases": [
+      "GO-2023-1737",
+      "GHSA-2c4m-59x9-fr2g"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1737.json"
+  },
+  "CVE-2023-24539": {
+    "aliases": [
+      "GO-2023-1751"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1751.json"
+  },
+  "CVE-2023-24540": {
+    "aliases": [
+      "GO-2023-1752"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1752.json"
+  },
+  "CVE-2023-29400": {
+    "aliases": [
+      "GO-2023-1753"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1753.json"
+  },
+  "CVE-2023-1732": {
+    "aliases": [
+      "GO-2023-1765",
+      "GHSA-2q89-485c-9j2x"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1765.json"
+  },
+  "CVE-2023-25568": {
+    "aliases": [
+      "GO-2023-1766",
+      "GHSA-m974-xj4j-7qv5",
+      "GHSA-q3j6-22wf-3jh9"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1766.json"
+  },
+  "CVE-2023-2253": {
+    "aliases": [
+      "GO-2023-1772",
+      "GHSA-hqxw-f8mx-cpmw"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1772.json"
+  },
+  "CVE-2023-32698": {
+    "aliases": [
+      "GO-2023-1788",
+      "GHSA-w7jw-q4fg-qc4c"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1788.json"
+  },
+  "CVE-2018-20744": {
+    "aliases": [
+      "GO-2023-1792",
+      "GHSA-927h-x4qj-r242"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1792.json"
+  },
+  "CVE-2023-34205": {
+    "aliases": [
+      "GO-2023-1826",
+      "GHSA-jqvr-j2vg-gjrv"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1826.json"
+  },
+  "CVE-2023-33959": {
+    "aliases": [
+      "GO-2023-1832",
+      "GHSA-xhg5-42rf-296r"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1832.json"
+  },
+  "CVE-2023-29402": {
+    "aliases": [
+      "GO-2023-1839"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1839.json"
+  },
+  "CVE-2023-29403": {
+    "aliases": [
+      "GO-2023-1840"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1840.json"
+  },
+  "CVE-2023-29404": {
+    "aliases": [
+      "GO-2023-1841"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1841.json"
+  },
+  "CVE-2023-29405": {
+    "aliases": [
+      "GO-2023-1842"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1842.json"
+  },
+  "CVE-2022-47930": {
+    "aliases": [
+      "GO-2023-1867"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1867.json"
+  },
+  "CVE-2023-35933": {
+    "aliases": [
+      "GO-2023-1872",
+      "GHSA-hr9r-8phq-5x8j"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1872.json"
+  },
+  "CVE-2023-40586": {
+    "aliases": [
+      "GO-2023-1874",
+      "GHSA-c2pj-v37r-2p6h"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1874.json"
+  },
+  "CVE-2023-29406": {
+    "aliases": [
+      "GO-2023-1878"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1878.json"
+  },
+  "CVE-2023-34450": {
+    "aliases": [
+      "GO-2023-1882",
+      "GHSA-mvj3-qrqh-cjvr"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1882.json"
+  },
+  "CVE-2023-34451": {
+    "aliases": [
+      "GO-2023-1883",
+      "GHSA-w24w-wp77-qffm"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1883.json"
+  },
+  "CVE-2022-47931": {
+    "aliases": [
+      "GO-2023-1904",
+      "GHSA-cvcx-g7wh-x8rf"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1904.json"
+  },
+  "CVE-2019-14243": {
+    "aliases": [
+      "GO-2023-1923",
+      "GHSA-85c5-ccm8-vr96"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1923.json"
+  },
+  "CVE-2023-37475": {
+    "aliases": [
+      "GO-2023-1930",
+      "GHSA-9x44-9pgq-cf45"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1930.json"
+  },
+  "CVE-2023-37788": {
+    "aliases": [
+      "GO-2023-1941",
+      "GHSA-4r8x-2p26-976p"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1941.json"
+  },
+  "CVE-2023-29409": {
+    "aliases": [
+      "GO-2023-1987"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1987.json"
+  },
+  "CVE-2023-3978": {
+    "aliases": [
+      "GO-2023-1988",
+      "GHSA-2wrh-6pvc-2jm9"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1988.json"
+  },
+  "CVE-2023-29408": {
+    "aliases": [
+      "GO-2023-1989",
+      "GHSA-x92r-3vfx-4cv3"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1989.json"
+  },
+  "CVE-2023-29407": {
+    "aliases": [
+      "GO-2023-1990",
+      "GHSA-j3p8-6mrq-6g7h"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1990.json"
+  },
+  "CVE-2019-11841": {
+    "aliases": [
+      "GO-2023-1992",
+      "GHSA-x3jr-pf6g-c48f"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1992.json"
+  },
+  "CVE-2023-37896": {
+    "aliases": [
+      "GO-2023-1998",
+      "GHSA-2xx4-jj5v-6mff"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-1998.json"
+  },
+  "CVE-2023-39533": {
+    "aliases": [
+      "GO-2023-2000",
+      "GHSA-876p-8259-xjgg"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2000.json"
+  },
+  "CVE-2023-38976": {
+    "aliases": [
+      "GO-2023-2017",
+      "GHSA-8697-479h-5mfp"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2017.json"
+  },
+  "CVE-2023-40583": {
+    "aliases": [
+      "GO-2023-2024",
+      "GHSA-gcq9-qqwx-rgj3"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2024.json"
+  },
+  "CVE-2023-39318": {
+    "aliases": [
+      "GO-2023-2041"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2041.json"
+  },
+  "CVE-2023-39320": {
+    "aliases": [
+      "GO-2023-2042"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2042.json"
+  },
+  "CVE-2023-39319": {
+    "aliases": [
+      "GO-2023-2043"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2043.json"
+  },
+  "CVE-2023-39321": {
+    "aliases": [
+      "GO-2023-2044"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2044.json"
+  },
+  "CVE-2023-39322": {
+    "aliases": [
+      "GO-2023-2045"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2045.json"
+  },
+  "CVE-2023-40591": {
+    "aliases": [
+      "GO-2023-2046",
+      "GHSA-ppjg-v974-84cm"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2046.json"
+  },
+  "CVE-2023-41338": {
+    "aliases": [
+      "GO-2023-2052",
+      "GHSA-3q5p-3558-364f"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2052.json"
+  },
+  "CVE-2023-42821": {
+    "aliases": [
+      "GO-2023-2074",
+      "GHSA-m9xq-6h2j-65r2"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2074.json"
+  },
+  "CVE-2023-43644": {
+    "aliases": [
+      "GO-2023-2077",
+      "GHSA-r5hm-mp3j-285g"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2077.json"
+  },
+  "CVE-2023-39323": {
+    "aliases": [
+      "GO-2023-2095"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2095.json"
+  },
+  "CVE-2023-44273": {
+    "aliases": [
+      "GO-2023-2096",
+      "GHSA-9xfq-8j3r-xp5g"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2096.json"
+  },
+  "CVE-2023-44378": {
+    "aliases": [
+      "GO-2023-2098",
+      "GHSA-498w-5j49-vqjg"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2098.json"
+  },
+  "CVE-2023-39325": {
+    "aliases": [
+      "GO-2023-2102",
+      "GHSA-4374-p667-p6c8"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2102.json"
+  },
+  "CVE-2023-45142": {
+    "aliases": [
+      "GO-2023-2113",
+      "GHSA-rcjv-mgp8-qvmr"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2113.json"
+  },
+  "CVE-2023-45683": {
+    "aliases": [
+      "GO-2023-2114",
+      "GHSA-267v-3v32-g6q5"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2114.json"
+  },
+  "CVE-2023-45128": {
+    "aliases": [
+      "GO-2023-2115",
+      "GHSA-94w9-97p3-p368"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2115.json"
+  },
+  "CVE-2023-45141": {
+    "aliases": [
+      "GO-2023-2116",
+      "GHSA-mv73-f69x-444p"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2116.json"
+  },
+  "CVE-2023-47090": {
+    "aliases": [
+      "GO-2023-2133",
+      "GHSA-fr2g-9hjm-wr23"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2133.json"
+  },
+  "CVE-2023-45825": {
+    "aliases": [
+      "GO-2023-2137",
+      "GHSA-q24m-6h38-5xj8"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2137.json"
+  },
+  "CVE-2023-4457": {
+    "aliases": [
+      "GO-2023-2158",
+      "GHSA-37x5-qpm8-53rq"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2158.json"
+  },
+  "CVE-2023-46239": {
+    "aliases": [
+      "GO-2023-2160",
+      "GHSA-3q6m-v84f-6p9h"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2160.json"
+  },
+  "CVE-2023-41891": {
+    "aliases": [
+      "GO-2023-2162",
+      "GHSA-r847-6w6h-r8g4"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2162.json"
+  },
+  "CVE-2023-46129": {
+    "aliases": [
+      "GO-2023-2163",
+      "GHSA-mr45-rx8q-wcm9"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2163.json"
+  },
+  "CVE-2023-46737": {
+    "aliases": [
+      "GO-2023-2181",
+      "GHSA-vfp6-jrw2-99g9"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2181.json"
+  },
+  "CVE-2023-45283": {
+    "aliases": [
+      "GO-2023-2185"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2185.json"
+  },
+  "CVE-2023-45284": {
+    "aliases": [
+      "GO-2023-2186"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2186.json"
+  },
+  "CVE-2023-45286": {
+    "aliases": [
+      "GO-2023-2328",
+      "GHSA-xwh9-gc39-5298"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2328.json"
+  },
+  "CVE-2023-45287": {
+    "aliases": [
+      "GO-2023-2375"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2375.json"
+  },
+  "CVE-2023-49290": {
+    "aliases": [
+      "GO-2023-2379",
+      "GHSA-7f9x-gw85-8grf"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2379.json"
+  },
+  "CVE-2023-49292": {
+    "aliases": [
+      "GO-2023-2380",
+      "GHSA-8j98-cjfr-qx3h"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2380.json"
+  },
+  "CVE-2023-39326": {
+    "aliases": [
+      "GO-2023-2382"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2382.json"
+  },
+  "CVE-2023-45285": {
+    "aliases": [
+      "GO-2023-2383"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2383.json"
+  },
+  "CVE-2023-26154": {
+    "aliases": [
+      "GO-2023-2385",
+      "GHSA-5844-q3fc-56rh"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2385.json"
+  },
+  "CVE-2023-45292": {
+    "aliases": [
+      "GO-2023-2386",
+      "GHSA-5mmw-p5qv-w3x5"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2386.json"
+  },
+  "CVE-2023-50463": {
+    "aliases": [
+      "GO-2023-2394",
+      "GHSA-rxg9-hgq7-8pwx"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2394.json"
+  },
+  "CVE-2023-6337": {
+    "aliases": [
+      "GO-2023-2399",
+      "GHSA-6p62-6cg9-f5f5"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2399.json"
+  },
+  "CVE-2023-50424": {
+    "aliases": [
+      "GO-2023-2400",
+      "GHSA-92cg-ghq6-9587",
+      "GHSA-m8rw-rcpq-2vp2"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2400.json"
+  },
+  "CVE-2023-48795": {
+    "aliases": [
+      "GO-2023-2402",
+      "GHSA-45x7-px36-x8w8"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2402.json"
+  },
+  "CVE-2023-49922": {
+    "aliases": [
+      "GO-2023-2413",
+      "GHSA-hj4r-2c9c-29h3"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2023-2413.json"
+  },
+  "CVE-2024-21664": {
+    "aliases": [
+      "GO-2024-2454",
+      "GHSA-pvcr-v8j8-j5q3"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2454.json"
+  },
+  "CVE-2023-49569": {
+    "aliases": [
+      "GO-2024-2456",
+      "GHSA-449p-3h89-pw88"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2456.json"
+  },
+  "CVE-2023-49295": {
+    "aliases": [
+      "GO-2024-2459",
+      "GHSA-ppxx-5m9h-6vxf"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2459.json"
+  },
+  "CVE-2024-22199": {
+    "aliases": [
+      "GO-2024-2461",
+      "GHSA-4mq2-gc4j-cmw6"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2461.json"
+  },
+  "CVE-2024-22198": {
+    "aliases": [
+      "GO-2024-2462",
+      "GHSA-8r25-68wm-jw35"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2462.json"
+  },
+  "CVE-2024-22196": {
+    "aliases": [
+      "GO-2024-2463",
+      "GHSA-h374-mm57-879c"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2463.json"
+  },
+  "CVE-2024-22197": {
+    "aliases": [
+      "GO-2024-2464",
+      "GHSA-pxmr-q2x3-9x9m"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2464.json"
+  },
+  "CVE-2023-49568": {
+    "aliases": [
+      "GO-2024-2466",
+      "GHSA-mw99-9chc-xw7r"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2466.json"
+  },
+  "CVE-2024-23840": {
+    "aliases": [
+      "GO-2024-2482",
+      "GHSA-h3q2-8whx-c29h"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2482.json"
+  },
+  "CVE-2024-24579": {
+    "aliases": [
+      "GO-2024-2490",
+      "GHSA-hpxr-w9w7-g4gv"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2490.json"
+  },
+  "CVE-2024-23650": {
+    "aliases": [
+      "GO-2024-2492",
+      "GHSA-9p26-698r-w4hx"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2492.json"
+  },
+  "CVE-2024-23651": {
+    "aliases": [
+      "GO-2024-2493",
+      "GHSA-m3r6-h7wv-7xxv"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2493.json"
+  },
+  "CVE-2024-23652": {
+    "aliases": [
+      "GO-2024-2494",
+      "GHSA-4v98-7qmw-rqr8"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2494.json"
+  },
+  "CVE-2024-23653": {
+    "aliases": [
+      "GO-2024-2497",
+      "GHSA-wr6v-9f75-vh2g"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2497.json"
+  },
+  "CVE-2023-32192": {
+    "aliases": [
+      "GO-2024-2534",
+      "GHSA-833m-37f7-jq55"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2534.json"
+  },
+  "CVE-2023-32193": {
+    "aliases": [
+      "GO-2024-2536",
+      "GHSA-r8f4-hv23-6qp6"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2536.json"
+  },
+  "CVE-2024-1329": {
+    "aliases": [
+      "GO-2024-2538",
+      "GHSA-c866-8gpw-p3mv"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2538.json"
+  },
+  "CVE-2024-23319": {
+    "aliases": [
+      "GO-2024-2539",
+      "GHSA-4fp6-574p-fc35"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2539.json"
+  },
+  "CVE-2024-25620": {
+    "aliases": [
+      "GO-2024-2554",
+      "GHSA-v53g-5gjp-272r"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2554.json"
+  },
+  "CVE-2024-25124": {
+    "aliases": [
+      "GO-2024-2574",
+      "GHSA-fmg4-x8pw-hjhg"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2574.json"
+  },
+  "CVE-2022-45786": {
+    "aliases": [
+      "GO-2024-2587",
+      "GHSA-6p5q-h963-pwwf"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2587.json"
+  },
+  "CVE-2024-24783": {
+    "aliases": [
+      "GO-2024-2598"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2598.json"
+  },
+  "CVE-2023-45290": {
+    "aliases": [
+      "GO-2024-2599"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2599.json"
+  },
+  "CVE-2023-45289": {
+    "aliases": [
+      "GO-2024-2600"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2600.json"
+  },
+  "CVE-2024-27918": {
+    "aliases": [
+      "GO-2024-2602",
+      "GHSA-7cc2-r658-7xpf"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2602.json"
+  },
+  "CVE-2024-27302": {
+    "aliases": [
+      "GO-2024-2604",
+      "GHSA-fgxv-gw55-r5fq"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2604.json"
+  },
+  "CVE-2024-27289": {
+    "aliases": [
+      "GO-2024-2605",
+      "GHSA-m7wr-2xf7-cm9p"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2605.json"
+  },
+  "CVE-2024-27304": {
+    "aliases": [
+      "GO-2024-2606",
+      "GHSA-mrww-27vc-gghv",
+      "GHSA-7jwh-3vrq-q3m8"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2606.json"
+  },
+  "CVE-2024-27916": {
+    "aliases": [
+      "GO-2024-2608",
+      "GHSA-v627-69v2-xx37"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2608.json"
+  },
+  "CVE-2024-24784": {
+    "aliases": [
+      "GO-2024-2609"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2609.json"
+  },
+  "CVE-2024-24785": {
+    "aliases": [
+      "GO-2024-2610"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2610.json"
+  },
+  "CVE-2024-24786": {
+    "aliases": [
+      "GO-2024-2611",
+      "GHSA-8r3f-844c-mc37"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2611.json"
+  },
+  "CVE-2024-27288": {
+    "aliases": [
+      "GO-2024-2613",
+      "GHSA-26w3-q4j8-4xjp"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2613.json"
+  },
+  "CVE-2024-24767": {
+    "aliases": [
+      "GO-2024-2614",
+      "GHSA-c69x-5xmw-v44x"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2614.json"
+  },
+  "CVE-2024-24766": {
+    "aliases": [
+      "GO-2024-2615",
+      "GHSA-c967-2652-gfjm"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2615.json"
+  },
+  "CVE-2024-24765": {
+    "aliases": [
+      "GO-2024-2616",
+      "GHSA-h5gf-cmm8-cg7c"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2616.json"
+  },
+  "CVE-2024-2048": {
+    "aliases": [
+      "GO-2024-2617",
+      "GHSA-r3w7-mfpm-c2vw"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2617.json"
+  },
+  "CVE-2024-28110": {
+    "aliases": [
+      "GO-2024-2618",
+      "GHSA-5pf6-2qwx-pxm2"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2618.json"
+  },
+  "CVE-2024-28180": {
+    "aliases": [
+      "GO-2024-2631",
+      "GHSA-c5q2-7r4c-mv6g"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2631.json"
+  },
+  "CVE-2024-28122": {
+    "aliases": [
+      "GO-2024-2632",
+      "GHSA-hj3v-m684-v259"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2632.json"
+  },
+  "CVE-2023-50726": {
+    "aliases": [
+      "GO-2024-2643",
+      "GHSA-g623-jcgg-mhmm"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2643.json"
+  },
+  "CVE-2024-28175": {
+    "aliases": [
+      "GO-2024-2646",
+      "GHSA-jwv5-8mqv-g387"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2646.json"
+  },
+  "CVE-2024-21662": {
+    "aliases": [
+      "GO-2024-2652",
+      "CVE-2024-21652",
+      "GHSA-2vgg-9h6w-m454",
+      "GHSA-x32m-mvfj-52xv"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2652.json"
+  },
+  "CVE-2024-28248": {
+    "aliases": [
+      "GO-2024-2653",
+      "GHSA-68mj-9pjq-mc85"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2653.json"
+  },
+  "CVE-2024-21661": {
+    "aliases": [
+      "GO-2024-2654",
+      "GHSA-6v85-wr92-q4p7"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2654.json"
+  },
+  "CVE-2024-28855": {
+    "aliases": [
+      "GO-2024-2655",
+      "GHSA-hfrg-4jwr-jfpj"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2655.json"
+  },
+  "CVE-2024-28249": {
+    "aliases": [
+      "GO-2024-2656",
+      "GHSA-j89h-qrvr-xc36"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2656.json"
+  },
+  "CVE-2024-28250": {
+    "aliases": [
+      "GO-2024-2657",
+      "GHSA-v6q2-4qr3-5cw6"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2657.json"
+  },
+  "CVE-2024-1753": {
+    "aliases": [
+      "GO-2024-2658",
+      "GHSA-pmf3-c36m-g5cf"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2658.json"
+  },
+  "CVE-2024-29018": {
+    "aliases": [
+      "GO-2024-2659",
+      "GHSA-mq39-4gv4-mvpx"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2659.json"
+  },
+  "CVE-2024-1394": {
+    "aliases": [
+      "GO-2024-2660",
+      "GHSA-78hx-gp6g-7mj6"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2660.json"
+  },
+  "CVE-2019-19499": {
+    "aliases": [
+      "GO-2024-2661",
+      "GHSA-4pwp-cx67-5cpx"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2661.json"
+  },
+  "CVE-2024-28860": {
+    "aliases": [
+      "GO-2024-2666",
+      "GHSA-pwqm-x5x6-5586"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2666.json"
+  },
+  "CVE-2024-29893": {
+    "aliases": [
+      "GO-2024-2667",
+      "GHSA-jhwx-mhww-rgc3"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2667.json"
+  },
+  "CVE-2024-28232": {
+    "aliases": [
+      "GO-2024-2668",
+      "GHSA-hcw2-2r9c-gc6p"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2668.json"
+  },
+  "CVE-2023-3299": {
+    "aliases": [
+      "GO-2024-2669",
+      "GHSA-9jfx-84v9-2rr2"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2669.json"
+  },
+  "CVE-2023-3072": {
+    "aliases": [
+      "GO-2024-2670",
+      "GHSA-rpvr-38xv-xvxq"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2670.json"
+  },
+  "CVE-2023-3300": {
+    "aliases": [
+      "GO-2024-2671",
+      "GHSA-v5fm-hr72-27hx"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2671.json"
+  },
+  "CVE-2024-22189": {
+    "aliases": [
+      "GO-2024-2682",
+      "GHSA-c33x-xqrf-c478"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2682.json"
+  },
+  "CVE-2021-41803": {
+    "aliases": [
+      "GO-2024-2683",
+      "GHSA-hr3v-8cp3-68rf"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2683.json"
+  },
+  "CVE-2023-45288": {
+    "aliases": [
+      "GO-2024-2687",
+      "GHSA-4v7x-pqxf-cx7m"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2687.json"
+  },
+  "CVE-2024-31457": {
+    "aliases": [
+      "GO-2024-2702",
+      "GHSA-gv3w-m57p-3wc4"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2702.json"
+  },
+  "CVE-2024-31839": {
+    "aliases": [
+      "GO-2024-2721",
+      "GHSA-c5rv-hjjc-jv7m"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2721.json"
+  },
+  "CVE-2024-29217": {
+    "aliases": [
+      "GO-2024-2743",
+      "GHSA-cvqr-mwh6-2vc6"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2743.json"
+  },
+  "CVE-2020-8559": {
+    "aliases": [
+      "GO-2024-2748",
+      "GHSA-33c5-9fx5-fvjm"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2748.json"
+  },
+  "CVE-2024-3817": {
+    "aliases": [
+      "GO-2024-2800",
+      "GHSA-q64h-39hv-4cf7"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2800.json"
+  },
+  "CVE-2024-34478": {
+    "aliases": [
+      "GO-2024-2818",
+      "GHSA-3jgf-r68h-xfqm"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2818.json"
+  },
+  "CVE-2024-32972": {
+    "aliases": [
+      "GO-2024-2819",
+      "GHSA-4xc9-8hmq-j652"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2819.json"
+  },
+  "CVE-2024-34084": {
+    "aliases": [
+      "GO-2024-2821",
+      "GHSA-9c5w-9q3f-3hv7"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2821.json"
+  },
+  "CVE-2024-30850": {
+    "aliases": [
+      "GO-2024-2822",
+      "CVE-2024-33434",
+      "GHSA-p3j6-f45h-hw5f",
+      "GHSA-xfjj-f699-rc79"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2822.json"
+  },
+  "CVE-2024-24788": {
+    "aliases": [
+      "GO-2024-2824"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2824.json"
+  },
+  "CVE-2024-24787": {
+    "aliases": [
+      "GO-2024-2825"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2825.json"
+  },
+  "CVE-2024-32886": {
+    "aliases": [
+      "GO-2024-2826",
+      "GHSA-649x-hxfx-57j2"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2826.json"
+  },
+  "CVE-2024-34352": {
+    "aliases": [
+      "GO-2024-2830",
+      "GHSA-f8ch-w75v-c847"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2830.json"
+  },
+  "CVE-2024-34360": {
+    "aliases": [
+      "GO-2024-2831",
+      "GHSA-jcqq-g64v-gcm7"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2831.json"
+  },
+  "CVE-2024-34079": {
+    "aliases": [
+      "GO-2024-2833"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2833.json"
+  },
+  "CVE-2024-3727": {
+    "aliases": [
+      "GO-2024-2842",
+      "GHSA-6wvf-f2vw-3425"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2842.json"
+  },
+  "CVE-2024-35185": {
+    "aliases": [
+      "GO-2024-2864",
+      "GHSA-fjw8-3gp8-4cvx"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2864.json"
+  },
+  "CVE-2024-35192": {
+    "aliases": [
+      "GO-2024-2870",
+      "GHSA-xcq4-m2r3-cmrj"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2870.json"
+  },
+  "CVE-2024-35223": {
+    "aliases": [
+      "GO-2024-2879",
+      "GHSA-284c-x8m7-9w5h"
+    ],
+    "id_file_path": "/home/ppipada/github/govulndb/ID/GO-2024-2879.json"
+  }
+}

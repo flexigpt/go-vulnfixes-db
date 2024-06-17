@@ -1,0 +1,22 @@
+# TODO
+
+- [x] cvefixes extractor code into dict
+- [x] govulndb extractor
+- [x] nvddb extractor
+- [x] cvefixes + govulndb combine script
+- [x] nvd schema
+- [x] osv schema
+- [x] nvd fetcher using json script
+- [x] govulns to json
+- [x] cvefixes + govulns to json
+- [x] get cve info using all 3 sources
+- [x] validate osv script
+- [x] dump and checkin
+- [x] get filechanges using cvefixes in script
+- [x] repo url list from cves
+- [ ] github extractor
+- [ ] per repo, gather repo metadata -> check for bulk apis
+- [ ] save repo metadata in repos section of cveinfo and overwrite if option
+- [ ] get associated commits one by one
+- [ ] calculate commits metadata and add in cveinfo
+- [ ] create file changes and method changes in filechanges json
