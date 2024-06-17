@@ -14,9 +14,9 @@
 - [x] dump and checkin
 - [x] get filechanges using cvefixes in script
 - [x] repo url list from cves
-- [ ] github extractor
-- [ ] per repo, gather repo metadata -> check for bulk apis
-- [ ] save repo metadata in repos section of cveinfo and overwrite if option
-- [ ] get associated commits one by one
-- [ ] calculate commits metadata and add in cveinfo
-- [ ] create file changes and method changes in filechanges json
+- [x] github extractor
+- [x] per repo, gather repo metadata -> check for bulk apis
+- [x] save repo metadata in repos section of cveinfo and overwrite if option
+- [x] get associated commits one by one
+- [x] calculate commits metadata and add in cveinfo
+- [x] create file changes and method changes in filechanges json

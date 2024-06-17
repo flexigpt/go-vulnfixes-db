@@ -1,8 +1,8 @@
 from typing import List, Optional, Tuple
 import uuid
 
-from guesslang import Guess
-from pydriller import Repository
+# from guesslang import Guess
+# from pydriller import Repository
 
 from ...logging.logging import logger
 # Import your schema models
@@ -18,8 +18,8 @@ def guess_pl(code: str) -> str:
     """
     :returns guessed programming language of the code
     """
-    if code:
-        return Guess().language_name(code.strip())
+    # if code:
+    #     return Guess().language_name(code.strip())
     return 'unknown'
 
 
