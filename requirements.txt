@@ -30,5 +30,5 @@ typing-extensions==4.12.2
     #   pydantic-core
 unidiff==0.7.5
     # via -r requirements.in
-urllib3==2.2.1
+urllib3==2.2.2
     # via requests
