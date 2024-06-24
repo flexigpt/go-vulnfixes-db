@@ -49,9 +49,9 @@ def convert_weaknesses(weaknesses: List[nvd.Weakness]) -> List[osv.CweDetailsMod
         return []
     return [
         osv.CweDetailsModel(
-            cwe_id=weak.source,
+            cwe_id=convert_lang_string(weak.description),
             name=weak.type,
-            description=convert_lang_string(weak.description),
+            source=weak.source,
         ) for weak in weaknesses
     ]
 

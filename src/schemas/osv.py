@@ -70,7 +70,8 @@ class CreditItem(BaseModel):
 class CweDetailsModel(BaseModel):
     cwe_id: str
     name: str
-    description: str
+    description: Optional[str] = ""
+    source: Optional[str] = ""
     url: Optional[str] = ""
     is_category: Optional[bool] = None
     extended_description: Optional[str] = None
