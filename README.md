@@ -1,4 +1,4 @@
-# go-db
+# go-vulnfixes-db
 
 Dataset for Golang featuring vulnerable code and corresponding fixes, covering both CVE-based and synthetic issues
 
