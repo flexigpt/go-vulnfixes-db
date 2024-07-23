@@ -1,6 +1,6 @@
-packaging==24.1
-pydantic==2.7.4
-Pygments==2.18.0
-python-dotenv==1.0.1
-Requests==2.32.3
-unidiff==0.7.5
+packaging
+pydantic
+Pygments
+python-dotenv
+Requests
+unidiff

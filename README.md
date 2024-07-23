@@ -20,3 +20,11 @@ Dataset for Golang featuring vulnerable code and corresponding fixes, covering b
 - File changes are taken from CVEFixes dataset or direct git pull through references in CVEInfo
 - A few change sets those are very large (>4MB) are dropped. This number is very small for now (<5)
 - The zipped changes files are present [here](./data/go-fixes/)
+
+## Initializing the repo
+
+- Checkout the repository
+- Create a venv
+- Activate the venv and install `pip-tools`
+- `pip-compile requirements.in -o requirements.txt`
+- For upgrading dependencies, add `--upgrade` to above
