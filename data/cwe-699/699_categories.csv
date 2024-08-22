@@ -1,0 +1,37 @@
+Primary Functional Area,Secondary Functional Area,CWE Category,CWE Category ID
+API and Functionality Management,Type Handling,Type Errors,136
+API and Functionality Management,Initialization and Cleanup,Initialization and Cleanup Errors,452
+API and Functionality Management,Expression Issues,Expression Issues,569
+API and Functionality Management,Data / Function Handling,API / Function Errors,1228
+Communication and Networking,Signal Handling,Signal Errors,387
+Communication and Networking,Communication Channel Handling,Communication Channel Errors,417
+Concurrency and Resource Management,Resource Management,Resource Management Errors,399
+Concurrency and Resource Management,Resource Locking,Resource Locking Problems,411
+Concurrency and Resource Management,Pointer Handling,Pointer Issues,465
+Concurrency and Resource Management,MultiThreading/Concurrency,Concurrency Issues,557
+Concurrency and Resource Management,Memory Buffer Management,Memory Buffer Errors,1218
+Cryptography and Key Management,Cryptographic Handling,Cryptographic Issues,310
+Cryptography and Key Management,Key Management,Key Management Errors,320
+Cryptography and Key Management,Random Number Management,Random Number Issues,1213
+Data Management and Integrity,Data Processing,Data Processing Errors,19
+Data Management and Integrity,String Handling,String Errors,133
+Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
+Data Management and Integrity,Sensitive Information Management,Information Management Errors,199
+Data Management and Integrity,Data Validation,Data Validation Issues,1215
+Data Management and Integrity,File Handling,File Handling Issues,1219
+Error and Exception Handling,State Management,State Issues,371
+Error and Exception Handling,Error Handling,Error Conditions / Return Values / Status Codes,389
+Logging and Auditing,Logging and Auditing,Audit / Logging Errors,1210
+Numeric and Mathematical Handling,Arithmetic Operations,Numeric Errors,189
+Security and Access Control,Credentials Management,Credentials Management Errors,255
+Security and Access Control,Privilege Management,Privilege Issues,265
+Security and Access Control,User Interface Security,User Interface Security Issues,355
+Security and Access Control,Authentication,Authentication Errors,1211
+Security and Access Control,Authorization,Authorization Errors,1212
+Security and Access Control,Lockout Mechanisms,Lockout Mechanism Errors,1216
+Security and Access Control,User Session Management,User Session Errors,1217
+Software Architecture and Design,Behavioral Problems,Behavioral Problems,438
+Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
+Software Architecture and Design,Documentation Issues,Documentation Issues,1225
+Software Architecture and Design,Complexity Issues,Complexity Issues,1226
+Software Architecture and Design,Encapsulation Issues,Encapsulation Issues,1227

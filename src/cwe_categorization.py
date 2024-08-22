@@ -1,12 +1,10 @@
 import argparse
-from collections import defaultdict
 import csv
 
 
 # Function to process the CSV and create the desired dictionary
 def create_dict_from_csv(fpath):
-    # Initialize a defaultdict of lists
-    functional_area_dict = defaultdict(list)
+    functional_area_dict = {}
 
     # Open and read the CSV file
     with open(fpath, mode='r', encoding='utf-8') as file:
@@ -15,13 +13,26 @@ def create_dict_from_csv(fpath):
         # Iterate over each row in the CSV
         for row in csv_reader:
             # Extract relevant fields
-            cwe_id = row['CWE-ID']
-            name = row['Name']
-            functional_areas = row['Functional Areas'].split(';')  # Assuming multiple areas are separated by semicolon
-
-            # Populate the dictionary
-            for area in functional_areas:
-                functional_area_dict[area.strip()].append({'CWE-ID': cwe_id, 'Name': name})
+            cwe_id = row['CWE-ID'].strip()
+            name = row['Name'].strip()
+            primary_functional_area = row['Primary Functional Area'].strip()
+            if primary_functional_area == "Software Architecture and Design":
+                continue
+            secondary_functional_area = row['Secondary Functional Area'].strip()
+            cwe_category = row['CWE Category'].strip()
+            cwe_category_id = row['CWE Category ID'].strip()
+            if primary_functional_area not in functional_area_dict:
+                functional_area_dict[primary_functional_area] = {}
+            if secondary_functional_area not in functional_area_dict[primary_functional_area]:
+                functional_area_dict[primary_functional_area][secondary_functional_area] = []
+            functional_area_dict[primary_functional_area][secondary_functional_area].append(
+                {
+                    'CWE-ID': cwe_id,
+                    'Name': name,
+                    'CWE-Category': cwe_category,
+                    'CWE-Category-ID': cwe_category_id
+                }
+            )
 
     # Convert defaultdict to a regular dict
     return dict(functional_area_dict)
@@ -42,4 +53,4 @@ if __name__ == "__main__":
     result_dict = create_dict_from_csv(args.file_path)
 
     # Print the resulting dictionary
-    print(f"FUNCTIONAL_AREAS = {result_dict}")
+    print(f"CWE_FUNCTIONAL_AREAS = {result_dict}")
