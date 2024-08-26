@@ -60,8 +60,11 @@ def process_all_cves(all_cveinfo_dir_path: str, outdata_path: str) -> None:
         None
     """
     vulndb_index = build_cwe_based_index(all_cveinfo_dir_path)
+    if not vulndb_index:
+        logger.warning("No index built")
     # Save index
-    filehandle.write_pydantic_to_json(os.path.join(outdata_path, "all_cwe_to_cveinfo_index.json"), vulndb_index)
+    index_dict = vulndb_index.model_dump(exclude_none=True)
+    filehandle.write_json(os.path.join(outdata_path, "all_cwe_to_cveinfo_index.json"), index_dict["items"])
     return vulndb_index
 
 
