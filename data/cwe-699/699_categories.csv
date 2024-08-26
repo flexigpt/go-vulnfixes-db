@@ -19,9 +19,6 @@ Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
 Data Management and Integrity,Sensitive Information Management,Information Management Errors,199
 Data Management and Integrity,Data Validation,Data Validation Issues,1215
 Data Management and Integrity,File Handling,File Handling Issues,1219
-Error and Exception Handling,State Management,State Issues,371
-Error and Exception Handling,Error Handling,Error Conditions / Return Values / Status Codes,389
-Logging and Auditing,Logging and Auditing,Audit / Logging Errors,1210
 Numeric and Mathematical Handling,Arithmetic Operations,Numeric Errors,189
 Security and Access Control,Credentials Management,Credentials Management Errors,255
 Security and Access Control,Privilege Management,Privilege Issues,265
@@ -30,8 +27,3 @@ Security and Access Control,Authentication,Authentication Errors,1211
 Security and Access Control,Authorization,Authorization Errors,1212
 Security and Access Control,Lockout Mechanisms,Lockout Mechanism Errors,1216
 Security and Access Control,User Session Management,User Session Errors,1217
-Software Architecture and Design,Behavioral Problems,Behavioral Problems,438
-Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
-Software Architecture and Design,Documentation Issues,Documentation Issues,1225
-Software Architecture and Design,Complexity Issues,Complexity Issues,1226
-Software Architecture and Design,Encapsulation Issues,Encapsulation Issues,1227

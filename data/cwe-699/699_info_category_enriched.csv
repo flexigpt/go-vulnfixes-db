@@ -1,10 +1,81 @@
 CWE-ID,Name,Primary Functional Area,Secondary Functional Area,CWE Category,CWE Category ID
+1037,Processor Optimization Removal or Modification of Security-critical Code,API and Functionality Management,Expression Issues,Expression Issues,569
+1043,Data Element Aggregating an Excessively Large Number of Non-Primitive Elements,Data Management and Integrity,Data Processing,Data Processing Errors,19
+1049,Excessive Data Query Operations in a Large Data Table,Data Management and Integrity,Data Processing,Data Processing Errors,19
+1050,Excessive Platform Resource Consumption within a Loop,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
+1058,Invokable Control Element in Multi-Thread Context with non-Final Static Storable or Member Element,Concurrency and Resource Management,MultiThreading/Concurrency,Concurrency Issues,557
+1066,Missing Serialization Control Element,Data Management and Integrity,Data Processing,Data Processing Errors,19
+1067,Excessive Execution of Sequential Searches of Data Resource,Data Management and Integrity,Data Processing,Data Processing Errors,19
+1072,Data Resource Access without Use of Connection Pooling,Data Management and Integrity,Data Processing,Data Processing Errors,19
+1073,Non-SQL Invokable Control Element with Excessive Number of Data Resource Accesses,Data Management and Integrity,Data Processing,Data Processing Errors,19
+1084,Invokable Control Element with Excessive File or Data Access Operations,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
+1094,Excessive Index Range Scan for a Data Resource,Data Management and Integrity,Data Processing,Data Processing Errors,19
+1101,Reliance on Runtime Component in Generated Code,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
+1102,Reliance on Machine-Dependent Data Representation,Data Management and Integrity,Data Processing,Data Processing Errors,19
+112,Missing XML Validation,Data Management and Integrity,Data Processing,Data Processing Errors,19
+1123,Excessive Use of Self-Modifying Code,API and Functionality Management,Expression Issues,Expression Issues,569
+1125,Excessive Attack Surface,Security and Access Control,Authorization,Authorization Errors,1212
+115,Misinterpretation of Input,Data Management and Integrity,Data Validation,Data Validation Issues,1215
+117,Improper Output Neutralization for Logs,Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
+1173,Improper Use of Validation Framework,Data Management and Integrity,Data Validation,Data Validation Issues,1215
+1188,Initialization of a Resource with an Insecure Default,API and Functionality Management,Initialization and Cleanup,Initialization and Cleanup Errors,452
+120,Buffer Copy without Checking Size of Input ('Classic Buffer Overflow'),Concurrency and Resource Management,Memory Buffer Management,Memory Buffer Errors,1218
+1204,Generation of Weak Initialization Vector (IV),Cryptography and Key Management,Cryptographic Handling,Cryptographic Issues,310
 1220,Insufficient Granularity of Access Control,Security and Access Control,Authorization,Authorization Errors,1212
-183,Permissive List of Allowed Inputs,Data Management and Integrity,Data Validation,Data Validation Issues,1215
-184,Incomplete List of Disallowed Inputs,Data Management and Integrity,Data Validation,Data Validation Issues,1215
+1230,Exposure of Sensitive Information Through Metadata,Security and Access Control,Sensitive Information Management,Information Management Errors,199
+1236,Improper Neutralization of Formula Elements in a CSV File,Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
+124,Buffer Underwrite ('Buffer Underflow'),Concurrency and Resource Management,Memory Buffer Management,Memory Buffer Errors,1218
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Cryptography and Key Management,Cryptographic Handling,Cryptographic Issues,310
+1241,Use of Predictable Algorithm in Random Number Generator,Cryptography and Key Management,Random Number Management,Random Number Issues,1213
+125,Out-of-bounds Read,Concurrency and Resource Management,Memory Buffer Management,Memory Buffer Errors,1218
+1265,Unintended Reentrant Invocation of Non-reentrant Code Via Nested Calls,Concurrency and Resource Management,MultiThreading/Concurrency,Concurrency Issues,557
+128,Wrap-around Error,Numeric and Mathematical Handling,Arithmetic Operations,Numeric Errors,189
+1289,Improper Validation of Unsafe Equivalence in Input,Data Management and Integrity,Data Validation,Data Validation Issues,1215
+130,Improper Handling of Length Parameter Inconsistency,Data Management and Integrity,Data Processing,Data Processing Errors,19
+131,Incorrect Calculation of Buffer Size,Concurrency and Resource Management,Memory Buffer Management,Memory Buffer Errors,1218
+1322,"Use of Blocking Code in Single-threaded, Non-blocking Context",Concurrency and Resource Management,MultiThreading/Concurrency,Concurrency Issues,557
+1327,Binding to an Unrestricted IP Address,Security and Access Control,Authorization,Authorization Errors,1212
+1335,Incorrect Bitwise Shift of Integer,Numeric and Mathematical Handling,Arithmetic Operations,Numeric Errors,189
+134,Use of Externally-Controlled Format String,Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
+1341,Multiple Releases of Same Resource or Handle,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
+1389,Incorrect Parsing of Numbers with Different Radices,Data Management and Integrity,Data Validation,Data Validation Issues,1215
+1392,Use of Default Credentials,Security and Access Control,Credentials Management,Credentials Management Errors,255
+140,Improper Neutralization of Delimiters,Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
+15,External Control of System or Configuration Setting,Security and Access Control,Configuration Management,Information Management Errors,199
+166,Improper Handling of Missing Special Element,Data Management and Integrity,Data Validation,Data Validation Issues,1215
+167,Improper Handling of Additional Special Element,Data Management and Integrity,Data Validation,Data Validation Issues,1215
+168,Improper Handling of Inconsistent Special Elements,Data Management and Integrity,Data Validation,Data Validation Issues,1215
+170,Improper Null Termination,Data Management and Integrity,String Handling,String Errors,133
+178,Improper Handling of Case Sensitivity,Data Management and Integrity,Data Validation,Data Validation Issues,1215
+179,Incorrect Behavior Order: Early Validation,Data Management and Integrity,Data Validation,Data Validation Issues,1215
+182,Collapse of Data into Unsafe Value,Data Management and Integrity,Data Processing,Data Processing Errors,19
+190,Integer Overflow or Wraparound,Numeric and Mathematical Handling,Arithmetic Operations,Numeric Errors,189
+191,Integer Underflow (Wrap or Wraparound),Numeric and Mathematical Handling,Arithmetic Operations,Numeric Errors,189
+193,Off-by-one Error,API and Functionality Management,Type Handling,Type Errors,136
 201,Insertion of Sensitive Information Into Sent Data,Security and Access Control,Sensitive Information Management,Information Management Errors,199
 204,Observable Response Discrepancy,Security and Access Control,User Interface Security,User Interface Security Issues,355
-205,Observable Behavioral Discrepancy,Software Architecture and Design,Behavioral Problems,Behavioral Problems,438
+208,Observable Timing Discrepancy,Communication and Networking,MultiThreading/Concurrency,Communication Channel Errors,417
+209,Generation of Error Message Containing Sensitive Information,Security and Access Control,Sensitive Information Management,Information Management Errors,199
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Security and Access Control,Sensitive Information Management,Information Management Errors,199
+213,Exposure of Sensitive Information Due to Incompatible Policies,Security and Access Control,Sensitive Information Management,Information Management Errors,199
+214,Invocation of Process Using Visible Sensitive Information,Security and Access Control,Sensitive Information Management,Information Management Errors,199
+215,Insertion of Sensitive Information Into Debugging Code,Security and Access Control,Sensitive Information Management,Information Management Errors,199
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),Data Management and Integrity,File Handling,File Handling Issues,1219
+222,Truncation of Security-relevant Information,Security and Access Control,Sensitive Information Management,Information Management Errors,199
+224,Obscured Security-relevant Information by Alternate Name,Security and Access Control,Authorization,Authorization Errors,1212
+229,Improper Handling of Values,Data Management and Integrity,Data Validation,Data Validation Issues,1215
+233,Improper Handling of Parameters,Data Management and Integrity,Data Validation,Data Validation Issues,1215
+237,Improper Handling of Structural Elements,Data Management and Integrity,Data Processing,Data Processing Errors,19
+241,Improper Handling of Unexpected Data Type,API and Functionality Management,Type Handling,Type Errors,136
+242,Use of Inherently Dangerous Function,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
+243,Creation of chroot Jail Without Changing Working Directory,Security and Access Control,Authorization,Authorization Errors,1212
+250,Execution with Unnecessary Privileges,Security and Access Control,Privilege Management,Privilege Issues,265
+256,Plaintext Storage of a Password,Security and Access Control,Credentials Management,Credentials Management Errors,255
+257,Storing Passwords in a Recoverable Format,Security and Access Control,Credentials Management,Credentials Management Errors,255
+260,Password in Configuration File,Security and Access Control,Credentials Management,Credentials Management Errors,255
+261,Weak Encoding for Password,Security and Access Control,Credentials Management,Credentials Management Errors,255
+262,Not Using Password Aging,Security and Access Control,Credentials Management,Credentials Management Errors,255
+263,Password Aging with Long Expiration,Security and Access Control,Credentials Management,Credentials Management Errors,255
 266,Incorrect Privilege Assignment,Security and Access Control,Privilege Management,Privilege Issues,265
 267,Privilege Defined With Unsafe Actions,Security and Access Control,Privilege Management,Privilege Issues,265
 268,Privilege Chaining,Security and Access Control,Privilege Management,Privilege Issues,265
@@ -12,78 +83,27 @@ CWE-ID,Name,Primary Functional Area,Secondary Functional Area,CWE Category,CWE C
 272,Least Privilege Violation,Security and Access Control,Privilege Management,Privilege Issues,265
 273,Improper Check for Dropped Privileges,Security and Access Control,Privilege Management,Privilege Issues,265
 274,Improper Handling of Insufficient Privileges,Security and Access Control,Privilege Management,Privilege Issues,265
+276,Incorrect Default Permissions,Security and Access Control,Privilege Management,Privilege Issues,265
+277,Insecure Inherited Permissions,Security and Access Control,Privilege Management,Privilege Issues,265
+278,Insecure Preserved Inherited Permissions,Security and Access Control,Privilege Management,Privilege Issues,265
+279,Incorrect Execution-Assigned Permissions,Security and Access Control,Privilege Management,Privilege Issues,265
+280,Improper Handling of Insufficient Permissions or Privileges,Security and Access Control,Privilege Management,Privilege Issues,265
+281,Improper Preservation of Permissions,Security and Access Control,Privilege Management,Privilege Issues,265
 283,Unverified Ownership,Security and Access Control,Authorization,Authorization Errors,1212
 289,Authentication Bypass by Alternate Name,Security and Access Control,Authentication,Authentication Errors,1211
 290,Authentication Bypass by Spoofing,Security and Access Control,Authentication,Authentication Errors,1211
+294,Authentication Bypass by Capture-replay,Security and Access Control,Authentication,Authentication Errors,1211
+295,Improper Certificate Validation,Security and Access Control,Authentication,Authentication Errors,1211
+301,Reflection Attack in an Authentication Protocol,Security and Access Control,Authentication,Authentication Errors,1211
 303,Incorrect Implementation of Authentication Algorithm,Security and Access Control,Authentication,Authentication Errors,1211
 305,Authentication Bypass by Primary Weakness,Security and Access Control,Authentication,Authentication Errors,1211
 306,Missing Authentication for Critical Function,Security and Access Control,Authentication,Authentication Errors,1211
 307,Improper Restriction of Excessive Authentication Attempts,Security and Access Control,Authentication,Authentication Errors,1211
 308,Use of Single-factor Authentication,Security and Access Control,Authentication,Authentication Errors,1211
 309,Use of Password System for Primary Authentication,Security and Access Control,Authentication,Authentication Errors,1211
-359,Exposure of Private Personal Information to an Unauthorized Actor,Security and Access Control,Sensitive Information Management,Information Management Errors,199
-408,Incorrect Behavior Order: Early Amplification,Software Architecture and Design,Behavioral Problems,Behavioral Problems,438
-419,Unprotected Primary Channel,Communication and Networking,Communication Channel Handling,Communication Channel Errors,417
-420,Unprotected Alternate Channel,Communication and Networking,Communication Channel Handling,Communication Channel Errors,417
-425,Direct Request ('Forced Browsing'),Security and Access Control,Authorization,Authorization Errors,1212
-497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Security and Access Control,Sensitive Information Management,Information Management Errors,199
-551,Incorrect Behavior Order: Authorization Before Parsing and Canonicalization,Security and Access Control,Authorization,Authorization Errors,1212
-603,Use of Client-Side Authentication,Security and Access Control,Authentication,Authentication Errors,1211
-639,Authorization Bypass Through User-Controlled Key,Security and Access Control,Authorization,Authorization Errors,1212
-645,Overly Restrictive Account Lockout Mechanism,Security and Access Control,Lockout Mechanisms,Lockout Mechanism Errors,1216
-653,Improper Isolation or Compartmentalization,Security and Access Control,Authorization,Authorization Errors,1212
-654,Reliance on a Single Factor in a Security Decision,Security and Access Control,Authentication,Authentication Errors,1211
-708,Incorrect Ownership Assignment,Security and Access Control,Authorization,Authorization Errors,1212
-842,Placement of User into Incorrect Group,Security and Access Control,Authorization,Authorization Errors,1212
-939,Improper Authorization in Handler for Custom URL Scheme,Security and Access Control,Authorization,Authorization Errors,1212
-128,Wrap-around Error,Numeric and Mathematical Handling,Arithmetic Operations,Numeric Errors,189
-1335,Incorrect Bitwise Shift of Integer,Numeric and Mathematical Handling,Arithmetic Operations,Numeric Errors,189
-1339,Insufficient Precision or Accuracy of a Real Number,Numeric and Mathematical Handling,Arithmetic Operations,Numeric Errors,189
-190,Integer Overflow or Wraparound,Numeric and Mathematical Handling,Arithmetic Operations,Numeric Errors,189
-191,Integer Underflow (Wrap or Wraparound),Numeric and Mathematical Handling,Arithmetic Operations,Numeric Errors,189
-94,Improper Control of Generation of Code ('Code Injection'),API and Functionality Management,Data / Function Handling,API / Function Errors,1228
-1058,Invokable Control Element in Multi-Thread Context with non-Final Static Storable or Member Element,Concurrency and Resource Management,MultiThreading/Concurrency,Concurrency Issues,557
-1265,Unintended Reentrant Invocation of Non-reentrant Code Via Nested Calls,Concurrency and Resource Management,MultiThreading/Concurrency,Concurrency Issues,557
-1322,"Use of Blocking Code in Single-threaded, Non-blocking Context",Concurrency and Resource Management,MultiThreading/Concurrency,Concurrency Issues,557
-208,Observable Timing Discrepancy,Communication and Networking,MultiThreading/Concurrency,Communication Channel Errors,417
-364,Signal Handler Race Condition,Communication and Networking,Signal Handling,Signal Errors,387
-366,Race Condition within a Thread,Concurrency and Resource Management,MultiThreading/Concurrency,Concurrency Issues,557
-367,Time-of-check Time-of-use (TOCTOU) Race Condition,Concurrency and Resource Management,MultiThreading/Concurrency,Concurrency Issues,557
-368,Context Switching Race Condition,Concurrency and Resource Management,MultiThreading/Concurrency,Concurrency Issues,557
-412,Unrestricted Externally Accessible Lock,Concurrency and Resource Management,Resource Locking,Resource Locking Problems,411
-413,Improper Resource Locking,Concurrency and Resource Management,Resource Locking,Resource Locking Problems,411
-414,Missing Lock Check,Concurrency and Resource Management,Resource Locking,Resource Locking Problems,411
-421,Race Condition During Access to Alternate Channel,Communication and Networking,Communication Channel Handling,Communication Channel Errors,417
-609,Double-Checked Locking,Concurrency and Resource Management,Resource Locking,Resource Locking Problems,411
-663,Use of a Non-reentrant Function in a Concurrent Context,Concurrency and Resource Management,MultiThreading/Concurrency,Concurrency Issues,557
-764,Multiple Locks of a Critical Resource,Concurrency and Resource Management,Resource Locking,Resource Locking Problems,411
-765,Multiple Unlocks of a Critical Resource,Concurrency and Resource Management,Resource Locking,Resource Locking Problems,411
-820,Missing Synchronization,Concurrency and Resource Management,MultiThreading/Concurrency,Concurrency Issues,557
-821,Incorrect Synchronization,Concurrency and Resource Management,MultiThreading/Concurrency,Concurrency Issues,557
-832,Unlock of a Resource that is not Locked,Concurrency and Resource Management,Resource Locking,Resource Locking Problems,411
-833,Deadlock,Concurrency and Resource Management,Resource Locking,Resource Locking Problems,411
-1051,Initialization with Hard-Coded Network Resource Configuration Data,API and Functionality Management,Initialization and Cleanup,Initialization and Cleanup Errors,452
-1052,Excessive Use of Hard-Coded Literals in Initialization,API and Functionality Management,Initialization and Cleanup,Initialization and Cleanup Errors,452
-1188,Initialization of a Resource with an Insecure Default,API and Functionality Management,Initialization and Cleanup,Initialization and Cleanup Errors,452
-15,External Control of System or Configuration Setting,Security and Access Control,Configuration Management,Information Management Errors,199
-1392,Use of Default Credentials,Security and Access Control,Credentials Management,Credentials Management Errors,255
-256,Plaintext Storage of a Password,Security and Access Control,Credentials Management,Credentials Management Errors,255
-257,Storing Passwords in a Recoverable Format,Security and Access Control,Credentials Management,Credentials Management Errors,255
-260,Password in Configuration File,Security and Access Control,Credentials Management,Credentials Management Errors,255
-261,Weak Encoding for Password,Security and Access Control,Credentials Management,Credentials Management Errors,255
-262,Not Using Password Aging,Security and Access Control,Credentials Management,Credentials Management Errors,255
-263,Password Aging with Long Expiration,Security and Access Control,Credentials Management,Credentials Management Errors,255
-521,Weak Password Requirements,Security and Access Control,Credentials Management,Credentials Management Errors,255
-523,Unprotected Transport of Credentials,Security and Access Control,Credentials Management,Cryptographic Issues,310
-549,Missing Password Field Masking,Security and Access Control,Credentials Management,Credentials Management Errors,255
-620,Unverified Password Change,Security and Access Control,Credentials Management,Credentials Management Errors,255
-640,Weak Password Recovery Mechanism for Forgotten Password,Security and Access Control,Credentials Management,Credentials Management Errors,255
-798,Use of Hard-coded Credentials,Security and Access Control,Credentials Management,Credentials Management Errors,255
-836,Use of Password Hash Instead of Password for Authentication,Security and Access Control,Credentials Management,Cryptographic Issues,310
-916,Use of Password Hash With Insufficient Computational Effort,Security and Access Control,Cryptographic Handling,Cryptographic Issues,310
-1204,Generation of Weak Initialization Vector (IV),Cryptography and Key Management,Cryptographic Handling,Cryptographic Issues,310
-1240,Use of a Cryptographic Primitive with a Risky Implementation,Cryptography and Key Management,Cryptographic Handling,Cryptographic Issues,310
-1241,Use of Predictable Algorithm in Random Number Generator,Cryptography and Key Management,Random Number Management,Random Number Issues,1213
+312,Cleartext Storage of Sensitive Information,Security and Access Control,Cryptographic Handling,Cryptographic Issues,310
+319,Cleartext Transmission of Sensitive Information,Security and Access Control,Cryptographic Handling,Cryptographic Issues,310
+322,Key Exchange without Entity Authentication,Cryptography and Key Management,Cryptographic Handling,Cryptographic Issues,310
 323,"Reusing a Nonce, Key Pair in Encryption",Cryptography and Key Management,Cryptographic Handling,Cryptographic Issues,310
 324,Use of a Key Past its Expiration Date,Cryptography and Key Management,Key Management,Key Management Errors,320
 325,Missing Cryptographic Step,Cryptography and Key Management,Cryptographic Handling,Cryptographic Issues,310
@@ -92,309 +112,174 @@ CWE-ID,Name,Primary Functional Area,Secondary Functional Area,CWE Category,CWE C
 334,Small Space of Random Values,Cryptography and Key Management,Random Number Management,Random Number Issues,1213
 335,Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG),Cryptography and Key Management,Random Number Management,Random Number Issues,1213
 338,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),Cryptography and Key Management,Random Number Management,Random Number Issues,1213
-343,Predictable Value Range from Previous Values,Cryptography and Key Management,Random Number Management,Random Number Issues,1213
-344,Use of Invariant Value in Dynamically Changing Context,Concurrency and Resource Management,State Management,State Issues,371
-347,Improper Verification of Cryptographic Signature,Cryptography and Key Management,Cryptographic Handling,Cryptographic Issues,310
-656,Reliance on Security Through Obscurity,Security and Access Control,Authorization,Authorization Errors,1212
-1043,Data Element Aggregating an Excessively Large Number of Non-Primitive Elements,Data Management and Integrity,Data Processing,Data Processing Errors,19
-1066,Missing Serialization Control Element,Data Management and Integrity,Data Processing,Data Processing Errors,19
-1070,Serializable Data Element Containing non-Serializable Item Elements,Data Management and Integrity,Data Processing,Data Processing Errors,19
-1102,Reliance on Machine-Dependent Data Representation,Data Management and Integrity,Data Processing,Data Processing Errors,19
-1236,Improper Neutralization of Formula Elements in a CSV File,Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
-130,Improper Handling of Length Parameter Inconsistency,Data Management and Integrity,Data Processing,Data Processing Errors,19
-182,Collapse of Data into Unsafe Value,Data Management and Integrity,Data Processing,Data Processing Errors,19
-237,Improper Handling of Structural Elements,Data Management and Integrity,Data Processing,Data Processing Errors,19
-349,Acceptance of Extraneous Untrusted Data With Trusted Data,Data Management and Integrity,Data Processing,Data Processing Errors,19
-409,Improper Handling of Highly Compressed Data (Data Amplification),Data Management and Integrity,Data Processing,Data Processing Errors,19
-410,Insufficient Resource Pool,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
-459,Incomplete Cleanup,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
-463,Deletion of Data Structure Sentinel,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
-464,Addition of Data Structure Sentinel,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
-501,Trust Boundary Violation,Security and Access Control,Authorization,Authorization Errors,1212
-502,Deserialization of Untrusted Data,Data Management and Integrity,Data Processing,Data Processing Errors,19
-1049,Excessive Data Query Operations in a Large Data Table,Data Management and Integrity,Data Processing,Data Processing Errors,19
-1057,Data Access Operations Outside of Expected Data Manager Component,Data Management and Integrity,Data Processing,Data Processing Errors,19
-1067,Excessive Execution of Sequential Searches of Data Resource,Data Management and Integrity,Data Processing,Data Processing Errors,19
-1072,Data Resource Access without Use of Connection Pooling,Data Management and Integrity,Data Processing,Data Processing Errors,19
-1073,Non-SQL Invokable Control Element with Excessive Number of Data Resource Accesses,Data Management and Integrity,Data Processing,Data Processing Errors,19
-1083,Data Access from Outside Expected Data Manager Component,Data Management and Integrity,Data Processing,Data Processing Errors,19
-1089,Large Data Table with Excessive Number of Indices,Data Management and Integrity,Data Processing,Data Processing Errors,19
-1094,Excessive Index Range Scan for a Data Resource,Data Management and Integrity,Data Processing,Data Processing Errors,19
-619,Dangling Database Cursor ('Cursor Injection'),Data Management and Integrity,Data Processing,Data Processing Errors,19
-89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
-1053,Missing Documentation for Design,Software Architecture and Design,Documentation Issues,Documentation Issues,1225
-1099,Inconsistent Naming Conventions for Identifiers,Software Architecture and Design,Documentation Issues,Documentation Issues,1225
-1110,Incomplete Design Documentation,Software Architecture and Design,Documentation Issues,Documentation Issues,1225
-1111,Incomplete I/O Documentation,Software Architecture and Design,Documentation Issues,Documentation Issues,1225
-1112,Incomplete Documentation of Program Execution,Software Architecture and Design,Documentation Issues,Documentation Issues,1225
-1118,Insufficient Documentation of Error Handling Techniques,Software Architecture and Design,Documentation Issues,Documentation Issues,1225
-252,Unchecked Return Value,Error and Exception Handling,Error Handling,Error Conditions / Return Values / Status Codes,389
-253,Incorrect Check of Function Return Value,Error and Exception Handling,Error Handling,Error Conditions / Return Values / Status Codes,389
-390,Detection of Error Condition Without Action,Error and Exception Handling,Error Handling,Error Conditions / Return Values / Status Codes,389
-391,Unchecked Error Condition,Error and Exception Handling,Error Handling,Error Conditions / Return Values / Status Codes,389
-392,Missing Report of Error Condition,Error and Exception Handling,Error Handling,Error Conditions / Return Values / Status Codes,389
-393,Return of Wrong Status Code,Error and Exception Handling,Error Handling,Error Conditions / Return Values / Status Codes,389
-394,Unexpected Status Code or Return Value,Error and Exception Handling,Error Handling,Error Conditions / Return Values / Status Codes,389
-395,Use of NullPointerException Catch to Detect NULL Pointer Dereference,Error and Exception Handling,Error Handling,Error Conditions / Return Values / Status Codes,389
-396,Declaration of Catch for Generic Exception,Error and Exception Handling,Error Handling,Error Conditions / Return Values / Status Codes,389
-397,Declaration of Throws for Generic Exception,Error and Exception Handling,Error Handling,Error Conditions / Return Values / Status Codes,389
-455,Non-exit on Failed Initialization,API and Functionality Management,Initialization and Cleanup,Initialization and Cleanup Errors,452
-544,Missing Standardized Error Handling Mechanism,Error and Exception Handling,Error Handling,Error Conditions / Return Values / Status Codes,389
-248,Uncaught Exception,Error and Exception Handling,Error Handling,Error Conditions / Return Values / Status Codes,389
-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),Data Management and Integrity,File Handling,File Handling Issues,1219
-378,Creation of Temporary File With Insecure Permissions,Data Management and Integrity,File Handling,File Handling Issues,1219
-379,Creation of Temporary File in Directory with Insecure Permissions,Data Management and Integrity,File Handling,File Handling Issues,1219
-41,Improper Resolution of Path Equivalence,Data Management and Integrity,File Handling,File Handling Issues,1219
-434,Unrestricted Upload of File with Dangerous Type,Data Management and Integrity,File Handling,File Handling Issues,1219
-552,Files or Directories Accessible to External Parties,Data Management and Integrity,File Handling,File Handling Issues,1219
-59,Improper Link Resolution Before File Access ('Link Following'),Data Management and Integrity,File Handling,File Handling Issues,1219
-66,Improper Handling of File Names that Identify Virtual Resources,Data Management and Integrity,File Handling,File Handling Issues,1219
-73,External Control of File Name or Path,Data Management and Integrity,File Handling,File Handling Issues,1219
-1024,Comparison of Incompatible Types,API and Functionality Management,Type Handling,Type Errors,136
-1025,Comparison Using Wrong Factors,API and Functionality Management,Type Handling,Type Errors,136
-1037,Processor Optimization Removal or Modification of Security-critical Code,API and Functionality Management,Expression Issues,Expression Issues,569
-1041,Use of Redundant Code,Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
-1045,Parent Class with a Virtual Destructor and a Child Class without a Virtual Destructor,Software Architecture and Design,Encapsulation Issues,Encapsulation Issues,1227
-1050,Excessive Platform Resource Consumption within a Loop,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
-1055,Multiple Inheritance from Concrete Classes,Software Architecture and Design,Complexity Issues,Complexity Issues,1226
-1056,Invokable Control Element with Variadic Parameters,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
-1060,Excessive Number of Inefficient Server-Side Data Accesses,Data Management and Integrity,Data Processing,Data Processing Errors,19
-1062,Parent Class with References to Child Class,Software Architecture and Design,Encapsulation Issues,Encapsulation Issues,1227
-1063,Creation of Class Instance within a Static Code Block,API and Functionality Management,Initialization and Cleanup,Initialization and Cleanup Errors,452
-1064,Invokable Control Element with Signature Containing an Excessive Number of Parameters,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
-1065,Runtime Resource Management Control Element in a Component Built to Run on Application Servers,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
-1071,Empty Code Block,Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
-1074,Class with Excessively Deep Inheritance,Software Architecture and Design,Complexity Issues,Complexity Issues,1226
-1075,Unconditional Control Flow Transfer outside of Switch Block,API and Functionality Management,Expression Issues,Expression Issues,569
-1079,Parent Class without Virtual Destructor Method,Software Architecture and Design,Encapsulation Issues,Encapsulation Issues,1227
-1080,Source Code File with Excessive Number of Lines of Code,Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
-1082,Class Instance Self Destruction Control Element,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
-1085,Invokable Control Element with Excessive Volume of Commented-out Code,Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
-1086,Class with Excessive Number of Child Classes,Software Architecture and Design,Complexity Issues,Complexity Issues,1226
-1087,Class with Virtual Method without a Virtual Destructor,Software Architecture and Design,Encapsulation Issues,Encapsulation Issues,1227
-1090,Method Containing Access of a Member Element from Another Class,Software Architecture and Design,Encapsulation Issues,Encapsulation Issues,1227
-1095,Loop Condition Value Update within the Loop,API and Functionality Management,Expression Issues,Expression Issues,569
-1097,Persistent Storable Data Element without Associated Comparison Control Element,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
-1098,Data Element containing Pointer Item without Proper Copy Control Element,Concurrency and Resource Management,Pointer Handling,Pointer Issues,465
-1101,Reliance on Runtime Component in Generated Code,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
-1106,Insufficient Use of Symbolic Constants,Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
-1107,Insufficient Isolation of Symbolic Constant Definitions,Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
-1108,Excessive Reliance on Global Variables,Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
-1109,Use of Same Variable for Multiple Purposes,Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
-1113,Inappropriate Comment Style,Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
-1114,Inappropriate Whitespace Style,Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
-1115,Source Code Element without Standard Prologue,Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
-1116,Inaccurate Comments,Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
-1117,Callable with Insufficient Behavioral Summary,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
-1119,Excessive Use of Unconditional Branching,Software Architecture and Design,Complexity Issues,Complexity Issues,1226
-1121,Excessive McCabe Cyclomatic Complexity,Software Architecture and Design,Complexity Issues,Complexity Issues,1226
-1122,Excessive Halstead Complexity,Software Architecture and Design,Complexity Issues,Complexity Issues,1226
-1123,Excessive Use of Self-Modifying Code,API and Functionality Management,Expression Issues,Expression Issues,569
-1124,Excessively Deep Nesting,Software Architecture and Design,Complexity Issues,Complexity Issues,1226
-1126,Declaration of Variable with Unnecessarily Wide Scope,Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
-1127,Compilation with Insufficient Warnings or Errors,Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
-1235,Incorrect Use of Autoboxing and Unboxing for Performance Critical Operations,API and Functionality Management,Type Handling,Type Errors,136
-1333,Inefficient Regular Expression Complexity,API and Functionality Management,Expression Issues,Expression Issues,569
-186,Overly Restrictive Regular Expression,API and Functionality Management,Expression Issues,Expression Issues,569
-193,Off-by-one Error,API and Functionality Management,Type Handling,Type Errors,136
-241,Improper Handling of Unexpected Data Type,API and Functionality Management,Type Handling,Type Errors,136
-242,Use of Inherently Dangerous Function,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
 341,Predictable from Observable State,Cryptography and Key Management,Random Number Management,Random Number Issues,1213
 342,Predictable Exact Value from Previous Values,Cryptography and Key Management,Random Number Management,Random Number Issues,1213
+343,Predictable Value Range from Previous Values,Cryptography and Key Management,Random Number Management,Random Number Issues,1213
+344,Use of Invariant Value in Dynamically Changing Context,Concurrency and Resource Management,State Management,State Issues,371
+346,Origin Validation Error,Security and Access Control,Authentication,Authentication Errors,1211
+347,Improper Verification of Cryptographic Signature,Cryptography and Key Management,Cryptographic Handling,Cryptographic Issues,310
+348,Use of Less Trusted Source,Security and Access Control,Authentication,Authentication Errors,1211
+349,Acceptance of Extraneous Untrusted Data With Trusted Data,Data Management and Integrity,Data Processing,Data Processing Errors,19
 351,Insufficient Type Distinction,API and Functionality Management,Type Handling,Type Errors,136
+353,Missing Support for Integrity Check,Cryptography and Key Management,Cryptographic Handling,Cryptographic Issues,310
+354,Improper Validation of Integrity Check Value,Cryptography and Key Management,Cryptographic Handling,Cryptographic Issues,310
+356,Product UI does not Warn User of Unsafe Actions,Security and Access Control,User Interface Security,User Interface Security Issues,355
+358,Improperly Implemented Security Check for Standard,Security and Access Control,Authorization,Authorization Errors,1212
+359,Exposure of Private Personal Information to an Unauthorized Actor,Security and Access Control,Sensitive Information Management,Information Management Errors,199
 360,Trust of System Event Data,Security and Access Control,Authorization,Authorization Errors,1212
+364,Signal Handler Race Condition,Communication and Networking,Signal Handling,Signal Errors,387
+366,Race Condition within a Thread,Concurrency and Resource Management,MultiThreading/Concurrency,Concurrency Issues,557
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,Concurrency and Resource Management,MultiThreading/Concurrency,Concurrency Issues,557
+368,Context Switching Race Condition,Concurrency and Resource Management,MultiThreading/Concurrency,Concurrency Issues,557
 369,Divide By Zero,Numeric and Mathematical Handling,Arithmetic Operations,Numeric Errors,189
 372,Incomplete Internal State Distinction,Concurrency and Resource Management,State Management,State Issues,371
 374,Passing Mutable Objects to an Untrusted Method,Security and Access Control,Authorization,Authorization Errors,1212
 375,Returning a Mutable Object to an Untrusted Caller,Security and Access Control,Authorization,Authorization Errors,1212
+378,Creation of Temporary File With Insecure Permissions,Data Management and Integrity,File Handling,File Handling Issues,1219
+379,Creation of Temporary File in Directory with Insecure Permissions,Data Management and Integrity,File Handling,File Handling Issues,1219
 385,Covert Timing Channel,Communication and Networking,Communication Channel Handling,Communication Channel Errors,417
 386,Symbolic Name not Mapping to Correct Object,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
+395,Use of NullPointerException Catch to Detect NULL Pointer Dereference,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
+403,Exposure of File Descriptor to Unintended Control Sphere ('File Descriptor Leak'),Security and Access Control,Sensitive Information Management,Information Management Errors,199
+409,Improper Handling of Highly Compressed Data (Data Amplification),Data Management and Integrity,Data Processing,Data Processing Errors,19
+41,Improper Resolution of Path Equivalence,Data Management and Integrity,File Handling,File Handling Issues,1219
+410,Insufficient Resource Pool,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
+412,Unrestricted Externally Accessible Lock,Concurrency and Resource Management,Resource Locking,Resource Locking Problems,411
+413,Improper Resource Locking,Concurrency and Resource Management,Resource Locking,Resource Locking Problems,411
+414,Missing Lock Check,Concurrency and Resource Management,Resource Locking,Resource Locking Problems,411
+419,Unprotected Primary Channel,Communication and Networking,Communication Channel Handling,Communication Channel Errors,417
+420,Unprotected Alternate Channel,Communication and Networking,Communication Channel Handling,Communication Channel Errors,417
+421,Race Condition During Access to Alternate Channel,Communication and Networking,Communication Channel Handling,Communication Channel Errors,417
+425,Direct Request ('Forced Browsing'),Security and Access Control,Authorization,Authorization Errors,1212
+426,Untrusted Search Path,Data Management and Integrity,File Handling,File Handling Issues,1219
+427,Uncontrolled Search Path Element,Data Management and Integrity,File Handling,File Handling Issues,1219
+428,Unquoted Search Path or Element,Data Management and Integrity,File Handling,File Handling Issues,1219
 430,Deployment of Wrong Handler,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
 431,Missing Handler,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
-440,Expected Behavior Violation,Software Architecture and Design,Behavioral Problems,Behavioral Problems,438
+434,Unrestricted Upload of File with Dangerous Type,Data Management and Integrity,File Handling,File Handling Issues,1219
+437,Incomplete Model of Endpoint Features,Security and Access Control,Authorization,Authorization Errors,1212
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),Communication and Networking,Communication Channel Handling,Communication Channel Errors,417
+447,Unimplemented or Unsupported Feature in UI,Security and Access Control,User Interface Security,User Interface Security Issues,355
+448,Obsolete Feature in UI,Security and Access Control,User Interface Security,User Interface Security Issues,355
+449,The UI Performs the Wrong Action,Security and Access Control,User Interface Security,User Interface Security Issues,355
+454,External Initialization of Trusted Variables or Data Stores,Security and Access Control,Authorization,Authorization Errors,1212
+455,Non-exit on Failed Initialization,API and Functionality Management,Initialization and Cleanup,Initialization and Cleanup Errors,452
+459,Incomplete Cleanup,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
+463,Deletion of Data Structure Sentinel,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
+464,Addition of Data Structure Sentinel,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
+466,Return of Pointer Value Outside of Expected Range,Concurrency and Resource Management,Pointer Handling,Pointer Issues,465
+468,Incorrect Pointer Scaling,Concurrency and Resource Management,Pointer Handling,Pointer Issues,465
+469,Use of Pointer Subtraction to Determine Size,Concurrency and Resource Management,Pointer Handling,Pointer Issues,465
+470,Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection'),Security and Access Control,Authorization,Authorization Errors,1212
+472,External Control of Assumed-Immutable Web Parameter,Security and Access Control,Authorization,Authorization Errors,1212
 474,Use of Function with Inconsistent Implementations,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
 475,Undefined Behavior for Input to API,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
+476,NULL Pointer Dereference,Concurrency and Resource Management,Pointer Handling,Pointer Issues,465
 477,Use of Obsolete Function,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
 478,Missing Default Case in Multiple Condition Expression,API and Functionality Management,Expression Issues,Expression Issues,569
 480,Use of Incorrect Operator,API and Functionality Management,Expression Issues,Expression Issues,569
 483,Incorrect Block Delimitation,API and Functionality Management,Expression Issues,Expression Issues,569
 484,Omitted Break Statement in Switch,API and Functionality Management,Expression Issues,Expression Issues,569
-487,Reliance on Package-level Scope,Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
-489,Active Debug Code,Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
+488,Exposure of Data Element to Wrong Session,Security and Access Control,User Session Management,User Session Errors,1217
+494,Download of Code Without Integrity Check,Cryptography and Key Management,Cryptographic Handling,Cryptographic Issues,310
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Security and Access Control,Sensitive Information Management,Information Management Errors,199
+501,Trust Boundary Violation,Security and Access Control,Authorization,Authorization Errors,1212
+502,Deserialization of Untrusted Data,Data Management and Integrity,Data Processing,Data Processing Errors,19
+515,Covert Storage Channel,Cryptography and Key Management,Cryptographic Handling,Cryptographic Issues,310
+521,Weak Password Requirements,Security and Access Control,Credentials Management,Credentials Management Errors,255
+523,Unprotected Transport of Credentials,Security and Access Control,Credentials Management,Cryptographic Issues,310
+524,Use of Cache Containing Sensitive Information,Security and Access Control,Sensitive Information Management,Information Management Errors,199
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Security and Access Control,Sensitive Information Management,Information Management Errors,199
 547,"Use of Hard-coded, Security-relevant Constants",Security and Access Control,Cryptographic Handling,Cryptographic Issues,310
-561,Dead Code,Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
-563,Assignment to Variable without Use,Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
-570,Expression is Always False,API and Functionality Management,Expression Issues,Expression Issues,569
-571,Expression is Always True,API and Functionality Management,Expression Issues,Expression Issues,569
-580,clone() Method Without super.clone(),API and Functionality Management,Data / Function Handling,API / Function Errors,1228
-581,Object Model Violation: Just One of Equals and Hashcode Defined,API and Functionality Management,Type Handling,Type Errors,136
-584,Return Inside Finally Block,API and Functionality Management,Expression Issues,Expression Issues,569
-617,Reachable Assertion,API and Functionality Management,Expression Issues,Expression Issues,569
-628,Function Call with Incorrectly Specified Arguments,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
-648,Incorrect Use of Privileged APIs,Security and Access Control,Privilege Management,Privilege Issues,265
-676,Use of Potentially Dangerous Function,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
-681,Incorrect Conversion between Numeric Types,API and Functionality Management,Type Handling,Type Errors,136
-694,Use of Multiple Resources with Duplicate Identifier,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
-695,Use of Low-Level Functionality,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
-733,Compiler Optimization Removal or Modification of Security-critical Code,API and Functionality Management,Expression Issues,Expression Issues,569
-749,Exposed Dangerous Method or Function,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
-766,Critical Data Element Declared Public,Security and Access Control,Sensitive Information Management,Information Management Errors,199
-767,Access to Critical Private Variable via Public Method,Security and Access Control,Sensitive Information Management,Information Management Errors,199
-783,Operator Precedence Logic Error,API and Functionality Management,Expression Issues,Expression Issues,569
-791,Incomplete Filtering of Special Elements,Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
-835,Loop with Unreachable Exit Condition ('Infinite Loop'),API and Functionality Management,Expression Issues,Expression Issues,569
-837,"Improper Enforcement of a Single, Unique Action",Security and Access Control,Authorization,Authorization Errors,1212
-838,Inappropriate Encoding for Output Context,Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
-843,Access of Resource Using Incompatible Type ('Type Confusion'),API and Functionality Management,Type Handling,Type Errors,136
-914,Improper Control of Dynamically-Identified Variables,API and Functionality Management,Type Handling,Type Errors,136
-115,Misinterpretation of Input,Data Management and Integrity,Data Validation,Data Validation Issues,1215
-1173,Improper Use of Validation Framework,Data Management and Integrity,Data Validation,Data Validation Issues,1215
-1284,Improper Validation of Specified Quantity in Input,Data Management and Integrity,Data Validation,Data Validation Issues,1215
-1285,"Improper Validation of Specified Index, Position, or Offset in Input",Data Management and Integrity,Data Validation,Data Validation Issues,1215
-1286,Improper Validation of Syntactic Correctness of Input,Data Management and Integrity,Data Validation,Data Validation Issues,1215
-1287,Improper Validation of Specified Type of Input,Data Management and Integrity,Data Validation,Data Validation Issues,1215
-1288,Improper Validation of Consistency within Input,Data Management and Integrity,Data Validation,Data Validation Issues,1215
-1289,Improper Validation of Unsafe Equivalence in Input,Data Management and Integrity,Data Validation,Data Validation Issues,1215
-1389,Incorrect Parsing of Numbers with Different Radices,Data Management and Integrity,Data Validation,Data Validation Issues,1215
-140,Improper Neutralization of Delimiters,Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
-166,Improper Handling of Missing Special Element,Data Management and Integrity,Data Validation,Data Validation Issues,1215
-167,Improper Handling of Additional Special Element,Data Management and Integrity,Data Validation,Data Validation Issues,1215
-168,Improper Handling of Inconsistent Special Elements,Data Management and Integrity,Data Validation,Data Validation Issues,1215
-178,Improper Handling of Case Sensitivity,Data Management and Integrity,Data Validation,Data Validation Issues,1215
-179,Incorrect Behavior Order: Early Validation,Data Management and Integrity,Data Validation,Data Validation Issues,1215
-229,Improper Handling of Values,Data Management and Integrity,Data Validation,Data Validation Issues,1215
-233,Improper Handling of Parameters,Data Management and Integrity,Data Validation,Data Validation Issues,1215
-426,Untrusted Search Path,Data Management and Integrity,File Handling,File Handling Issues,1219
-427,Uncontrolled Search Path Element,Data Management and Integrity,File Handling,File Handling Issues,1219
-428,Unquoted Search Path or Element,Data Management and Integrity,File Handling,File Handling Issues,1219
-454,External Initialization of Trusted Variables or Data Stores,Security and Access Control,Authorization,Authorization Errors,1212
-470,Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection'),Security and Access Control,Authorization,Authorization Errors,1212
-472,External Control of Assumed-Immutable Web Parameter,Security and Access Control,Authorization,Authorization Errors,1212
+549,Missing Password Field Masking,Security and Access Control,Credentials Management,Credentials Management Errors,255
+551,Incorrect Behavior Order: Authorization Before Parsing and Canonicalization,Security and Access Control,Authorization,Authorization Errors,1212
+552,Files or Directories Accessible to External Parties,Data Management and Integrity,File Handling,File Handling Issues,1219
+562,Return of Stack Variable Address,Concurrency and Resource Management,Pointer Handling,Pointer Issues,465
+565,Reliance on Cookies without Validation and Integrity Checking,Security and Access Control,User Session Management,User Session Errors,1217
+587,Assignment of a Fixed Address to a Pointer,Concurrency and Resource Management,Pointer Handling,Pointer Issues,465
+59,Improper Link Resolution Before File Access ('Link Following'),Data Management and Integrity,File Handling,File Handling Issues,1219
+601,URL Redirection to Untrusted Site ('Open Redirect'),Security and Access Control,User Interface Security,User Interface Security Issues,355
+603,Use of Client-Side Authentication,Security and Access Control,Authentication,Authentication Errors,1211
+605,Multiple Binds to the Same Port,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
 606,Unchecked Input for Loop Condition,Data Management and Integrity,Data Validation,Data Validation Issues,1215
+611,Improper Restriction of XML External Entity Reference,Data Management and Integrity,File Handling,File Handling Issues,1219
+613,Insufficient Session Expiration,Security and Access Control,User Session Management,User Session Errors,1217
+617,Reachable Assertion,API and Functionality Management,Expression Issues,Expression Issues,569
+618,Exposed Unsafe ActiveX Method,Security and Access Control,User Interface Security,User Interface Security Issues,355
+619,Dangling Database Cursor ('Cursor Injection'),Data Management and Integrity,Data Processing,Data Processing Errors,19
+620,Unverified Password Change,Security and Access Control,Credentials Management,Credentials Management Errors,255
 624,Executable Regular Expression Error,API and Functionality Management,Expression Issues,Expression Issues,569
 625,Permissive Regular Expression,API and Functionality Management,Expression Issues,Expression Issues,569
+639,Authorization Bypass Through User-Controlled Key,Security and Access Control,Authorization,Authorization Errors,1212
+640,Weak Password Recovery Mechanism for Forgotten Password,Security and Access Control,Credentials Management,Credentials Management Errors,255
 641,Improper Restriction of Names for Files and Other Resources,Data Management and Integrity,File Handling,File Handling Issues,1219
+645,Overly Restrictive Account Lockout Mechanism,Security and Access Control,Lockout Mechanisms,Lockout Mechanism Errors,1216
+648,Incorrect Use of Privileged APIs,Security and Access Control,Privilege Management,Privilege Issues,265
 649,Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking,Security and Access Control,Cryptographic Handling,Cryptographic Issues,310
+653,Improper Isolation or Compartmentalization,Security and Access Control,Authorization,Authorization Errors,1212
+654,Reliance on a Single Factor in a Security Decision,Security and Access Control,Authentication,Authentication Errors,1211
+656,Reliance on Security Through Obscurity,Security and Access Control,Authorization,Authorization Errors,1212
+66,Improper Handling of File Names that Identify Virtual Resources,Data Management and Integrity,File Handling,File Handling Issues,1219
+663,Use of a Non-reentrant Function in a Concurrent Context,Concurrency and Resource Management,MultiThreading/Concurrency,Concurrency Issues,557
+694,Use of Multiple Resources with Duplicate Identifier,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
+698,Execution After Redirect (EAR),Security and Access Control,User Interface Security,User Interface Security Issues,355
+708,Incorrect Ownership Assignment,Security and Access Control,Authorization,Authorization Errors,1212
+73,External Control of File Name or Path,Data Management and Integrity,File Handling,File Handling Issues,1219
+733,Compiler Optimization Removal or Modification of Security-critical Code,API and Functionality Management,Expression Issues,Expression Issues,569
+749,Exposed Dangerous Method or Function,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
+756,Missing Custom Error Page,Security and Access Control,User Interface Security,User Interface Security Issues,355
 76,Improper Neutralization of Equivalent Special Elements,Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
-807,Reliance on Untrusted Inputs in a Security Decision,Security and Access Control,Authorization,Authorization Errors,1212
-839,Numeric Range Comparison Without Minimum Check,Numeric and Mathematical Handling,Arithmetic Operations,Numeric Errors,189
-88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
-915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,Security and Access Control,Authorization,Authorization Errors,1212
-93,Improper Neutralization of CRLF Sequences ('CRLF Injection'),Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
-223,Omission of Security-relevant Information,Logging and Auditing,Logging and Auditing,Audit / Logging Errors,1210
-224,Obscured Security-relevant Information by Alternate Name,Security and Access Control,Authorization,Authorization Errors,1212
-778,Insufficient Logging,Logging and Auditing,Logging and Auditing,Audit / Logging Errors,1210
-779,Logging of Excessive Data,Logging and Auditing,Logging and Auditing,Audit / Logging Errors,1210
-120,Buffer Copy without Checking Size of Input ('Classic Buffer Overflow'),Concurrency and Resource Management,Memory Buffer Management,Memory Buffer Errors,1218
-124,Buffer Underwrite ('Buffer Underflow'),Concurrency and Resource Management,Memory Buffer Management,Memory Buffer Errors,1218
-125,Out-of-bounds Read,Concurrency and Resource Management,Memory Buffer Management,Memory Buffer Errors,1218
-131,Incorrect Calculation of Buffer Size,Concurrency and Resource Management,Memory Buffer Management,Memory Buffer Errors,1218
-466,Return of Pointer Value Outside of Expected Range,Concurrency and Resource Management,Pointer Handling,Pointer Issues,465
-468,Incorrect Pointer Scaling,Concurrency and Resource Management,Pointer Handling,Pointer Issues,465
-469,Use of Pointer Subtraction to Determine Size,Concurrency and Resource Management,Pointer Handling,Pointer Issues,465
-476,NULL Pointer Dereference,Concurrency and Resource Management,Pointer Handling,Pointer Issues,465
-562,Return of Stack Variable Address,Concurrency and Resource Management,Pointer Handling,Pointer Issues,465
-586,Explicit Call to Finalize(),API and Functionality Management,Data / Function Handling,API / Function Errors,1228
-587,Assignment of a Fixed Address to a Pointer,Concurrency and Resource Management,Pointer Handling,Pointer Issues,465
 763,Release of Invalid Pointer or Reference,Concurrency and Resource Management,Pointer Handling,Pointer Issues,465
+767,Access to Critical Private Variable via Public Method,Security and Access Control,Sensitive Information Management,Information Management Errors,199
+770,Allocation of Resources Without Limits or Throttling,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
+771,Missing Reference to Active Allocated Resource,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
+772,Missing Release of Resource after Effective Lifetime,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
+776,Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion'),Data Management and Integrity,File Handling,File Handling Issues,1219
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
+783,Operator Precedence Logic Error,API and Functionality Management,Expression Issues,Expression Issues,569
 786,Access of Memory Location Before Start of Buffer,Concurrency and Resource Management,Memory Buffer Management,Memory Buffer Errors,1218
 787,Out-of-bounds Write,Concurrency and Resource Management,Memory Buffer Management,Memory Buffer Errors,1218
 788,Access of Memory Location After End of Buffer,Concurrency and Resource Management,Memory Buffer Management,Memory Buffer Errors,1218
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
+791,Incomplete Filtering of Special Elements,Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
+798,Use of Hard-coded Credentials,Security and Access Control,Credentials Management,Credentials Management Errors,255
+804,Guessable CAPTCHA,Security and Access Control,User Interface Security,User Interface Security Issues,355
 805,Buffer Access with Incorrect Length Value,Concurrency and Resource Management,Memory Buffer Management,Memory Buffer Errors,1218
+807,Reliance on Untrusted Inputs in a Security Decision,Security and Access Control,Authorization,Authorization Errors,1212
+820,Missing Synchronization,Concurrency and Resource Management,MultiThreading/Concurrency,Concurrency Issues,557
+821,Incorrect Synchronization,Concurrency and Resource Management,MultiThreading/Concurrency,Concurrency Issues,557
 822,Untrusted Pointer Dereference,Concurrency and Resource Management,Pointer Handling,Pointer Issues,465
 823,Use of Out-of-range Pointer Offset,Concurrency and Resource Management,Pointer Handling,Pointer Issues,465
 824,Access of Uninitialized Pointer,Concurrency and Resource Management,Pointer Handling,Pointer Issues,465
 825,Expired Pointer Dereference,Concurrency and Resource Management,Pointer Handling,Pointer Issues,465
-911,Improper Update of Reference Count,Concurrency and Resource Management,Pointer Handling,Pointer Issues,465
-1327,Binding to an Unrestricted IP Address,Security and Access Control,Authorization,Authorization Errors,1212
-294,Authentication Bypass by Capture-replay,Security and Access Control,Authentication,Authentication Errors,1211
-295,Improper Certificate Validation,Security and Access Control,Authentication,Authentication Errors,1211
-301,Reflection Attack in an Authentication Protocol,Security and Access Control,Authentication,Authentication Errors,1211
-319,Cleartext Transmission of Sensitive Information,Security and Access Control,Cryptographic Handling,Cryptographic Issues,310
-322,Key Exchange without Entity Authentication,Cryptography and Key Management,Cryptographic Handling,Cryptographic Issues,310
-346,Origin Validation Error,Security and Access Control,Authentication,Authentication Errors,1211
-348,Use of Less Trusted Source,Security and Access Control,Authentication,Authentication Errors,1211
-353,Missing Support for Integrity Check,Cryptography and Key Management,Cryptographic Handling,Cryptographic Issues,310
-354,Improper Validation of Integrity Check Value,Cryptography and Key Management,Cryptographic Handling,Cryptographic Issues,310
-437,Incomplete Model of Endpoint Features,Security and Access Control,Authorization,Authorization Errors,1212
-444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),Communication and Networking,Communication Channel Handling,Communication Channel Errors,417
-494,Download of Code Without Integrity Check,Cryptography and Key Management,Cryptographic Handling,Cryptographic Issues,310
-515,Covert Storage Channel,Cryptography and Key Management,Cryptographic Handling,Cryptographic Issues,310
-605,Multiple Binds to the Same Port,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
-924,Improper Enforcement of Message Integrity During Transmission in a Communication Channel,Communication and Networking,Communication Channel Handling,Communication Channel Errors,417
-940,Improper Verification of Source of a Communication Channel,Communication and Networking,Communication Channel Handling,Communication Channel Errors,417
-941,Incorrectly Specified Destination in a Communication Channel,Communication and Networking,Communication Channel Handling,Communication Channel Errors,417
-243,Creation of chroot Jail Without Changing Working Directory,Security and Access Control,Authorization,Authorization Errors,1212
-250,Execution with Unnecessary Privileges,Security and Access Control,Privilege Management,Privilege Issues,265
-276,Incorrect Default Permissions,Security and Access Control,Privilege Management,Privilege Issues,265
-277,Insecure Inherited Permissions,Security and Access Control,Privilege Management,Privilege Issues,265
-278,Insecure Preserved Inherited Permissions,Security and Access Control,Privilege Management,Privilege Issues,265
-279,Incorrect Execution-Assigned Permissions,Security and Access Control,Privilege Management,Privilege Issues,265
-280,Improper Handling of Insufficient Permissions or Privileges,Security and Access Control,Privilege Management,Privilege Issues,265
-281,Improper Preservation of Permissions,Security and Access Control,Privilege Management,Privilege Issues,265
-403,Exposure of File Descriptor to Unintended Control Sphere ('File Descriptor Leak'),Security and Access Control,Sensitive Information Management,Information Management Errors,199
-1084,Invokable Control Element with Excessive File or Data Access Operations,API and Functionality Management,Data / Function Handling,API / Function Errors,1228
-1341,Multiple Releases of Same Resource or Handle,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
-770,Allocation of Resources Without Limits or Throttling,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
-771,Missing Reference to Active Allocated Resource,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
-772,Missing Release of Resource after Effective Lifetime,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
 826,Premature Release of Resource During Expected Lifetime,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
+829,Inclusion of Functionality from Untrusted Control Sphere,Security and Access Control,Authorization,Authorization Errors,1212
+832,Unlock of a Resource that is not Locked,Concurrency and Resource Management,Resource Locking,Resource Locking Problems,411
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),API and Functionality Management,Expression Issues,Expression Issues,569
+836,Use of Password Hash Instead of Password for Authentication,Security and Access Control,Credentials Management,Cryptographic Issues,310
+837,"Improper Enforcement of a Single, Unique Action",Security and Access Control,Authorization,Authorization Errors,1212
+838,Inappropriate Encoding for Output Context,Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
+839,Numeric Range Comparison Without Minimum Check,Numeric and Mathematical Handling,Arithmetic Operations,Numeric Errors,189
+842,Placement of User into Incorrect Group,Security and Access Control,Authorization,Authorization Errors,1212
+843,Access of Resource Using Incompatible Type ('Type Confusion'),API and Functionality Management,Type Handling,Type Errors,136
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
+89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
+90,Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection'),Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
 908,Use of Uninitialized Resource,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
 909,Missing Initialization of Resource,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
+91,XML Injection (aka Blind XPath Injection),Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
 910,Use of Expired File Descriptor,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
-920,Improper Restriction of Power Consumption,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
-1125,Excessive Attack Surface,Security and Access Control,Authorization,Authorization Errors,1212
-358,Improperly Implemented Security Check for Standard,Security and Access Control,Authorization,Authorization Errors,1212
-1230,Exposure of Sensitive Information Through Metadata,Security and Access Control,Sensitive Information Management,Information Management Errors,199
-209,Generation of Error Message Containing Sensitive Information,Security and Access Control,Sensitive Information Management,Information Management Errors,199
-212,Improper Removal of Sensitive Information Before Storage or Transfer,Security and Access Control,Sensitive Information Management,Information Management Errors,199
-213,Exposure of Sensitive Information Due to Incompatible Policies,Security and Access Control,Sensitive Information Management,Information Management Errors,199
-214,Invocation of Process Using Visible Sensitive Information,Security and Access Control,Sensitive Information Management,Information Management Errors,199
-215,Insertion of Sensitive Information Into Debugging Code,Security and Access Control,Sensitive Information Management,Information Management Errors,199
-222,Truncation of Security-relevant Information,Security and Access Control,Sensitive Information Management,Information Management Errors,199
-312,Cleartext Storage of Sensitive Information,Security and Access Control,Cryptographic Handling,Cryptographic Issues,310
-524,Use of Cache Containing Sensitive Information,Security and Access Control,Sensitive Information Management,Information Management Errors,199
-538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Security and Access Control,Sensitive Information Management,Information Management Errors,199
-921,Storage of Sensitive Data in a Mechanism without Access Control,Security and Access Control,Sensitive Information Management,Information Management Errors,199
-488,Exposure of Data Element to Wrong Session,Security and Access Control,User Session Management,User Session Errors,1217
-565,Reliance on Cookies without Validation and Integrity Checking,Security and Access Control,User Session Management,User Session Errors,1217
-613,Insufficient Session Expiration,Security and Access Control,User Session Management,User Session Errors,1217
-841,Improper Enforcement of Behavioral Workflow,Software Architecture and Design,Behavioral Problems,Behavioral Problems,438
-1044,Architecture with Number of Horizontal Layers Outside of Expected Range,Software Architecture and Design,Complexity Issues,Complexity Issues,1226
-1047,Modules with Circular Dependencies,Software Architecture and Design,Complexity Issues,Complexity Issues,1226
-1048,Invokable Control Element with Large Number of Outward Calls,Software Architecture and Design,Complexity Issues,Complexity Issues,1226
-1054,Invocation of a Control Element at an Unnecessarily Deep Horizontal Layer,Software Architecture and Design,Complexity Issues,Complexity Issues,1226
-1068,Inconsistency Between Implementation and Documented Design,Software Architecture and Design,Documentation Issues,Documentation Issues,1225
-1092,Use of Same Invokable Control Element in Multiple Architectural Layers,Software Architecture and Design,Complexity Issues,Complexity Issues,1226
-1046,Creation of Immutable Text Using String Concatenation,Data Management and Integrity,String Handling,String Errors,133
-117,Improper Output Neutralization for Logs,Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
-134,Use of Externally-Controlled Format String,Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
-135,Incorrect Calculation of Multi-Byte String Length,Data Management and Integrity,String Handling,String Errors,133
-170,Improper Null Termination,Data Management and Integrity,String Handling,String Errors,133
-1100,Insufficient Isolation of System-Dependent Functions,Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
-1103,Use of Platform-Dependent Third Party Components,Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
-1104,Use of Unmaintained Third Party Components,Software Architecture and Design,Bad Coding Practices,Bad Coding Practices,1006
-1105,Insufficient Encapsulation of Machine-Dependent Functionality,Software Architecture and Design,Encapsulation Issues,Encapsulation Issues,1227
-439,Behavioral Change in New Version or Environment,Software Architecture and Design,Behavioral Problems,Behavioral Problems,438
-829,Inclusion of Functionality from Untrusted Control Sphere,Security and Access Control,Authorization,Authorization Errors,1212
-90,Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection'),Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
-1007,Insufficient Visual Distinction of Homoglyphs Presented to User,Security and Access Control,User Interface Security,User Interface Security Issues,355
-356,Product UI does not Warn User of Unsafe Actions,Security and Access Control,User Interface Security,User Interface Security Issues,355
-357,Insufficient UI Warning of Dangerous Operations,Security and Access Control,User Interface Security,User Interface Security Issues,355
-447,Unimplemented or Unsupported Feature in UI,Security and Access Control,User Interface Security,User Interface Security Issues,355
-448,Obsolete Feature in UI,Security and Access Control,User Interface Security,User Interface Security Issues,355
-449,The UI Performs the Wrong Action,Security and Access Control,User Interface Security,User Interface Security Issues,355
-1021,Improper Restriction of Rendered UI Layers or Frames,Security and Access Control,User Interface Security,User Interface Security Issues,355
-601,URL Redirection to Untrusted Site ('Open Redirect'),Security and Access Control,User Interface Security,User Interface Security Issues,355
-618,Exposed Unsafe ActiveX Method,Security and Access Control,User Interface Security,User Interface Security Issues,355
-698,Execution After Redirect (EAR),Security and Access Control,User Interface Security,User Interface Security Issues,355
-756,Missing Custom Error Page,Security and Access Control,User Interface Security,User Interface Security Issues,355
-804,Guessable CAPTCHA,Security and Access Control,User Interface Security,User Interface Security Issues,355
+911,Improper Update of Reference Count,Concurrency and Resource Management,Pointer Handling,Pointer Issues,465
+914,Improper Control of Dynamically-Identified Variables,API and Functionality Management,Type Handling,Type Errors,136
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,Security and Access Control,Authorization,Authorization Errors,1212
+916,Use of Password Hash With Insufficient Computational Effort,Security and Access Control,Cryptographic Handling,Cryptographic Issues,310
 917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
 918,Server-Side Request Forgery (SSRF),Security and Access Control,Authorization,Authorization Errors,1212
-112,Missing XML Validation,Data Management and Integrity,Data Processing,Data Processing Errors,19
-611,Improper Restriction of XML External Entity Reference,Data Management and Integrity,File Handling,File Handling Issues,1219
-776,Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion'),Data Management and Integrity,File Handling,File Handling Issues,1219
-91,XML Injection (aka Blind XPath Injection),Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
+920,Improper Restriction of Power Consumption,Concurrency and Resource Management,Resource Management,Resource Management Errors,399
+921,Storage of Sensitive Data in a Mechanism without Access Control,Security and Access Control,Sensitive Information Management,Information Management Errors,199
+924,Improper Enforcement of Message Integrity During Transmission in a Communication Channel,Communication and Networking,Communication Channel Handling,Communication Channel Errors,417
+93,Improper Neutralization of CRLF Sequences ('CRLF Injection'),Data Management and Integrity,Data Neutralization,Data Neutralization Issues,137
+939,Improper Authorization in Handler for Custom URL Scheme,Security and Access Control,Authorization,Authorization Errors,1212
+94,Improper Control of Generation of Code ('Code Injection'),API and Functionality Management,Data / Function Handling,API / Function Errors,1228
+940,Improper Verification of Source of a Communication Channel,Communication and Networking,Communication Channel Handling,Communication Channel Errors,417
+941,Incorrectly Specified Destination in a Communication Channel,Communication and Networking,Communication Channel Handling,Communication Channel Errors,417

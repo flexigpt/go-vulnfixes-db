@@ -1,4 +1,4 @@
 [style]
-based_on_style = facebook
+based_on_style = google
 COLUMN_LIMIT = 120
 split_before_logical_operator = true
