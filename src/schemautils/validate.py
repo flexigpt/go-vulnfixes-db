@@ -1,6 +1,6 @@
 import json
 import os
-from typing import Optional
+from typing import List, Optional
 
 from pydantic import ValidationError
 
@@ -57,3 +57,29 @@ def validate_json_files_in_directory(directory: str):
                 error_files.append(file)
     if error_files:
         logger.warning("Validation errors in files: %s", json.dumps(error_files))
+
+
+def load_json_files_in_directory(directory: str) -> List[OpenSourceVulnerability]:
+    """
+    Validate all JSON files in the specified directory that start with 'CVE-' and log any errors.
+
+    Parameters:
+    directory (str): The directory containing JSON files to be validated.
+
+    Returns:
+    None
+    """
+    error_files = []
+    osv_schemas = []
+    for root, _, files in os.walk(directory):
+        for file in files:
+            try:
+                if file.startswith("CVE-") and file.endswith(".json"):
+                    file_path = os.path.join(root, file)
+                    osv_schema = load_and_validate_json(file_path)
+                    osv_schemas.append(osv_schema)
+            except Exception as _:
+                error_files.append(file)
+    if error_files:
+        logger.warning("Validation errors in files: %s", json.dumps(error_files))
+    return osv_schemas
