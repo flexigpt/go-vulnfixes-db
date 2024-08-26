@@ -10,9 +10,6 @@ from ..fileutils import filehandle
 from ..logging.logging import logger
 from ..schemautils import validate
 
-MAX_PROCESS_ITEMS = 10000000
-MAX_ERRORS = 10000
-
 
 class CVEIndexInfo(BaseModel):
     cve_id: str
@@ -64,6 +61,7 @@ def process_all_cves(all_cveinfo_dir_path: str, outdata_path: str) -> None:
         logger.warning("No index built")
     # Save index
     index_dict = vulndb_index.model_dump(exclude_none=True)
+    logger.info("Number of CVEs not assigned to CWE: %s", len(index_dict["items"]["NVD-CWE-noinfo"]))
     filehandle.write_json(os.path.join(outdata_path, "all_cwe_to_cveinfo_index.json"), index_dict["items"])
     return vulndb_index
 
