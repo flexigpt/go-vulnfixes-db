@@ -1,9 +1,11 @@
 import argparse
 import csv
 
+from ..fileutils import filehandle
+
 
 # Function to process the CSV and create the desired dictionary
-def create_dict_from_csv(fpath):
+def create_dict_from_csv(fpath: str, output_path: str):
     functional_area_dict = {}
 
     # Open and read the CSV file
@@ -25,32 +27,31 @@ def create_dict_from_csv(fpath):
                 functional_area_dict[primary_functional_area] = {}
             if secondary_functional_area not in functional_area_dict[primary_functional_area]:
                 functional_area_dict[primary_functional_area][secondary_functional_area] = []
-            functional_area_dict[primary_functional_area][secondary_functional_area].append(
-                {
-                    'CWE-ID': cwe_id,
-                    'Name': name,
-                    'CWE-Category': cwe_category,
-                    'CWE-Category-ID': cwe_category_id
-                }
-            )
+            functional_area_dict[primary_functional_area][secondary_functional_area].append({
+                'CWE-ID': cwe_id,
+                'Name': name,
+                'CWE-Category': cwe_category,
+                'CWE-Category-ID': cwe_category_id
+            })
 
-    # Convert defaultdict to a regular dict
-    return dict(functional_area_dict)
+    filehandle.write_json(output_path, dict(functional_area_dict))
+    return
 
 
 # Main execution
 if __name__ == "__main__":
+    # python -m src.cmd.cwe_categorization ./data/cwe-699/699_info_category_enriched.csv ./data/cwe-699/cwe_functional_areas.json
     # Set up argument parsing
     parser = argparse.ArgumentParser(
-        description="Process a CSV file and create a dictionary based on Functional Areas."
-    )
+        description="Process a CSV file and create a dictionary based on Functional Areas.")
     parser.add_argument('file_path', type=str, help="The path to the CSV file to process.")
+    parser.add_argument('output_path', type=str, help="The path to save the output JSON file.")
 
     # Parse the arguments
     args = parser.parse_args()
 
     # Create the dictionary from the CSV
-    result_dict = create_dict_from_csv(args.file_path)
+    create_dict_from_csv(args.file_path, args.output_path)
 
-    # Print the resulting dictionary
-    print(f"CWE_FUNCTIONAL_AREAS = {result_dict}")
+    # Optionally print the resulting dictionary
+    # print(f"CWE_FUNCTIONAL_AREAS = {result_dict}")

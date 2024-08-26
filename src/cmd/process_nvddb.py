@@ -5,9 +5,9 @@ import time
 from dotenv import load_dotenv
 import requests
 
-from .extract.nvddb import v2api
-from .fileutils import filehandle
-from .logging.logging import logger
+from ..extract.nvddb import v2api
+from ..fileutils import filehandle
+from ..logging.logging import logger
 
 MAX_ERRORS = 10
 

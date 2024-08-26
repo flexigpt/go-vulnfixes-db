@@ -6,13 +6,13 @@ from typing import List
 
 from dotenv import load_dotenv
 
-from .extract.cvefixesdb import dblevel_query
-from .extract.cvefixesdb import single_cvefiledata_query
-from .extract.gitrepo import github_fixes_handler
-from .fileutils import dirhandle
-from .logging.logging import logger
+from ..extract.cvefixesdb import dblevel_query
+from ..extract.cvefixesdb import single_cvefiledata_query
+from ..extract.gitrepo import github_fixes_handler
+from ..fileutils import dirhandle
+from ..logging.logging import logger
 # from .schemas import osv
-from .schemautils.validate import load_and_validate_json
+from ..schemautils.validate import load_and_validate_json
 
 MAX_PROCESS_ITEMS = 10000000
 MAX_ERRORS = 10000
@@ -91,8 +91,8 @@ def main() -> None:
 
 if __name__ == "__main__":
 
-    # python -m src.process_filechanges --cve_id CVE-2016-3697 --overwrite
+    # python -m src.cmd.process_filechanges --cve_id CVE-2016-3697 --overwrite
     # gunzip -c ./data/go-fixes/CVE-2016-3697_fixes.json.gz | jq .
-    # python -m src.process_filechanges --processall --overwrite > out/out.txt 2>&1
+    # python -m src.cmd.process_filechanges --processall --overwrite > out/out.txt 2>&1
     load_dotenv()
     main()

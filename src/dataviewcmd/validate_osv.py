@@ -1,8 +1,8 @@
 import os
 import sys
 
-from .logging.logging import logger
-from .schemautils.validate import validate_json_files_in_directory
+from ..logging.logging import logger
+from ..schemautils.validate import validate_json_files_in_directory
 
 if __name__ == "__main__":
     # Main entry point for the script. Takes a directory path as an argument, validates all JSON files

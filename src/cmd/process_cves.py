@@ -6,18 +6,18 @@ from typing import Any, Dict, List
 
 from dotenv import load_dotenv
 
-from .extract.cvefixesdb import cvefixes_dict_converter
-from .extract.cvefixesdb import dblevel_query
-from .extract.gitrepo.github_cveinfo_handler import get_cveinfo_using_git_repo
-from .extract.govulndb.govulndb import build_cve_index
-from .extract.govulndb.govulndb import get_govulndb_cve_data_as_schema
-from .extract.nvddb import fileparse as nvdfileparse
-from .extract.nvddb.cveitem_converter import convert_nvd_cve_item_to_osv
-from .fileutils import filehandle
-from .logging.logging import logger
-from .schemas import osv
-from .schemautils.cvecounters import compare_cve_sets
-from .schemautils.osvhandler import merge_osv_schemas
+from ..extract.cvefixesdb import cvefixes_dict_converter
+from ..extract.cvefixesdb import dblevel_query
+from ..extract.gitrepo.github_cveinfo_handler import get_cveinfo_using_git_repo
+from ..extract.govulndb.govulndb import build_cve_index
+from ..extract.govulndb.govulndb import get_govulndb_cve_data_as_schema
+from ..extract.nvddb import fileparse as nvdfileparse
+from ..extract.nvddb.cveitem_converter import convert_nvd_cve_item_to_osv
+from ..fileutils import filehandle
+from ..logging.logging import logger
+from ..schemas import osv
+from ..schemautils.cvecounters import compare_cve_sets
+from ..schemautils.osvhandler import merge_osv_schemas
 
 # MAX_PROCESS_ITEMS = 1
 MAX_PROCESS_ITEMS = 10000000
@@ -166,7 +166,7 @@ def main() -> None:
 
 if __name__ == "__main__":
 
-    # python -m src.process_cves --cve_id CVE-2019-10214 --overwrite
-    # python -m src.process_cves --processall --overwrite > out/out.txt 2>&1
+    # python -m src.cmd.process_cves --cve_id CVE-2019-10214 --overwrite
+    # python -m src.cmd.process_cves --processall --overwrite > out/out.txt 2>&1
     load_dotenv()
     main()

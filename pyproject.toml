@@ -1,0 +1,34 @@
+[tool.poetry]
+authors = ["ppipada <ppipada@gmail.com>"]
+description = "A python module for handling vulnerability fixes database for Go projects."
+# include = [
+#   {path = "data", format = ["sdist", "wheel"]},
+#   {path = "externaldata", format = ["sdist", "wheel"]},
+# ]
+name = "go-vulnfixes-db"
+packages = [
+  {include = "cmd", from = "src", to = "go_vulnfixes_db", format = ["sdist", "wheel"]},
+  {include = "dataviewcmd", from = "src", to = "go_vulnfixes_db", format = ["sdist", "wheel"]},
+  {include = "extract", from = "src", to = "go_vulnfixes_db", format = ["sdist", "wheel"]},
+  {include = "fileutils", from = "src", to = "go_vulnfixes_db", format = ["sdist", "wheel"]},
+  {include = "logging", from = "src", to = "go_vulnfixes_db", format = ["sdist", "wheel"]},
+  {include = "schemas", from = "src", to = "go_vulnfixes_db", format = ["sdist", "wheel"]},
+  {include = "schemautils", from = "src", to = "go_vulnfixes_db", format = ["sdist", "wheel"]},
+]
+readme = "README.md"
+repository = "https://github.com/flexigpt/go-vulnfixes-db"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+packaging = "^24"
+pydantic = "^2.8"
+pygments = "^2.18.0"
+python = "^3.12"
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
+unidiff = "^0.7.5"
+xmltodict = "^0.13.0"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]

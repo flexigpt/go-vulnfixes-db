@@ -7,13 +7,13 @@ from typing import Any, Dict, List
 
 from dotenv import load_dotenv
 
-from .extract.cvefixesdb import dblevel_query
-from .extract.cvefixesdb import single_cvedata_query
-from .extract.cvefixesdb import single_cvefiledata_query
-from .extract.govulndb.govulndb import build_cve_index
-from .fileutils import filehandle
-from .logging.logging import logger
-from .schemautils.osvhandler import merge_refs
+from ..extract.cvefixesdb import dblevel_query
+from ..extract.cvefixesdb import single_cvedata_query
+from ..extract.cvefixesdb import single_cvefiledata_query
+from ..extract.govulndb.govulndb import build_cve_index
+from ..fileutils import filehandle
+from ..logging.logging import logger
+from ..schemautils.osvhandler import merge_refs
 
 MAX_PROCESS_ITEMS = 10000000
 MAX_ERRORS = 10000
@@ -185,7 +185,7 @@ if __name__ == "__main__":
     # It does this for all languages. Moving to the language specific fodler and gziping is left manually so that sizes of output are checked.
     # In some cases the sizes of file and method changes are very large. E.g: CVE-2022-2306 CVE-2020-14958 CVE-2022-24738
 
-    # python -m src.process_cvefixes_and_govulndb --cve_id CVE-2019-10214 --overwrite
-    # python -m src.process_cvefixes_and_govulndb --processall --overwrite > out/out.txt 2>&1
+    # python -m src.cmd.process_cvefixes_and_govulndb --cve_id CVE-2019-10214 --overwrite
+    # python -m src.cmd.process_cvefixes_and_govulndb --processall --overwrite > out/out.txt 2>&1
     load_dotenv()
     main()

@@ -21,6 +21,4 @@ if __name__ == "__main__":
     if len(sys.argv) != 3:
         print("Usage: python xml_to_json.py <input.xml> <output.json>")
         sys.exit(1)
-    xml_file = sys.argv[1]
-    json_file = sys.argv[2]
-    convert_xml_to_json(xml_file, json_file)
+    convert_xml_to_json(sys.argv[1], sys.argv[2])
