@@ -1,0 +1,127 @@
+{
+  "CVE-2021-46398": {
+    "cveinfo": "data/go-cves/CVE-2021-46398.json",
+    "fixes": "data/go-fixes/CVE-2021-46398_fixes.json.gz",
+    "cwe_id": "CWE-352"
+  },
+  "CVE-2024-27918": {
+    "cveinfo": "data/go-cves/CVE-2024-27918.json",
+    "fixes": "data/go-fixes/CVE-2024-27918_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2024-28175": {
+    "cveinfo": "data/go-cves/CVE-2024-28175.json",
+    "fixes": "data/go-fixes/CVE-2024-28175_fixes.json.gz",
+    "cwe_id": "CWE-79"
+  },
+  "CVE-2024-31457": {
+    "cveinfo": "data/go-cves/CVE-2024-31457.json",
+    "fixes": "data/go-fixes/CVE-2024-31457_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2024-34352": {
+    "cveinfo": "data/go-cves/CVE-2024-34352.json",
+    "fixes": "data/go-fixes/CVE-2024-34352_fixes.json.gz",
+    "cwe_id": "CWE-77"
+  },
+  "CVE-2014-125026": {
+    "cveinfo": "data/go-cves/CVE-2014-125026.json",
+    "fixes": "data/go-fixes/CVE-2014-125026_fixes.json.gz",
+    "cwe_id": "CWE-787"
+  },
+  "CVE-2014-8681": {
+    "cveinfo": "data/go-cves/CVE-2014-8681.json",
+    "fixes": "data/go-fixes/CVE-2014-8681_fixes.json.gz",
+    "cwe_id": "CWE-89"
+  },
+  "CVE-2015-1340": {
+    "cveinfo": "data/go-cves/CVE-2015-1340.json",
+    "fixes": "data/go-fixes/CVE-2015-1340_fixes.json.gz",
+    "cwe_id": "CWE-362"
+  },
+  "CVE-2016-9123": {
+    "cveinfo": "data/go-cves/CVE-2016-9123.json",
+    "fixes": "data/go-fixes/CVE-2016-9123_fixes.json.gz",
+    "cwe_id": "CWE-190"
+  },
+  "CVE-2018-16886": {
+    "cveinfo": "data/go-cves/CVE-2018-16886.json",
+    "fixes": "data/go-fixes/CVE-2018-16886_fixes.json.gz",
+    "cwe_id": "CWE-287"
+  },
+  "CVE-2018-17075": {
+    "cveinfo": "data/go-cves/CVE-2018-17075.json",
+    "fixes": "data/go-fixes/CVE-2018-17075_fixes.json.gz",
+    "cwe_id": "CWE-476"
+  },
+  "CVE-2018-17143": {
+    "cveinfo": "data/go-cves/CVE-2018-17143.json",
+    "fixes": "data/go-fixes/CVE-2018-17143_fixes.json.gz",
+    "cwe_id": "CWE-119"
+  },
+  "CVE-2018-20461": {
+    "cveinfo": "data/go-cves/CVE-2018-20461.json",
+    "fixes": "data/go-fixes/CVE-2018-20461_fixes.json.gz",
+    "cwe_id": "CWE-125"
+  },
+  "CVE-2018-6574": {
+    "cveinfo": "data/go-cves/CVE-2018-6574.json",
+    "fixes": "data/go-fixes/CVE-2018-6574_fixes.json.gz",
+    "cwe_id": "CWE-94"
+  },
+  "CVE-2018-7187": {
+    "cveinfo": "data/go-cves/CVE-2018-7187.json",
+    "fixes": "data/go-fixes/CVE-2018-7187_fixes.json.gz",
+    "cwe_id": "CWE-78"
+  },
+  "CVE-2022-2990": {
+    "cveinfo": "data/go-cves/CVE-2022-2990.json",
+    "fixes": "data/go-fixes/CVE-2022-2990_fixes.json.gz",
+    "cwe_id": "CWE-863"
+  },
+  "CVE-2019-16097": {
+    "cveinfo": "data/go-cves/CVE-2019-16097.json",
+    "fixes": "data/go-fixes/CVE-2019-16097_fixes.json.gz",
+    "cwe_id": "CWE-862"
+  },
+  "CVE-2020-24710": {
+    "cveinfo": "data/go-cves/CVE-2020-24710.json",
+    "fixes": "data/go-fixes/CVE-2020-24710_fixes.json.gz",
+    "cwe_id": "CWE-918"
+  },
+  "CVE-2020-27519": {
+    "cveinfo": "data/go-cves/CVE-2020-27519.json",
+    "fixes": "data/go-fixes/CVE-2020-27519_fixes.json.gz",
+    "cwe_id": "CWE-269"
+  },
+  "CVE-2020-8945": {
+    "cveinfo": "data/go-cves/CVE-2020-8945.json",
+    "fixes": "data/go-fixes/CVE-2020-8945_fixes.json.gz",
+    "cwe_id": "CWE-416"
+  },
+  "CVE-2021-22538": {
+    "cveinfo": "data/go-cves/CVE-2021-22538.json",
+    "fixes": "data/go-fixes/CVE-2021-22538_fixes.json.gz",
+    "cwe_id": "CWE-276"
+  },
+  "CVE-2022-22845": {
+    "cveinfo": "data/go-cves/CVE-2022-22845.json",
+    "fixes": "data/go-fixes/CVE-2022-22845_fixes.json.gz",
+    "cwe_id": "CWE-798"
+  },
+  "CVE-2022-28948": {
+    "cveinfo": "data/go-cves/CVE-2022-28948.json",
+    "fixes": "data/go-fixes/CVE-2022-28948_fixes.json.gz",
+    "cwe_id": "CWE-502"
+  },
+  "CVE-2022-31022": {
+    "cveinfo": "data/go-cves/CVE-2022-31022.json",
+    "fixes": "data/go-fixes/CVE-2022-31022_fixes.json.gz",
+    "cwe_id": "CWE-306"
+  },
+  "CVE-2023-1800": {
+    "cveinfo": "data/go-cves/CVE-2023-1800.json",
+    "fixes": "data/go-fixes/CVE-2023-1800_fixes.json.gz",
+    "cwe_id": "CWE-434"
+  }
+}

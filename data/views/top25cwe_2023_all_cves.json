@@ -1,0 +1,1272 @@
+{
+  "CVE-2021-46398": {
+    "cveinfo": "data/go-cves/CVE-2021-46398.json",
+    "fixes": "data/go-fixes/CVE-2021-46398_fixes.json.gz",
+    "cwe_id": "CWE-352"
+  },
+  "CVE-2016-15005": {
+    "cveinfo": "data/go-cves/CVE-2016-15005.json",
+    "fixes": "data/go-fixes/CVE-2016-15005_fixes.json.gz",
+    "cwe_id": "CWE-352"
+  },
+  "CVE-2023-45128": {
+    "cveinfo": "data/go-cves/CVE-2023-45128.json",
+    "fixes": "data/go-fixes/CVE-2023-45128_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2023-45141": {
+    "cveinfo": "data/go-cves/CVE-2023-45141.json",
+    "fixes": "data/go-fixes/CVE-2023-45141_fixes.json.gz",
+    "cwe_id": "CWE-352"
+  },
+  "CVE-2024-23319": {
+    "cveinfo": "data/go-cves/CVE-2024-23319.json",
+    "fixes": "data/go-fixes/CVE-2024-23319_fixes.json.gz",
+    "cwe_id": "CWE-352"
+  },
+  "CVE-2024-27918": {
+    "cveinfo": "data/go-cves/CVE-2024-27918.json",
+    "fixes": "data/go-fixes/CVE-2024-27918_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2024-28855": {
+    "cveinfo": "data/go-cves/CVE-2024-28855.json",
+    "fixes": "data/go-fixes/CVE-2024-28855_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2016-3959": {
+    "cveinfo": "data/go-cves/CVE-2016-3959.json",
+    "fixes": "data/go-fixes/CVE-2016-3959_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2017-17831": {
+    "cveinfo": "data/go-cves/CVE-2017-17831.json",
+    "fixes": "data/go-fixes/CVE-2017-17831_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2017-18367": {
+    "cveinfo": "data/go-cves/CVE-2017-18367.json",
+    "fixes": "data/go-fixes/CVE-2017-18367_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2018-1103": {
+    "cveinfo": "data/go-cves/CVE-2018-1103.json",
+    "fixes": "data/go-fixes/CVE-2018-1103_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2018-16733": {
+    "cveinfo": "data/go-cves/CVE-2018-16733.json",
+    "fixes": "data/go-fixes/CVE-2018-16733_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2018-16873": {
+    "cveinfo": "data/go-cves/CVE-2018-16873.json",
+    "fixes": "data/go-fixes/CVE-2018-16873_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2018-16874": {
+    "cveinfo": "data/go-cves/CVE-2018-16874.json",
+    "fixes": "data/go-fixes/CVE-2018-16874_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2018-16875": {
+    "cveinfo": "data/go-cves/CVE-2018-16875.json",
+    "fixes": "data/go-fixes/CVE-2018-16875_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2022-36085": {
+    "cveinfo": "data/go-cves/CVE-2022-36085.json",
+    "fixes": "data/go-fixes/CVE-2022-36085_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2019-11289": {
+    "cveinfo": "data/go-cves/CVE-2019-11289.json",
+    "fixes": "data/go-fixes/CVE-2019-11289_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2019-14243": {
+    "cveinfo": "data/go-cves/CVE-2019-14243.json",
+    "fixes": "data/go-fixes/CVE-2019-14243_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2020-15106": {
+    "cveinfo": "data/go-cves/CVE-2020-15106.json",
+    "fixes": "data/go-fixes/CVE-2020-15106_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2020-15186": {
+    "cveinfo": "data/go-cves/CVE-2020-15186.json",
+    "fixes": "data/go-fixes/CVE-2020-15186_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2020-15233": {
+    "cveinfo": "data/go-cves/CVE-2020-15233.json",
+    "fixes": "data/go-fixes/CVE-2020-15233_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2020-15234": {
+    "cveinfo": "data/go-cves/CVE-2020-15234.json",
+    "fixes": "data/go-fixes/CVE-2020-15234_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2020-25614": {
+    "cveinfo": "data/go-cves/CVE-2020-25614.json",
+    "fixes": "data/go-fixes/CVE-2020-25614_fixes.json.gz",
+    "cwe_id": "CWE-119"
+  },
+  "CVE-2020-28349": {
+    "cveinfo": "data/go-cves/CVE-2020-28349.json",
+    "fixes": "data/go-fixes/CVE-2020-28349_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2020-36564": {
+    "cveinfo": "data/go-cves/CVE-2020-36564.json",
+    "fixes": "data/go-fixes/CVE-2020-36564_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2020-8568": {
+    "cveinfo": "data/go-cves/CVE-2020-8568.json",
+    "fixes": "data/go-fixes/CVE-2020-8568_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2021-20206": {
+    "cveinfo": "data/go-cves/CVE-2021-20206.json",
+    "fixes": "data/go-fixes/CVE-2021-20206_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2021-20329": {
+    "cveinfo": "data/go-cves/CVE-2021-20329.json",
+    "fixes": "data/go-fixes/CVE-2021-20329_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2021-21404": {
+    "cveinfo": "data/go-cves/CVE-2021-21404.json",
+    "fixes": "data/go-fixes/CVE-2021-21404_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2021-22538": {
+    "cveinfo": "data/go-cves/CVE-2021-22538.json",
+    "fixes": "data/go-fixes/CVE-2021-22538_fixes.json.gz",
+    "cwe_id": "CWE-276"
+  },
+  "CVE-2021-29136": {
+    "cveinfo": "data/go-cves/CVE-2021-29136.json",
+    "fixes": "data/go-fixes/CVE-2021-29136_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2021-33196": {
+    "cveinfo": "data/go-cves/CVE-2021-33196.json",
+    "fixes": "data/go-fixes/CVE-2021-33196_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2021-3907": {
+    "cveinfo": "data/go-cves/CVE-2021-3907.json",
+    "fixes": "data/go-fixes/CVE-2021-3907_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2021-3910": {
+    "cveinfo": "data/go-cves/CVE-2021-3910.json",
+    "fixes": "data/go-fixes/CVE-2021-3910_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2021-3911": {
+    "cveinfo": "data/go-cves/CVE-2021-3911.json",
+    "fixes": "data/go-fixes/CVE-2021-3911_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2021-41173": {
+    "cveinfo": "data/go-cves/CVE-2021-41173.json",
+    "fixes": "data/go-fixes/CVE-2021-41173_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2021-41772": {
+    "cveinfo": "data/go-cves/CVE-2021-41772.json",
+    "fixes": "data/go-fixes/CVE-2021-41772_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2022-0317": {
+    "cveinfo": "data/go-cves/CVE-2022-0317.json",
+    "fixes": "data/go-fixes/CVE-2022-0317_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2022-31121": {
+    "cveinfo": "data/go-cves/CVE-2022-31121.json",
+    "fixes": "data/go-fixes/CVE-2022-31121_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2023-0229": {
+    "cveinfo": "data/go-cves/CVE-2023-0229.json",
+    "fixes": "data/go-fixes/CVE-2023-0229_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2023-1732": {
+    "cveinfo": "data/go-cves/CVE-2023-1732.json",
+    "fixes": "data/go-fixes/CVE-2023-1732_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2023-22460": {
+    "cveinfo": "data/go-cves/CVE-2023-22460.json",
+    "fixes": "data/go-fixes/CVE-2023-22460_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2023-27483": {
+    "cveinfo": "data/go-cves/CVE-2023-27483.json",
+    "fixes": "data/go-fixes/CVE-2023-27483_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2023-29194": {
+    "cveinfo": "data/go-cves/CVE-2023-29194.json",
+    "fixes": "data/go-fixes/CVE-2023-29194_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2023-49568": {
+    "cveinfo": "data/go-cves/CVE-2023-49568.json",
+    "fixes": "data/go-fixes/CVE-2023-49568_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2024-22199": {
+    "cveinfo": "data/go-cves/CVE-2024-22199.json",
+    "fixes": "data/go-fixes/CVE-2024-22199_fixes.json.gz",
+    "cwe_id": "CWE-79"
+  },
+  "CVE-2024-28175": {
+    "cveinfo": "data/go-cves/CVE-2024-28175.json",
+    "fixes": "data/go-fixes/CVE-2024-28175_fixes.json.gz",
+    "cwe_id": "CWE-79"
+  },
+  "CVE-2024-29217": {
+    "cveinfo": "data/go-cves/CVE-2024-29217.json",
+    "fixes": "data/go-fixes/CVE-2024-29217_fixes.json.gz",
+    "cwe_id": "CWE-79"
+  },
+  "CVE-2023-26046": {
+    "cveinfo": "data/go-cves/CVE-2023-26046.json",
+    "fixes": "data/go-fixes/CVE-2023-26046_fixes.json.gz",
+    "cwe_id": "CWE-79"
+  },
+  "CVE-2023-45683": {
+    "cveinfo": "data/go-cves/CVE-2023-45683.json",
+    "fixes": "data/go-fixes/CVE-2023-45683_fixes.json.gz",
+    "cwe_id": "CWE-79"
+  },
+  "CVE-2019-13209": {
+    "cveinfo": "data/go-cves/CVE-2019-13209.json",
+    "fixes": "data/go-fixes/CVE-2019-13209_fixes.json.gz",
+    "cwe_id": "CWE-79"
+  },
+  "CVE-2019-19619": {
+    "cveinfo": "data/go-cves/CVE-2019-19619.json",
+    "fixes": "data/go-fixes/CVE-2019-19619_fixes.json.gz",
+    "cwe_id": "CWE-79"
+  },
+  "CVE-2019-8400": {
+    "cveinfo": "data/go-cves/CVE-2019-8400.json",
+    "fixes": "data/go-fixes/CVE-2019-8400_fixes.json.gz",
+    "cwe_id": "CWE-79"
+  },
+  "CVE-2020-24553": {
+    "cveinfo": "data/go-cves/CVE-2020-24553.json",
+    "fixes": "data/go-fixes/CVE-2020-24553_fixes.json.gz",
+    "cwe_id": "CWE-79"
+  },
+  "CVE-2021-29272": {
+    "cveinfo": "data/go-cves/CVE-2021-29272.json",
+    "fixes": "data/go-fixes/CVE-2021-29272_fixes.json.gz",
+    "cwe_id": "CWE-79"
+  },
+  "CVE-2021-33496": {
+    "cveinfo": "data/go-cves/CVE-2021-33496.json",
+    "fixes": "data/go-fixes/CVE-2021-33496_fixes.json.gz",
+    "cwe_id": "CWE-79"
+  },
+  "CVE-2021-37794": {
+    "cveinfo": "data/go-cves/CVE-2021-37794.json",
+    "fixes": "data/go-fixes/CVE-2021-37794_fixes.json.gz",
+    "cwe_id": "CWE-79"
+  },
+  "CVE-2022-1928": {
+    "cveinfo": "data/go-cves/CVE-2022-1928.json",
+    "fixes": "data/go-fixes/CVE-2022-1928_fixes.json.gz",
+    "cwe_id": "CWE-79"
+  },
+  "CVE-2022-22116": {
+    "cveinfo": "data/go-cves/CVE-2022-22116.json",
+    "fixes": "data/go-fixes/CVE-2022-22116_fixes.json.gz",
+    "cwe_id": "CWE-79"
+  },
+  "CVE-2022-22117": {
+    "cveinfo": "data/go-cves/CVE-2022-22117.json",
+    "fixes": "data/go-fixes/CVE-2022-22117_fixes.json.gz",
+    "cwe_id": "CWE-79"
+  },
+  "CVE-2022-25978": {
+    "cveinfo": "data/go-cves/CVE-2022-25978.json",
+    "fixes": "data/go-fixes/CVE-2022-25978_fixes.json.gz",
+    "cwe_id": "CWE-79"
+  },
+  "CVE-2023-26047": {
+    "cveinfo": "data/go-cves/CVE-2023-26047.json",
+    "fixes": "data/go-fixes/CVE-2023-26047_fixes.json.gz",
+    "cwe_id": "CWE-79"
+  },
+  "CVE-2023-39318": {
+    "cveinfo": "data/go-cves/CVE-2023-39318.json",
+    "fixes": "data/go-fixes/CVE-2023-39318_fixes.json.gz",
+    "cwe_id": "CWE-79"
+  },
+  "CVE-2023-39319": {
+    "cveinfo": "data/go-cves/CVE-2023-39319.json",
+    "fixes": "data/go-fixes/CVE-2023-39319_fixes.json.gz",
+    "cwe_id": "CWE-79"
+  },
+  "CVE-2023-3978": {
+    "cveinfo": "data/go-cves/CVE-2023-3978.json",
+    "fixes": "data/go-fixes/CVE-2023-3978_fixes.json.gz",
+    "cwe_id": "CWE-79"
+  },
+  "CVE-2024-31457": {
+    "cveinfo": "data/go-cves/CVE-2024-31457.json",
+    "fixes": "data/go-fixes/CVE-2024-31457_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2015-5305": {
+    "cveinfo": "data/go-cves/CVE-2015-5305.json",
+    "fixes": "data/go-fixes/CVE-2015-5305_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2018-1002207": {
+    "cveinfo": "data/go-cves/CVE-2018-1002207.json",
+    "fixes": "data/go-fixes/CVE-2018-1002207_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2018-12976": {
+    "cveinfo": "data/go-cves/CVE-2018-12976.json",
+    "fixes": "data/go-fixes/CVE-2018-12976_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2018-20303": {
+    "cveinfo": "data/go-cves/CVE-2018-20303.json",
+    "fixes": "data/go-fixes/CVE-2018-20303_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2018-25046": {
+    "cveinfo": "data/go-cves/CVE-2018-25046.json",
+    "fixes": "data/go-fixes/CVE-2018-25046_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2023-37896": {
+    "cveinfo": "data/go-cves/CVE-2023-37896.json",
+    "fixes": "data/go-fixes/CVE-2023-37896_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2019-25073": {
+    "cveinfo": "data/go-cves/CVE-2019-25073.json",
+    "fixes": "data/go-fixes/CVE-2019-25073_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2020-26279": {
+    "cveinfo": "data/go-cves/CVE-2020-26279.json",
+    "fixes": "data/go-fixes/CVE-2020-26279_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2020-29529": {
+    "cveinfo": "data/go-cves/CVE-2020-29529.json",
+    "fixes": "data/go-fixes/CVE-2020-29529_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2020-36559": {
+    "cveinfo": "data/go-cves/CVE-2020-36559.json",
+    "fixes": "data/go-fixes/CVE-2020-36559_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2020-36560": {
+    "cveinfo": "data/go-cves/CVE-2020-36560.json",
+    "fixes": "data/go-fixes/CVE-2020-36560_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2020-36561": {
+    "cveinfo": "data/go-cves/CVE-2020-36561.json",
+    "fixes": "data/go-fixes/CVE-2020-36561_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2020-36565": {
+    "cveinfo": "data/go-cves/CVE-2020-36565.json",
+    "fixes": "data/go-fixes/CVE-2020-36565_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2020-36566": {
+    "cveinfo": "data/go-cves/CVE-2020-36566.json",
+    "fixes": "data/go-fixes/CVE-2020-36566_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2020-7667": {
+    "cveinfo": "data/go-cves/CVE-2020-7667.json",
+    "fixes": "data/go-fixes/CVE-2020-7667_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2020-7668": {
+    "cveinfo": "data/go-cves/CVE-2020-7668.json",
+    "fixes": "data/go-fixes/CVE-2020-7668_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2021-21272": {
+    "cveinfo": "data/go-cves/CVE-2021-21272.json",
+    "fixes": "data/go-fixes/CVE-2021-21272_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2021-3762": {
+    "cveinfo": "data/go-cves/CVE-2021-3762.json",
+    "fixes": "data/go-fixes/CVE-2021-3762_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2021-43798": {
+    "cveinfo": "data/go-cves/CVE-2021-43798.json",
+    "fixes": "data/go-fixes/CVE-2021-43798_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2022-1992": {
+    "cveinfo": "data/go-cves/CVE-2022-1992.json",
+    "fixes": "data/go-fixes/CVE-2022-1992_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2022-1993": {
+    "cveinfo": "data/go-cves/CVE-2022-1993.json",
+    "fixes": "data/go-fixes/CVE-2022-1993_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2022-21221": {
+    "cveinfo": "data/go-cves/CVE-2022-21221.json",
+    "fixes": "data/go-fixes/CVE-2022-21221_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2022-25856": {
+    "cveinfo": "data/go-cves/CVE-2022-25856.json",
+    "fixes": "data/go-fixes/CVE-2022-25856_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2022-29804": {
+    "cveinfo": "data/go-cves/CVE-2022-29804.json",
+    "fixes": "data/go-fixes/CVE-2022-29804_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2022-31836": {
+    "cveinfo": "data/go-cves/CVE-2022-31836.json",
+    "fixes": "data/go-fixes/CVE-2022-31836_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2022-32190": {
+    "cveinfo": "data/go-cves/CVE-2022-32190.json",
+    "fixes": "data/go-fixes/CVE-2022-32190_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2022-35919": {
+    "cveinfo": "data/go-cves/CVE-2022-35919.json",
+    "fixes": "data/go-fixes/CVE-2022-35919_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2022-40082": {
+    "cveinfo": "data/go-cves/CVE-2022-40082.json",
+    "fixes": "data/go-fixes/CVE-2022-40082_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2022-4123": {
+    "cveinfo": "data/go-cves/CVE-2022-4123.json",
+    "fixes": "data/go-fixes/CVE-2022-4123_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2022-41720": {
+    "cveinfo": "data/go-cves/CVE-2022-41720.json",
+    "fixes": "data/go-fixes/CVE-2022-41720_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2022-41722": {
+    "cveinfo": "data/go-cves/CVE-2022-41722.json",
+    "fixes": "data/go-fixes/CVE-2022-41722_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2022-41920": {
+    "cveinfo": "data/go-cves/CVE-2022-41920.json",
+    "fixes": "data/go-fixes/CVE-2022-41920_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2022-47747": {
+    "cveinfo": "data/go-cves/CVE-2022-47747.json",
+    "fixes": "data/go-fixes/CVE-2022-47747_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2023-27475": {
+    "cveinfo": "data/go-cves/CVE-2023-27475.json",
+    "fixes": "data/go-fixes/CVE-2023-27475_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2023-28105": {
+    "cveinfo": "data/go-cves/CVE-2023-28105.json",
+    "fixes": "data/go-fixes/CVE-2023-28105_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2023-45283": {
+    "cveinfo": "data/go-cves/CVE-2023-45283.json",
+    "fixes": "data/go-fixes/CVE-2023-45283_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2023-49569": {
+    "cveinfo": "data/go-cves/CVE-2023-49569.json",
+    "fixes": "data/go-fixes/CVE-2023-49569_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2020-7664": {
+    "cveinfo": "data/go-cves/CVE-2020-7664.json",
+    "fixes": "data/go-fixes/CVE-2020-7664_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2024-23652": {
+    "cveinfo": "data/go-cves/CVE-2024-23652.json",
+    "fixes": "data/go-fixes/CVE-2024-23652_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2024-24579": {
+    "cveinfo": "data/go-cves/CVE-2024-24579.json",
+    "fixes": "data/go-fixes/CVE-2024-24579_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2024-25620": {
+    "cveinfo": "data/go-cves/CVE-2024-25620.json",
+    "fixes": "data/go-fixes/CVE-2024-25620_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2024-34352": {
+    "cveinfo": "data/go-cves/CVE-2024-34352.json",
+    "fixes": "data/go-fixes/CVE-2024-34352_fixes.json.gz",
+    "cwe_id": "CWE-77"
+  },
+  "CVE-2024-22197": {
+    "cveinfo": "data/go-cves/CVE-2024-22197.json",
+    "fixes": "data/go-fixes/CVE-2024-22197_fixes.json.gz",
+    "cwe_id": "CWE-77"
+  },
+  "CVE-2024-22198": {
+    "cveinfo": "data/go-cves/CVE-2024-22198.json",
+    "fixes": "data/go-fixes/CVE-2024-22198_fixes.json.gz",
+    "cwe_id": "CWE-77"
+  },
+  "CVE-2014-125026": {
+    "cveinfo": "data/go-cves/CVE-2014-125026.json",
+    "fixes": "data/go-fixes/CVE-2014-125026_fixes.json.gz",
+    "cwe_id": "CWE-787"
+  },
+  "CVE-2018-14632": {
+    "cveinfo": "data/go-cves/CVE-2018-14632.json",
+    "fixes": "data/go-fixes/CVE-2018-14632_fixes.json.gz",
+    "cwe_id": "CWE-787"
+  },
+  "CVE-2020-5303": {
+    "cveinfo": "data/go-cves/CVE-2020-5303.json",
+    "fixes": "data/go-fixes/CVE-2020-5303_fixes.json.gz",
+    "cwe_id": "CWE-787"
+  },
+  "CVE-2021-3761": {
+    "cveinfo": "data/go-cves/CVE-2021-3761.json",
+    "fixes": "data/go-fixes/CVE-2021-3761_fixes.json.gz",
+    "cwe_id": "CWE-787"
+  },
+  "CVE-2024-21661": {
+    "cveinfo": "data/go-cves/CVE-2024-21661.json",
+    "fixes": "data/go-fixes/CVE-2024-21661_fixes.json.gz",
+    "cwe_id": "CWE-787"
+  },
+  "CVE-2014-8681": {
+    "cveinfo": "data/go-cves/CVE-2014-8681.json",
+    "fixes": "data/go-fixes/CVE-2014-8681_fixes.json.gz",
+    "cwe_id": "CWE-89"
+  },
+  "CVE-2014-8682": {
+    "cveinfo": "data/go-cves/CVE-2014-8682.json",
+    "fixes": "data/go-fixes/CVE-2014-8682_fixes.json.gz",
+    "cwe_id": "CWE-89"
+  },
+  "CVE-2019-19499": {
+    "cveinfo": "data/go-cves/CVE-2019-19499.json",
+    "fixes": "data/go-fixes/CVE-2019-19499_fixes.json.gz",
+    "cwe_id": "CWE-89"
+  },
+  "CVE-2020-36645": {
+    "cveinfo": "data/go-cves/CVE-2020-36645.json",
+    "fixes": "data/go-fixes/CVE-2020-36645_fixes.json.gz",
+    "cwe_id": "CWE-89"
+  },
+  "CVE-2022-1883": {
+    "cveinfo": "data/go-cves/CVE-2022-1883.json",
+    "fixes": "data/go-fixes/CVE-2022-1883_fixes.json.gz",
+    "cwe_id": "CWE-89"
+  },
+  "CVE-2022-23857": {
+    "cveinfo": "data/go-cves/CVE-2022-23857.json",
+    "fixes": "data/go-fixes/CVE-2022-23857_fixes.json.gz",
+    "cwe_id": "CWE-89"
+  },
+  "CVE-2022-45786": {
+    "cveinfo": "data/go-cves/CVE-2022-45786.json",
+    "fixes": "data/go-fixes/CVE-2022-45786_fixes.json.gz",
+    "cwe_id": "CWE-89"
+  },
+  "CVE-2023-41891": {
+    "cveinfo": "data/go-cves/CVE-2023-41891.json",
+    "fixes": "data/go-fixes/CVE-2023-41891_fixes.json.gz",
+    "cwe_id": "CWE-89"
+  },
+  "CVE-2024-22196": {
+    "cveinfo": "data/go-cves/CVE-2024-22196.json",
+    "fixes": "data/go-fixes/CVE-2024-22196_fixes.json.gz",
+    "cwe_id": "CWE-89"
+  },
+  "CVE-2024-27289": {
+    "cveinfo": "data/go-cves/CVE-2024-27289.json",
+    "fixes": "data/go-fixes/CVE-2024-27289_fixes.json.gz",
+    "cwe_id": "CWE-89"
+  },
+  "CVE-2024-27304": {
+    "cveinfo": "data/go-cves/CVE-2024-27304.json",
+    "fixes": "data/go-fixes/CVE-2024-27304_fixes.json.gz",
+    "cwe_id": "CWE-190"
+  },
+  "CVE-2015-1340": {
+    "cveinfo": "data/go-cves/CVE-2015-1340.json",
+    "fixes": "data/go-fixes/CVE-2015-1340_fixes.json.gz",
+    "cwe_id": "CWE-362"
+  },
+  "CVE-2019-11486": {
+    "cveinfo": "data/go-cves/CVE-2019-11486.json",
+    "fixes": "data/go-fixes/CVE-2019-11486_fixes.json.gz",
+    "cwe_id": "CWE-362"
+  },
+  "CVE-2019-16354": {
+    "cveinfo": "data/go-cves/CVE-2019-16354.json",
+    "fixes": "data/go-fixes/CVE-2019-16354_fixes.json.gz",
+    "cwe_id": "CWE-362"
+  },
+  "CVE-2020-15586": {
+    "cveinfo": "data/go-cves/CVE-2020-15586.json",
+    "fixes": "data/go-fixes/CVE-2020-15586_fixes.json.gz",
+    "cwe_id": "CWE-362"
+  },
+  "CVE-2021-30465": {
+    "cveinfo": "data/go-cves/CVE-2021-30465.json",
+    "fixes": "data/go-fixes/CVE-2021-30465_fixes.json.gz",
+    "cwe_id": "CWE-362"
+  },
+  "CVE-2021-36221": {
+    "cveinfo": "data/go-cves/CVE-2021-36221.json",
+    "fixes": "data/go-fixes/CVE-2021-36221_fixes.json.gz",
+    "cwe_id": "CWE-362"
+  },
+  "CVE-2022-2583": {
+    "cveinfo": "data/go-cves/CVE-2022-2583.json",
+    "fixes": "data/go-fixes/CVE-2022-2583_fixes.json.gz",
+    "cwe_id": "CWE-362"
+  },
+  "CVE-2022-29527": {
+    "cveinfo": "data/go-cves/CVE-2022-29527.json",
+    "fixes": "data/go-fixes/CVE-2022-29527_fixes.json.gz",
+    "cwe_id": "CWE-362"
+  },
+  "CVE-2023-45286": {
+    "cveinfo": "data/go-cves/CVE-2023-45286.json",
+    "fixes": "data/go-fixes/CVE-2023-45286_fixes.json.gz",
+    "cwe_id": "CWE-362"
+  },
+  "CVE-2024-23651": {
+    "cveinfo": "data/go-cves/CVE-2024-23651.json",
+    "fixes": "data/go-fixes/CVE-2024-23651_fixes.json.gz",
+    "cwe_id": "CWE-362"
+  },
+  "CVE-2016-9123": {
+    "cveinfo": "data/go-cves/CVE-2016-9123.json",
+    "fixes": "data/go-fixes/CVE-2016-9123_fixes.json.gz",
+    "cwe_id": "CWE-190"
+  },
+  "CVE-2018-18206": {
+    "cveinfo": "data/go-cves/CVE-2018-18206.json",
+    "fixes": "data/go-fixes/CVE-2018-18206_fixes.json.gz",
+    "cwe_id": "CWE-190"
+  },
+  "CVE-2020-27813": {
+    "cveinfo": "data/go-cves/CVE-2020-27813.json",
+    "fixes": "data/go-fixes/CVE-2020-27813_fixes.json.gz",
+    "cwe_id": "CWE-190"
+  },
+  "CVE-2021-43784": {
+    "cveinfo": "data/go-cves/CVE-2021-43784.json",
+    "fixes": "data/go-fixes/CVE-2021-43784_fixes.json.gz",
+    "cwe_id": "CWE-190"
+  },
+  "CVE-2022-23772": {
+    "cveinfo": "data/go-cves/CVE-2022-23772.json",
+    "fixes": "data/go-fixes/CVE-2022-23772_fixes.json.gz",
+    "cwe_id": "CWE-190"
+  },
+  "CVE-2023-24537": {
+    "cveinfo": "data/go-cves/CVE-2023-24537.json",
+    "fixes": "data/go-fixes/CVE-2023-24537_fixes.json.gz",
+    "cwe_id": "CWE-190"
+  },
+  "CVE-2018-16886": {
+    "cveinfo": "data/go-cves/CVE-2018-16886.json",
+    "fixes": "data/go-fixes/CVE-2018-16886_fixes.json.gz",
+    "cwe_id": "CWE-287"
+  },
+  "CVE-2018-21246": {
+    "cveinfo": "data/go-cves/CVE-2018-21246.json",
+    "fixes": "data/go-fixes/CVE-2018-21246_fixes.json.gz",
+    "cwe_id": "CWE-287"
+  },
+  "CVE-2022-23652": {
+    "cveinfo": "data/go-cves/CVE-2022-23652.json",
+    "fixes": "data/go-fixes/CVE-2022-23652_fixes.json.gz",
+    "cwe_id": "CWE-287"
+  },
+  "CVE-2019-20786": {
+    "cveinfo": "data/go-cves/CVE-2019-20786.json",
+    "fixes": "data/go-fixes/CVE-2019-20786_fixes.json.gz",
+    "cwe_id": "CWE-287"
+  },
+  "CVE-2019-20933": {
+    "cveinfo": "data/go-cves/CVE-2019-20933.json",
+    "fixes": "data/go-fixes/CVE-2019-20933_fixes.json.gz",
+    "cwe_id": "CWE-287"
+  },
+  "CVE-2020-15222": {
+    "cveinfo": "data/go-cves/CVE-2020-15222.json",
+    "fixes": "data/go-fixes/CVE-2020-15222_fixes.json.gz",
+    "cwe_id": "CWE-287"
+  },
+  "CVE-2020-26160": {
+    "cveinfo": "data/go-cves/CVE-2020-26160.json",
+    "fixes": "data/go-fixes/CVE-2020-26160_fixes.json.gz",
+    "cwe_id": "CWE-287"
+  },
+  "CVE-2020-36569": {
+    "cveinfo": "data/go-cves/CVE-2020-36569.json",
+    "fixes": "data/go-fixes/CVE-2020-36569_fixes.json.gz",
+    "cwe_id": "CWE-287"
+  },
+  "CVE-2021-21403": {
+    "cveinfo": "data/go-cves/CVE-2021-21403.json",
+    "fixes": "data/go-fixes/CVE-2021-21403_fixes.json.gz",
+    "cwe_id": "CWE-287"
+  },
+  "CVE-2021-32637": {
+    "cveinfo": "data/go-cves/CVE-2021-32637.json",
+    "fixes": "data/go-fixes/CVE-2021-32637_fixes.json.gz",
+    "cwe_id": "CWE-287"
+  },
+  "CVE-2022-24738": {
+    "cveinfo": "data/go-cves/CVE-2022-24738.json",
+    "fixes": "data/go-fixes/CVE-2022-24738_fixes.json.gz",
+    "cwe_id": "CWE-287"
+  },
+  "CVE-2022-41912": {
+    "cveinfo": "data/go-cves/CVE-2022-41912.json",
+    "fixes": "data/go-fixes/CVE-2022-41912_fixes.json.gz",
+    "cwe_id": "CWE-287"
+  },
+  "CVE-2022-46146": {
+    "cveinfo": "data/go-cves/CVE-2022-46146.json",
+    "fixes": "data/go-fixes/CVE-2022-46146_fixes.json.gz",
+    "cwe_id": "CWE-287"
+  },
+  "CVE-2022-47633": {
+    "cveinfo": "data/go-cves/CVE-2022-47633.json",
+    "fixes": "data/go-fixes/CVE-2022-47633_fixes.json.gz",
+    "cwe_id": "CWE-287"
+  },
+  "CVE-2022-48195": {
+    "cveinfo": "data/go-cves/CVE-2022-48195.json",
+    "fixes": "data/go-fixes/CVE-2022-48195_fixes.json.gz",
+    "cwe_id": "CWE-287"
+  },
+  "CVE-2018-17075": {
+    "cveinfo": "data/go-cves/CVE-2018-17075.json",
+    "fixes": "data/go-fixes/CVE-2018-17075_fixes.json.gz",
+    "cwe_id": "CWE-476"
+  },
+  "CVE-2018-17419": {
+    "cveinfo": "data/go-cves/CVE-2018-17419.json",
+    "fixes": "data/go-fixes/CVE-2018-17419_fixes.json.gz",
+    "cwe_id": "CWE-476"
+  },
+  "CVE-2020-26213": {
+    "cveinfo": "data/go-cves/CVE-2020-26213.json",
+    "fixes": "data/go-fixes/CVE-2020-26213_fixes.json.gz",
+    "cwe_id": "CWE-476"
+  },
+  "CVE-2020-26521": {
+    "cveinfo": "data/go-cves/CVE-2020-26521.json",
+    "fixes": "data/go-fixes/CVE-2020-26521_fixes.json.gz",
+    "cwe_id": "CWE-476"
+  },
+  "CVE-2020-29652": {
+    "cveinfo": "data/go-cves/CVE-2020-29652.json",
+    "fixes": "data/go-fixes/CVE-2020-29652_fixes.json.gz",
+    "cwe_id": "CWE-476"
+  },
+  "CVE-2020-7711": {
+    "cveinfo": "data/go-cves/CVE-2020-7711.json",
+    "fixes": "data/go-fixes/CVE-2020-7711_fixes.json.gz",
+    "cwe_id": "CWE-476"
+  },
+  "CVE-2021-4236": {
+    "cveinfo": "data/go-cves/CVE-2021-4236.json",
+    "fixes": "data/go-fixes/CVE-2021-4236_fixes.json.gz",
+    "cwe_id": "CWE-476"
+  },
+  "CVE-2022-23525": {
+    "cveinfo": "data/go-cves/CVE-2022-23525.json",
+    "fixes": "data/go-fixes/CVE-2022-23525_fixes.json.gz",
+    "cwe_id": "CWE-476"
+  },
+  "CVE-2022-23526": {
+    "cveinfo": "data/go-cves/CVE-2022-23526.json",
+    "fixes": "data/go-fixes/CVE-2022-23526_fixes.json.gz",
+    "cwe_id": "CWE-476"
+  },
+  "CVE-2023-46239": {
+    "cveinfo": "data/go-cves/CVE-2023-46239.json",
+    "fixes": "data/go-fixes/CVE-2023-46239_fixes.json.gz",
+    "cwe_id": "CWE-476"
+  },
+  "CVE-2018-17142": {
+    "cveinfo": "data/go-cves/CVE-2018-17142.json",
+    "fixes": "data/go-fixes/CVE-2018-17142_fixes.json.gz",
+    "cwe_id": "CWE-476"
+  },
+  "CVE-2024-21664": {
+    "cveinfo": "data/go-cves/CVE-2024-21664.json",
+    "fixes": "data/go-fixes/CVE-2024-21664_fixes.json.gz",
+    "cwe_id": "CWE-476"
+  },
+  "CVE-2018-17143": {
+    "cveinfo": "data/go-cves/CVE-2018-17143.json",
+    "fixes": "data/go-fixes/CVE-2018-17143_fixes.json.gz",
+    "cwe_id": "CWE-119"
+  },
+  "CVE-2018-17847": {
+    "cveinfo": "data/go-cves/CVE-2018-17847.json",
+    "fixes": "data/go-fixes/CVE-2018-17847_fixes.json.gz",
+    "cwe_id": "CWE-119"
+  },
+  "CVE-2021-41771": {
+    "cveinfo": "data/go-cves/CVE-2021-41771.json",
+    "fixes": "data/go-fixes/CVE-2021-41771_fixes.json.gz",
+    "cwe_id": "CWE-119"
+  },
+  "CVE-2022-2584": {
+    "cveinfo": "data/go-cves/CVE-2022-2584.json",
+    "fixes": "data/go-fixes/CVE-2022-2584_fixes.json.gz",
+    "cwe_id": "CWE-119"
+  },
+  "CVE-2018-20461": {
+    "cveinfo": "data/go-cves/CVE-2018-20461.json",
+    "fixes": "data/go-fixes/CVE-2018-20461_fixes.json.gz",
+    "cwe_id": "CWE-125"
+  },
+  "CVE-2019-0210": {
+    "cveinfo": "data/go-cves/CVE-2019-0210.json",
+    "fixes": "data/go-fixes/CVE-2019-0210_fixes.json.gz",
+    "cwe_id": "CWE-125"
+  },
+  "CVE-2023-42821": {
+    "cveinfo": "data/go-cves/CVE-2023-42821.json",
+    "fixes": "data/go-fixes/CVE-2023-42821_fixes.json.gz",
+    "cwe_id": "CWE-125"
+  },
+  "CVE-2021-38561": {
+    "cveinfo": "data/go-cves/CVE-2021-38561.json",
+    "fixes": "data/go-fixes/CVE-2021-38561_fixes.json.gz",
+    "cwe_id": "CWE-125"
+  },
+  "CVE-2022-39213": {
+    "cveinfo": "data/go-cves/CVE-2022-39213.json",
+    "fixes": "data/go-fixes/CVE-2022-39213_fixes.json.gz",
+    "cwe_id": "CWE-125"
+  },
+  "CVE-2023-24535": {
+    "cveinfo": "data/go-cves/CVE-2023-24535.json",
+    "fixes": "data/go-fixes/CVE-2023-24535_fixes.json.gz",
+    "cwe_id": "CWE-125"
+  },
+  "CVE-2018-6574": {
+    "cveinfo": "data/go-cves/CVE-2018-6574.json",
+    "fixes": "data/go-fixes/CVE-2018-6574_fixes.json.gz",
+    "cwe_id": "CWE-94"
+  },
+  "CVE-2020-28366": {
+    "cveinfo": "data/go-cves/CVE-2020-28366.json",
+    "fixes": "data/go-fixes/CVE-2020-28366_fixes.json.gz",
+    "cwe_id": "CWE-94"
+  },
+  "CVE-2020-28367": {
+    "cveinfo": "data/go-cves/CVE-2020-28367.json",
+    "fixes": "data/go-fixes/CVE-2020-28367_fixes.json.gz",
+    "cwe_id": "CWE-94"
+  },
+  "CVE-2022-25759": {
+    "cveinfo": "data/go-cves/CVE-2022-25759.json",
+    "fixes": "data/go-fixes/CVE-2022-25759_fixes.json.gz",
+    "cwe_id": "CWE-94"
+  },
+  "CVE-2022-30580": {
+    "cveinfo": "data/go-cves/CVE-2022-30580.json",
+    "fixes": "data/go-fixes/CVE-2022-30580_fixes.json.gz",
+    "cwe_id": "CWE-94"
+  },
+  "CVE-2023-24538": {
+    "cveinfo": "data/go-cves/CVE-2023-24538.json",
+    "fixes": "data/go-fixes/CVE-2023-24538_fixes.json.gz",
+    "cwe_id": "CWE-94"
+  },
+  "CVE-2023-29402": {
+    "cveinfo": "data/go-cves/CVE-2023-29402.json",
+    "fixes": "data/go-fixes/CVE-2023-29402_fixes.json.gz",
+    "cwe_id": "CWE-94"
+  },
+  "CVE-2023-29404": {
+    "cveinfo": "data/go-cves/CVE-2023-29404.json",
+    "fixes": "data/go-fixes/CVE-2023-29404_fixes.json.gz",
+    "cwe_id": "CWE-94"
+  },
+  "CVE-2023-39320": {
+    "cveinfo": "data/go-cves/CVE-2023-39320.json",
+    "fixes": "data/go-fixes/CVE-2023-39320_fixes.json.gz",
+    "cwe_id": "CWE-94"
+  },
+  "CVE-2018-7187": {
+    "cveinfo": "data/go-cves/CVE-2018-7187.json",
+    "fixes": "data/go-fixes/CVE-2018-7187_fixes.json.gz",
+    "cwe_id": "CWE-78"
+  },
+  "CVE-2020-26294": {
+    "cveinfo": "data/go-cves/CVE-2020-26294.json",
+    "fixes": "data/go-fixes/CVE-2020-26294_fixes.json.gz",
+    "cwe_id": "CWE-78"
+  },
+  "CVE-2022-0841": {
+    "cveinfo": "data/go-cves/CVE-2022-0841.json",
+    "fixes": "data/go-fixes/CVE-2022-0841_fixes.json.gz",
+    "cwe_id": "CWE-78"
+  },
+  "CVE-2022-1440": {
+    "cveinfo": "data/go-cves/CVE-2022-1440.json",
+    "fixes": "data/go-fixes/CVE-2022-1440_fixes.json.gz",
+    "cwe_id": "CWE-78"
+  },
+  "CVE-2022-1986": {
+    "cveinfo": "data/go-cves/CVE-2022-1986.json",
+    "fixes": "data/go-fixes/CVE-2022-1986_fixes.json.gz",
+    "cwe_id": "CWE-78"
+  },
+  "CVE-2022-24193": {
+    "cveinfo": "data/go-cves/CVE-2022-24193.json",
+    "fixes": "data/go-fixes/CVE-2022-24193_fixes.json.gz",
+    "cwe_id": "CWE-78"
+  },
+  "CVE-2022-24753": {
+    "cveinfo": "data/go-cves/CVE-2022-24753.json",
+    "fixes": "data/go-fixes/CVE-2022-24753_fixes.json.gz",
+    "cwe_id": "CWE-78"
+  },
+  "CVE-2022-31249": {
+    "cveinfo": "data/go-cves/CVE-2022-31249.json",
+    "fixes": "data/go-fixes/CVE-2022-31249_fixes.json.gz",
+    "cwe_id": "CWE-78"
+  },
+  "CVE-2022-4643": {
+    "cveinfo": "data/go-cves/CVE-2022-4643.json",
+    "fixes": "data/go-fixes/CVE-2022-4643_fixes.json.gz",
+    "cwe_id": "CWE-78"
+  },
+  "CVE-2022-2990": {
+    "cveinfo": "data/go-cves/CVE-2022-2990.json",
+    "fixes": "data/go-fixes/CVE-2022-2990_fixes.json.gz",
+    "cwe_id": "CWE-863"
+  },
+  "CVE-2021-21362": {
+    "cveinfo": "data/go-cves/CVE-2021-21362.json",
+    "fixes": "data/go-fixes/CVE-2021-21362_fixes.json.gz",
+    "cwe_id": "CWE-863"
+  },
+  "CVE-2021-21411": {
+    "cveinfo": "data/go-cves/CVE-2021-21411.json",
+    "fixes": "data/go-fixes/CVE-2021-21411_fixes.json.gz",
+    "cwe_id": "CWE-863"
+  },
+  "CVE-2021-28681": {
+    "cveinfo": "data/go-cves/CVE-2021-28681.json",
+    "fixes": "data/go-fixes/CVE-2021-28681_fixes.json.gz",
+    "cwe_id": "CWE-863"
+  },
+  "CVE-2021-29437": {
+    "cveinfo": "data/go-cves/CVE-2021-29437.json",
+    "fixes": "data/go-fixes/CVE-2021-29437_fixes.json.gz",
+    "cwe_id": "CWE-863"
+  },
+  "CVE-2021-32701": {
+    "cveinfo": "data/go-cves/CVE-2021-32701.json",
+    "fixes": "data/go-fixes/CVE-2021-32701_fixes.json.gz",
+    "cwe_id": "CWE-863"
+  },
+  "CVE-2021-41230": {
+    "cveinfo": "data/go-cves/CVE-2021-41230.json",
+    "fixes": "data/go-fixes/CVE-2021-41230_fixes.json.gz",
+    "cwe_id": "CWE-863"
+  },
+  "CVE-2021-43858": {
+    "cveinfo": "data/go-cves/CVE-2021-43858.json",
+    "fixes": "data/go-fixes/CVE-2021-43858_fixes.json.gz",
+    "cwe_id": "CWE-269"
+  },
+  "CVE-2022-24778": {
+    "cveinfo": "data/go-cves/CVE-2022-24778.json",
+    "fixes": "data/go-fixes/CVE-2022-24778_fixes.json.gz",
+    "cwe_id": "CWE-863"
+  },
+  "CVE-2022-24841": {
+    "cveinfo": "data/go-cves/CVE-2022-24841.json",
+    "fixes": "data/go-fixes/CVE-2022-24841_fixes.json.gz",
+    "cwe_id": "CWE-863"
+  },
+  "CVE-2022-31155": {
+    "cveinfo": "data/go-cves/CVE-2022-31155.json",
+    "fixes": "data/go-fixes/CVE-2022-31155_fixes.json.gz",
+    "cwe_id": "CWE-863"
+  },
+  "CVE-2022-36009": {
+    "cveinfo": "data/go-cves/CVE-2022-36009.json",
+    "fixes": "data/go-fixes/CVE-2022-36009_fixes.json.gz",
+    "cwe_id": "CWE-863"
+  },
+  "CVE-2023-25173": {
+    "cveinfo": "data/go-cves/CVE-2023-25173.json",
+    "fixes": "data/go-fixes/CVE-2023-25173_fixes.json.gz",
+    "cwe_id": "CWE-863"
+  },
+  "CVE-2023-47090": {
+    "cveinfo": "data/go-cves/CVE-2023-47090.json",
+    "fixes": "data/go-fixes/CVE-2023-47090_fixes.json.gz",
+    "cwe_id": "CWE-863"
+  },
+  "CVE-2019-16884": {
+    "cveinfo": "data/go-cves/CVE-2019-16884.json",
+    "fixes": "data/go-fixes/CVE-2019-16884_fixes.json.gz",
+    "cwe_id": "CWE-863"
+  },
+  "CVE-2024-23653": {
+    "cveinfo": "data/go-cves/CVE-2024-23653.json",
+    "fixes": "data/go-fixes/CVE-2024-23653_fixes.json.gz",
+    "cwe_id": "CWE-863"
+  },
+  "CVE-2024-27288": {
+    "cveinfo": "data/go-cves/CVE-2024-27288.json",
+    "fixes": "data/go-fixes/CVE-2024-27288_fixes.json.gz",
+    "cwe_id": "CWE-863"
+  },
+  "CVE-2019-16097": {
+    "cveinfo": "data/go-cves/CVE-2019-16097.json",
+    "fixes": "data/go-fixes/CVE-2019-16097_fixes.json.gz",
+    "cwe_id": "CWE-862"
+  },
+  "CVE-2021-21432": {
+    "cveinfo": "data/go-cves/CVE-2021-21432.json",
+    "fixes": "data/go-fixes/CVE-2021-21432_fixes.json.gz",
+    "cwe_id": "CWE-862"
+  },
+  "CVE-2021-33197": {
+    "cveinfo": "data/go-cves/CVE-2021-33197.json",
+    "fixes": "data/go-fixes/CVE-2021-33197_fixes.json.gz",
+    "cwe_id": "CWE-862"
+  },
+  "CVE-2022-0905": {
+    "cveinfo": "data/go-cves/CVE-2022-0905.json",
+    "fixes": "data/go-fixes/CVE-2022-0905_fixes.json.gz",
+    "cwe_id": "CWE-862"
+  },
+  "CVE-2022-24768": {
+    "cveinfo": "data/go-cves/CVE-2022-24768.json",
+    "fixes": "data/go-fixes/CVE-2022-24768_fixes.json.gz",
+    "cwe_id": "CWE-862"
+  },
+  "CVE-2023-3072": {
+    "cveinfo": "data/go-cves/CVE-2023-3072.json",
+    "fixes": "data/go-fixes/CVE-2023-3072_fixes.json.gz",
+    "cwe_id": "CWE-862"
+  },
+  "CVE-2023-3300": {
+    "cveinfo": "data/go-cves/CVE-2023-3300.json",
+    "fixes": "data/go-fixes/CVE-2023-3300_fixes.json.gz",
+    "cwe_id": "CWE-862"
+  },
+  "CVE-2021-41803": {
+    "cveinfo": "data/go-cves/CVE-2021-41803.json",
+    "fixes": "data/go-fixes/CVE-2021-41803_fixes.json.gz",
+    "cwe_id": "CWE-862"
+  },
+  "CVE-2020-24710": {
+    "cveinfo": "data/go-cves/CVE-2020-24710.json",
+    "fixes": "data/go-fixes/CVE-2020-24710_fixes.json.gz",
+    "cwe_id": "CWE-918"
+  },
+  "CVE-2021-21287": {
+    "cveinfo": "data/go-cves/CVE-2021-21287.json",
+    "fixes": "data/go-fixes/CVE-2021-21287_fixes.json.gz",
+    "cwe_id": "CWE-918"
+  },
+  "CVE-2022-1285": {
+    "cveinfo": "data/go-cves/CVE-2022-1285.json",
+    "fixes": "data/go-fixes/CVE-2022-1285_fixes.json.gz",
+    "cwe_id": "CWE-918"
+  },
+  "CVE-2022-25850": {
+    "cveinfo": "data/go-cves/CVE-2022-25850.json",
+    "fixes": "data/go-fixes/CVE-2022-25850_fixes.json.gz",
+    "cwe_id": "CWE-918"
+  },
+  "CVE-2022-29180": {
+    "cveinfo": "data/go-cves/CVE-2022-29180.json",
+    "fixes": "data/go-fixes/CVE-2022-29180_fixes.json.gz",
+    "cwe_id": "CWE-918"
+  },
+  "CVE-2022-29188": {
+    "cveinfo": "data/go-cves/CVE-2022-29188.json",
+    "fixes": "data/go-fixes/CVE-2022-29188_fixes.json.gz",
+    "cwe_id": "CWE-918"
+  },
+  "CVE-2022-38580": {
+    "cveinfo": "data/go-cves/CVE-2022-38580.json",
+    "fixes": "data/go-fixes/CVE-2022-38580_fixes.json.gz",
+    "cwe_id": "CWE-918"
+  },
+  "CVE-2022-39383": {
+    "cveinfo": "data/go-cves/CVE-2022-39383.json",
+    "fixes": "data/go-fixes/CVE-2022-39383_fixes.json.gz",
+    "cwe_id": "CWE-918"
+  },
+  "CVE-2023-24623": {
+    "cveinfo": "data/go-cves/CVE-2023-24623.json",
+    "fixes": "data/go-fixes/CVE-2023-24623_fixes.json.gz",
+    "cwe_id": "CWE-918"
+  },
+  "CVE-2020-27519": {
+    "cveinfo": "data/go-cves/CVE-2020-27519.json",
+    "fixes": "data/go-fixes/CVE-2020-27519_fixes.json.gz",
+    "cwe_id": "CWE-269"
+  },
+  "CVE-2022-1227": {
+    "cveinfo": "data/go-cves/CVE-2022-1227.json",
+    "fixes": "data/go-fixes/CVE-2022-1227_fixes.json.gz",
+    "cwe_id": "CWE-269"
+  },
+  "CVE-2022-24842": {
+    "cveinfo": "data/go-cves/CVE-2022-24842.json",
+    "fixes": "data/go-fixes/CVE-2022-24842_fixes.json.gz",
+    "cwe_id": "CWE-269"
+  },
+  "CVE-2022-25372": {
+    "cveinfo": "data/go-cves/CVE-2022-25372.json",
+    "fixes": "data/go-fixes/CVE-2022-25372_fixes.json.gz",
+    "cwe_id": "CWE-269"
+  },
+  "CVE-2022-29164": {
+    "cveinfo": "data/go-cves/CVE-2022-29164.json",
+    "fixes": "data/go-fixes/CVE-2022-29164_fixes.json.gz",
+    "cwe_id": "CWE-269"
+  },
+  "CVE-2022-29526": {
+    "cveinfo": "data/go-cves/CVE-2022-29526.json",
+    "fixes": "data/go-fixes/CVE-2022-29526_fixes.json.gz",
+    "cwe_id": "CWE-269"
+  },
+  "CVE-2023-50424": {
+    "cveinfo": "data/go-cves/CVE-2023-50424.json",
+    "fixes": "data/go-fixes/CVE-2023-50424_fixes.json.gz",
+    "cwe_id": "CWE-269"
+  },
+  "CVE-2023-50726": {
+    "cveinfo": "data/go-cves/CVE-2023-50726.json",
+    "fixes": "data/go-fixes/CVE-2023-50726_fixes.json.gz",
+    "cwe_id": "CWE-269"
+  },
+  "CVE-2024-1753": {
+    "cveinfo": "data/go-cves/CVE-2024-1753.json",
+    "fixes": "data/go-fixes/CVE-2024-1753_fixes.json.gz",
+    "cwe_id": "CWE-269"
+  },
+  "CVE-2020-8945": {
+    "cveinfo": "data/go-cves/CVE-2020-8945.json",
+    "fixes": "data/go-fixes/CVE-2020-8945_fixes.json.gz",
+    "cwe_id": "CWE-416"
+  },
+  "CVE-2022-33981": {
+    "cveinfo": "data/go-cves/CVE-2022-33981.json",
+    "fixes": "data/go-fixes/CVE-2022-33981_fixes.json.gz",
+    "cwe_id": "CWE-416"
+  },
+  "CVE-2021-44833": {
+    "cveinfo": "data/go-cves/CVE-2021-44833.json",
+    "fixes": "data/go-fixes/CVE-2021-44833_fixes.json.gz",
+    "cwe_id": "CWE-276"
+  },
+  "CVE-2022-27649": {
+    "cveinfo": "data/go-cves/CVE-2022-27649.json",
+    "fixes": "data/go-fixes/CVE-2022-27649_fixes.json.gz",
+    "cwe_id": "CWE-276"
+  },
+  "CVE-2022-27651": {
+    "cveinfo": "data/go-cves/CVE-2022-27651.json",
+    "fixes": "data/go-fixes/CVE-2022-27651_fixes.json.gz",
+    "cwe_id": "CWE-276"
+  },
+  "CVE-2023-32698": {
+    "cveinfo": "data/go-cves/CVE-2023-32698.json",
+    "fixes": "data/go-fixes/CVE-2023-32698_fixes.json.gz",
+    "cwe_id": "CWE-276"
+  },
+  "CVE-2022-22845": {
+    "cveinfo": "data/go-cves/CVE-2022-22845.json",
+    "fixes": "data/go-fixes/CVE-2022-22845_fixes.json.gz",
+    "cwe_id": "CWE-798"
+  },
+  "CVE-2022-39273": {
+    "cveinfo": "data/go-cves/CVE-2022-39273.json",
+    "fixes": "data/go-fixes/CVE-2022-39273_fixes.json.gz",
+    "cwe_id": "CWE-798"
+  },
+  "CVE-2020-26892": {
+    "cveinfo": "data/go-cves/CVE-2020-26892.json",
+    "fixes": "data/go-fixes/CVE-2020-26892_fixes.json.gz",
+    "cwe_id": "CWE-798"
+  },
+  "CVE-2022-28948": {
+    "cveinfo": "data/go-cves/CVE-2022-28948.json",
+    "fixes": "data/go-fixes/CVE-2022-28948_fixes.json.gz",
+    "cwe_id": "CWE-502"
+  },
+  "CVE-2023-44273": {
+    "cveinfo": "data/go-cves/CVE-2023-44273.json",
+    "fixes": "data/go-fixes/CVE-2023-44273_fixes.json.gz",
+    "cwe_id": "CWE-502"
+  },
+  "CVE-2022-31022": {
+    "cveinfo": "data/go-cves/CVE-2022-31022.json",
+    "fixes": "data/go-fixes/CVE-2022-31022_fixes.json.gz",
+    "cwe_id": "CWE-306"
+  },
+  "CVE-2023-43644": {
+    "cveinfo": "data/go-cves/CVE-2023-43644.json",
+    "fixes": "data/go-fixes/CVE-2023-43644_fixes.json.gz",
+    "cwe_id": "CWE-306"
+  },
+  "CVE-2023-1800": {
+    "cveinfo": "data/go-cves/CVE-2023-1800.json",
+    "fixes": "data/go-fixes/CVE-2023-1800_fixes.json.gz",
+    "cwe_id": "CWE-434"
+  }
+}

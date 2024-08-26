@@ -1,0 +1,42 @@
+{
+  "CVE-2024-27918": {
+    "cveinfo": "data/go-cves/CVE-2024-27918.json",
+    "fixes": "data/go-fixes/CVE-2024-27918_fixes.json.gz",
+    "cwe_id": "CWE-20"
+  },
+  "CVE-2024-31457": {
+    "cveinfo": "data/go-cves/CVE-2024-31457.json",
+    "fixes": "data/go-fixes/CVE-2024-31457_fixes.json.gz",
+    "cwe_id": "CWE-22"
+  },
+  "CVE-2014-125026": {
+    "cveinfo": "data/go-cves/CVE-2014-125026.json",
+    "fixes": "data/go-fixes/CVE-2014-125026_fixes.json.gz",
+    "cwe_id": "CWE-787"
+  },
+  "CVE-2018-7187": {
+    "cveinfo": "data/go-cves/CVE-2018-7187.json",
+    "fixes": "data/go-fixes/CVE-2018-7187_fixes.json.gz",
+    "cwe_id": "CWE-78"
+  },
+  "CVE-2020-24710": {
+    "cveinfo": "data/go-cves/CVE-2020-24710.json",
+    "fixes": "data/go-fixes/CVE-2020-24710_fixes.json.gz",
+    "cwe_id": "CWE-918"
+  },
+  "CVE-2020-8945": {
+    "cveinfo": "data/go-cves/CVE-2020-8945.json",
+    "fixes": "data/go-fixes/CVE-2020-8945_fixes.json.gz",
+    "cwe_id": "CWE-416"
+  },
+  "CVE-2022-28948": {
+    "cveinfo": "data/go-cves/CVE-2022-28948.json",
+    "fixes": "data/go-fixes/CVE-2022-28948_fixes.json.gz",
+    "cwe_id": "CWE-502"
+  },
+  "CVE-2022-31022": {
+    "cveinfo": "data/go-cves/CVE-2022-31022.json",
+    "fixes": "data/go-fixes/CVE-2022-31022_fixes.json.gz",
+    "cwe_id": "CWE-306"
+  }
+}

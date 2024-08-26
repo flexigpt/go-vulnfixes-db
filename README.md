@@ -7,6 +7,7 @@ Dataset for Golang featuring vulnerable code and corresponding fixes (i.e commit
   - [Dataset representation](#dataset-representation)
 - [CVE FixesInfo](#cve-fixesinfo)
 - [CWE Info](#cwe-info)
+- [Views](#views)
 - [Initializing the repo](#initializing-the-repo)
 
 ## CVE Metadata Info
@@ -34,7 +35,13 @@ Dataset for Golang featuring vulnerable code and corresponding fixes (i.e commit
 ## CWE Info
 
 - All info collected for base CWEs under software development (i.e [CWE-699](https://cwe.mitre.org/data/definitions/699.html)) are present [here](./data/cwe-699).
-- These CWE info present from the MITRE database is enriched for adding functional primary and secondary categorizations. This is done using `GPT-4o`.
+- The CWE info present from the MITRE database is enriched for adding functional primary and secondary categorizations. This is done using `GPT-4o`.
+- The final categorized list is present [here](./data/cwe-699/cwe_functional_areas.json)
+- A few top n lists defined by MITRE are also present [here](./data/cwe-699/)
+
+## Views
+
+- A few views are created for analysis purposes and added [here](./data/views/)
 
 ## Initializing the repo
 
