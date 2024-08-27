@@ -1,13 +1,74 @@
 import argparse
 import json
 import os
-from typing import Dict, List
+from typing import Dict, List, Tuple
+
+import tiktoken
 
 from ..fileutils import filehandle
+from ..schemas import fixes
+
+
+def get_tokens_from_string(model_name: str, input_str: str) -> int:
+    tokenizer = tiktoken.encoding_for_model(model_name).encode
+    return len(tokenizer(input_str))
+
+
+def get_token_data(cveinfo_unified_path: str, fixes_relative_path: str) -> Tuple[Dict, Dict]:
+    fixes_path = os.path.join(cveinfo_unified_path, fixes_relative_path)
+    if not os.path.exists(fixes_path):
+        return {}, {}
+
+    fixes_data = filehandle.read_json_zip(fixes_path)
+    fixes_object = fixes.CVEFixes.model_validate(fixes_data)
+
+    if not fixes_object.changes:
+        return {}, {}
+    token_counts = {}
+    for change in fixes_object.changes:
+        file_token_counts = {}
+        if change.diff:
+            file_token_counts["diff_c100"] = get_tokens_from_string("gpt-4", change.diff)
+            file_token_counts["diff_o200"] = get_tokens_from_string("gpt-4o", change.diff)
+        if change.code_after:
+            file_token_counts["after_c100"] = get_tokens_from_string("gpt-4", change.code_after)
+            file_token_counts["after_o200"] = get_tokens_from_string("gpt-4o", change.code_after)
+        if change.code_before:
+            file_token_counts["before_c100"] = get_tokens_from_string("gpt-4", change.code_before)
+            file_token_counts["before_o200"] = get_tokens_from_string("gpt-4o", change.code_before)
+        if file_token_counts:
+            token_counts[change.filename] = file_token_counts
+
+    all_token_counts = {}
+    all_token_counts["all_diff_c100_tokens"] = sum(
+        file_token_counts.get("diff_c100", 0) for file_token_counts in token_counts.values())
+    all_token_counts["all_diff_o200_tokens"] = sum(
+        file_token_counts.get("diff_o200", 0) for file_token_counts in token_counts.values())
+    all_token_counts["all_after_c100_tokens"] = sum(
+        file_token_counts.get("after_c100", 0) for file_token_counts in token_counts.values())
+    all_token_counts["all_after_o200_tokens"] = sum(
+        file_token_counts.get("after_o200", 0) for file_token_counts in token_counts.values())
+    all_token_counts["all_before_c100_tokens"] = sum(
+        file_token_counts.get("before_c100", 0) for file_token_counts in token_counts.values())
+    all_token_counts["all_before_o200_tokens"] = sum(
+        file_token_counts.get("before_o200", 0) for file_token_counts in token_counts.values())
+
+    return token_counts, all_token_counts
 
 
 def generate_cve_structure(cve: str, cwe: str) -> Dict:
-    return {"cveinfo": f"data/go-cves/{cve}.json", "fixes": f"data/go-fixes/{cve}_fixes.json.gz", "cwe_id": cwe}
+    cve_info = {}
+    cve_info["cveinfo"] = f"data/go-cves/{cve}.json"
+    cve_info["fixes"] = f"data/go-fixes/{cve}_fixes.json.gz"
+    cve_info["cwe_id"] = cwe
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    parent_dir = os.path.abspath(os.path.join(script_dir, "../../"))
+    token_counts, all_token_counts = get_token_data(parent_dir, cve_info["fixes"])
+    if token_counts:
+        cve_info["token_counts_per_file"] = token_counts
+    if all_token_counts:
+        cve_info["token_counts_all"] = all_token_counts
+    return cve_info
 
 
 def get_cve_details_struct(data: Dict[str, List]) -> Dict:

@@ -40,3 +40,9 @@ def write_json_zip(fpath: str, obj: Any):
     # Write the JSON object to a gzip file
     with gzip.open(fpath, 'wt', encoding='utf-8') as gzfile:
         json.dump(obj, gzfile, indent=2, ensure_ascii=False)
+
+
+def read_json_zip(fpath: str):
+    # Write the JSON object to a gzip file
+    with gzip.open(fpath, 'rt', encoding='utf-8') as gzfile:
+        return json.load(gzfile)

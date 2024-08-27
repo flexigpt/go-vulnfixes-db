@@ -2,37 +2,275 @@
   "CVE-2021-46398": {
     "cveinfo": "data/go-cves/CVE-2021-46398.json",
     "fixes": "data/go-fixes/CVE-2021-46398_fixes.json.gz",
-    "cwe_id": "CWE-352"
+    "cwe_id": "CWE-352",
+    "token_counts_per_file": {
+      "commands.go": {
+        "diff_c100": 287,
+        "diff_o200": 290,
+        "after_c100": 703,
+        "after_o200": 724,
+        "before_c100": 707,
+        "before_o200": 728
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 287,
+      "all_diff_o200_tokens": 290,
+      "all_after_c100_tokens": 703,
+      "all_after_o200_tokens": 724,
+      "all_before_c100_tokens": 707,
+      "all_before_o200_tokens": 728
+    }
   },
   "CVE-2024-27918": {
     "cveinfo": "data/go-cves/CVE-2024-27918.json",
     "fixes": "data/go-fixes/CVE-2024-27918_fixes.json.gz",
-    "cwe_id": "CWE-20"
+    "cwe_id": "CWE-20",
+    "token_counts_per_file": {
+      "coderd/userauth.go": {
+        "diff_c100": 339,
+        "diff_o200": 337,
+        "after_c100": 204,
+        "after_o200": 200,
+        "before_c100": 121,
+        "before_o200": 120
+      },
+      "coderd/userauth_test.go": {
+        "diff_c100": 199,
+        "diff_o200": 201,
+        "after_c100": 112,
+        "after_o200": 114,
+        "before_c100": 36,
+        "before_o200": 38
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 538,
+      "all_diff_o200_tokens": 538,
+      "all_after_c100_tokens": 316,
+      "all_after_o200_tokens": 314,
+      "all_before_c100_tokens": 157,
+      "all_before_o200_tokens": 158
+    }
   },
   "CVE-2024-28110": {
     "cveinfo": "data/go-cves/CVE-2024-28110.json",
     "fixes": "data/go-fixes/CVE-2024-28110_fixes.json.gz",
-    "cwe_id": "CWE-522"
+    "cwe_id": "CWE-522",
+    "token_counts_per_file": {
+      "v2/protocol/http/protocol.go": {
+        "diff_c100": 184,
+        "diff_o200": 183,
+        "after_c100": 80,
+        "after_o200": 79,
+        "before_c100": 26,
+        "before_o200": 26
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 184,
+      "all_diff_o200_tokens": 183,
+      "all_after_c100_tokens": 80,
+      "all_after_o200_tokens": 79,
+      "all_before_c100_tokens": 26,
+      "all_before_o200_tokens": 26
+    }
   },
   "CVE-2024-28122": {
     "cveinfo": "data/go-cves/CVE-2024-28122.json",
     "fixes": "data/go-fixes/CVE-2024-28122_fixes.json.gz",
-    "cwe_id": "CWE-400"
+    "cwe_id": "CWE-400",
+    "token_counts_per_file": {
+      "Changes": {
+        "diff_c100": 319,
+        "diff_o200": 322,
+        "after_c100": 260,
+        "after_o200": 262,
+        "before_c100": 100,
+        "before_o200": 100
+      },
+      "jwe/compress.go": {
+        "diff_c100": 376,
+        "diff_o200": 385,
+        "after_c100": 262,
+        "after_o200": 268,
+        "before_c100": 56,
+        "before_o200": 59
+      },
+      "jwe/jwe.go": {
+        "diff_c100": 1275,
+        "diff_o200": 1274,
+        "after_c100": 865,
+        "after_o200": 847,
+        "before_c100": 447,
+        "before_o200": 440
+      },
+      "jwe/jwe_test.go": {
+        "diff_c100": 1017,
+        "diff_o200": 1025,
+        "after_c100": 859,
+        "after_o200": 866,
+        "before_c100": 56,
+        "before_o200": 57
+      },
+      "jwe/message.go": {
+        "diff_c100": 155,
+        "diff_o200": 154,
+        "after_c100": 73,
+        "after_o200": 72,
+        "before_c100": 59,
+        "before_o200": 58
+      },
+      "jwe/options.go": {
+        "diff_c100": 239,
+        "diff_o200": 241,
+        "after_c100": 151,
+        "after_o200": 152,
+        "before_c100": 47,
+        "before_o200": 48
+      },
+      "jwe/options.yaml": {
+        "diff_c100": 461,
+        "diff_o200": 461,
+        "after_c100": 334,
+        "after_o200": 334,
+        "before_c100": 131,
+        "before_o200": 132
+      },
+      "jwe/options_gen.go": {
+        "diff_c100": 614,
+        "diff_o200": 621,
+        "after_c100": 455,
+        "after_o200": 450,
+        "before_c100": 191,
+        "before_o200": 192
+      },
+      "jwe/options_gen_test.go": {
+        "diff_c100": 194,
+        "diff_o200": 196,
+        "after_c100": 117,
+        "after_o200": 119,
+        "before_c100": 96,
+        "before_o200": 98
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 4650,
+      "all_diff_o200_tokens": 4679,
+      "all_after_c100_tokens": 3376,
+      "all_after_o200_tokens": 3370,
+      "all_before_c100_tokens": 1183,
+      "all_before_o200_tokens": 1184
+    }
   },
   "CVE-2024-28175": {
     "cveinfo": "data/go-cves/CVE-2024-28175.json",
     "fixes": "data/go-fixes/CVE-2024-28175_fixes.json.gz",
-    "cwe_id": "CWE-79"
+    "cwe_id": "CWE-79",
+    "token_counts_per_file": {
+      "ui/src/app/applications/components/application-summary/application-summary.tsx": {
+        "diff_c100": 368,
+        "diff_o200": 365,
+        "after_c100": 157,
+        "after_o200": 155,
+        "before_c100": 165,
+        "before_o200": 163
+      },
+      "ui/src/app/applications/components/application-urls.test.ts": {
+        "diff_c100": 854,
+        "diff_o200": 886,
+        "after_c100": 648,
+        "after_o200": 679,
+        "before_c100": 107,
+        "before_o200": 109
+      },
+      "ui/src/app/applications/components/application-urls.tsx": {
+        "diff_c100": 431,
+        "diff_o200": 431,
+        "after_c100": 246,
+        "after_o200": 247,
+        "before_c100": 168,
+        "before_o200": 168
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 1653,
+      "all_diff_o200_tokens": 1682,
+      "all_after_c100_tokens": 1051,
+      "all_after_o200_tokens": 1081,
+      "all_before_c100_tokens": 440,
+      "all_before_o200_tokens": 440
+    }
   },
   "CVE-2024-28180": {
     "cveinfo": "data/go-cves/CVE-2024-28180.json",
     "fixes": "data/go-fixes/CVE-2024-28180_fixes.json.gz",
-    "cwe_id": "CWE-409"
+    "cwe_id": "CWE-409",
+    "token_counts_per_file": {
+      "CHANGELOG.md": {
+        "diff_c100": 193,
+        "diff_o200": 195,
+        "after_c100": 130,
+        "after_o200": 131,
+        "before_c100": 20,
+        "before_o200": 20
+      },
+      "crypter.go": {
+        "diff_c100": 289,
+        "diff_o200": 293,
+        "after_c100": 187,
+        "after_o200": 187,
+        "before_c100": 109,
+        "before_o200": 112
+      },
+      "encoding.go": {
+        "diff_c100": 408,
+        "diff_o200": 410,
+        "after_c100": 233,
+        "after_o200": 232,
+        "before_c100": 132,
+        "before_o200": 133
+      },
+      "encoding_test.go": {
+        "diff_c100": 469,
+        "diff_o200": 470,
+        "after_c100": 351,
+        "after_o200": 351,
+        "before_c100": 48,
+        "before_o200": 49
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 1359,
+      "all_diff_o200_tokens": 1368,
+      "all_after_c100_tokens": 901,
+      "all_after_o200_tokens": 901,
+      "all_before_c100_tokens": 309,
+      "all_before_o200_tokens": 314
+    }
   },
   "CVE-2024-28232": {
     "cveinfo": "data/go-cves/CVE-2024-28232.json",
     "fixes": "data/go-fixes/CVE-2024-28232_fixes.json.gz",
-    "cwe_id": "CWE-204"
+    "cwe_id": "CWE-204",
+    "token_counts_per_file": {
+      "route/v1/user.go": {
+        "diff_c100": 178,
+        "diff_o200": 179,
+        "after_c100": 79,
+        "after_o200": 80,
+        "before_c100": 71,
+        "before_o200": 72
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 178,
+      "all_diff_o200_tokens": 179,
+      "all_after_c100_tokens": 79,
+      "all_after_o200_tokens": 80,
+      "all_before_c100_tokens": 71,
+      "all_before_o200_tokens": 72
+    }
   },
   "CVE-2024-28248": {
     "cveinfo": "data/go-cves/CVE-2024-28248.json",
@@ -47,7 +285,25 @@
   "CVE-2024-28860": {
     "cveinfo": "data/go-cves/CVE-2024-28860.json",
     "fixes": "data/go-fixes/CVE-2024-28860_fixes.json.gz",
-    "cwe_id": "CWE-326"
+    "cwe_id": "CWE-326",
+    "token_counts_per_file": {
+      "pkg/datapath/linux/ipsec/ipsec_linux.go": {
+        "diff_c100": 559,
+        "diff_o200": 559,
+        "after_c100": 366,
+        "after_o200": 363,
+        "before_c100": 228,
+        "before_o200": 227
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 559,
+      "all_diff_o200_tokens": 559,
+      "all_after_c100_tokens": 366,
+      "all_after_o200_tokens": 363,
+      "all_before_c100_tokens": 228,
+      "all_before_o200_tokens": 227
+    }
   },
   "CVE-2024-29018": {
     "cveinfo": "data/go-cves/CVE-2024-29018.json",
@@ -57,77 +313,1113 @@
   "CVE-2024-31457": {
     "cveinfo": "data/go-cves/CVE-2024-31457.json",
     "fixes": "data/go-fixes/CVE-2024-31457_fixes.json.gz",
-    "cwe_id": "CWE-22"
+    "cwe_id": "CWE-22",
+    "token_counts_per_file": {
+      "server/api/v1/system/sys_auto_code.go": {
+        "diff_c100": 238,
+        "diff_o200": 237,
+        "after_c100": 120,
+        "after_o200": 119,
+        "before_c100": 76,
+        "before_o200": 77
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 238,
+      "all_diff_o200_tokens": 237,
+      "all_after_c100_tokens": 120,
+      "all_after_o200_tokens": 119,
+      "all_before_c100_tokens": 76,
+      "all_before_o200_tokens": 77
+    }
   },
   "CVE-2024-32886": {
     "cveinfo": "data/go-cves/CVE-2024-32886.json",
     "fixes": "data/go-fixes/CVE-2024-32886_fixes.json.gz",
-    "cwe_id": "CWE-835"
+    "cwe_id": "CWE-835",
+    "token_counts_per_file": {
+      "go/mysql/collations/charset/convert.go": {
+        "diff_c100": 157,
+        "diff_o200": 156,
+        "after_c100": 43,
+        "after_o200": 42,
+        "before_c100": 48,
+        "before_o200": 47
+      },
+      "go/mysql/collations/charset/helpers.go": {
+        "diff_c100": 145,
+        "diff_o200": 144,
+        "after_c100": 41,
+        "after_o200": 40,
+        "before_c100": 46,
+        "before_o200": 45
+      },
+      "go/mysql/collations/charset/unicode/utf16.go": {
+        "diff_c100": 401,
+        "diff_o200": 395,
+        "after_c100": 183,
+        "after_o200": 180,
+        "before_c100": 183,
+        "before_o200": 180
+      },
+      "go/mysql/collations/charset/unicode/utf32.go": {
+        "diff_c100": 213,
+        "diff_o200": 211,
+        "after_c100": 88,
+        "after_o200": 87,
+        "before_c100": 88,
+        "before_o200": 87
+      },
+      "go/vt/vtgate/evalengine/compiler_asm.go": {
+        "diff_c100": 222,
+        "diff_o200": 225,
+        "after_c100": 95,
+        "after_o200": 93,
+        "before_c100": 79,
+        "before_o200": 78
+      },
+      "go/vt/vtgate/evalengine/compiler_test.go": {
+        "diff_c100": 389,
+        "diff_o200": 393,
+        "after_c100": 264,
+        "after_o200": 268,
+        "before_c100": 53,
+        "before_o200": 52
+      },
+      "go/vt/vtgate/evalengine/expr_collate.go": {
+        "diff_c100": 738,
+        "diff_o200": 730,
+        "after_c100": 483,
+        "after_o200": 479,
+        "before_c100": 205,
+        "before_o200": 200
+      },
+      "go/vt/vtgate/evalengine/translate.go": {
+        "diff_c100": 187,
+        "diff_o200": 185,
+        "after_c100": 57,
+        "after_o200": 56,
+        "before_c100": 61,
+        "before_o200": 59
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 2452,
+      "all_diff_o200_tokens": 2439,
+      "all_after_c100_tokens": 1254,
+      "all_after_o200_tokens": 1245,
+      "all_before_c100_tokens": 763,
+      "all_before_o200_tokens": 748
+    }
   },
   "CVE-2024-34352": {
     "cveinfo": "data/go-cves/CVE-2024-34352.json",
     "fixes": "data/go-fixes/CVE-2024-34352_fixes.json.gz",
-    "cwe_id": "CWE-77"
+    "cwe_id": "CWE-77",
+    "token_counts_per_file": {
+      "frontend/src/lang/modules/en.ts": {
+        "diff_c100": 196,
+        "diff_o200": 196,
+        "after_c100": 117,
+        "after_o200": 117,
+        "before_c100": 81,
+        "before_o200": 81
+      },
+      "frontend/src/lang/modules/tw.ts": {
+        "diff_c100": 266,
+        "diff_o200": 226,
+        "after_c100": 176,
+        "after_o200": 138,
+        "before_c100": 117,
+        "before_o200": 95
+      },
+      "frontend/src/lang/modules/zh.ts": {
+        "diff_c100": 233,
+        "diff_o200": 200,
+        "after_c100": 147,
+        "after_o200": 116,
+        "before_c100": 104,
+        "before_o200": 85
+      },
+      "frontend/src/views/home/status/index.vue": {
+        "diff_c100": 164,
+        "diff_o200": 168,
+        "after_c100": 82,
+        "after_o200": 86,
+        "before_c100": 68,
+        "before_o200": 70
+      },
+      "frontend/src/views/login/entrance/index.vue": {
+        "diff_c100": 1422,
+        "diff_o200": 1436,
+        "after_c100": 711,
+        "after_o200": 715,
+        "before_c100": 605,
+        "before_o200": 616
+      },
+      "frontend/src/views/setting/safe/index.vue": {
+        "diff_c100": 680,
+        "diff_o200": 682,
+        "after_c100": 246,
+        "after_o200": 247,
+        "before_c100": 407,
+        "before_o200": 408
+      },
+      "frontend/src/views/setting/safe/response/index.vue": {
+        "diff_c100": 541,
+        "diff_o200": 546,
+        "after_c100": 372,
+        "after_o200": 372,
+        "before_c100": 167,
+        "before_o200": 167
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 3502,
+      "all_diff_o200_tokens": 3454,
+      "all_after_c100_tokens": 1851,
+      "all_after_o200_tokens": 1791,
+      "all_before_c100_tokens": 1549,
+      "all_before_o200_tokens": 1522
+    }
   },
   "CVE-2024-34360": {
     "cveinfo": "data/go-cves/CVE-2024-34360.json",
     "fixes": "data/go-fixes/CVE-2024-34360_fixes.json.gz",
-    "cwe_id": "CWE-754"
+    "cwe_id": "CWE-754",
+    "token_counts_per_file": {
+      "release/go/spacemesh/v1/types.pb.go": {
+        "diff_c100": 4593,
+        "diff_o200": 4633,
+        "after_c100": 2967,
+        "after_o200": 2994,
+        "before_c100": 2711,
+        "before_o200": 2734
+      },
+      "spacemesh/v1/types.proto": {
+        "diff_c100": 147,
+        "diff_o200": 145,
+        "after_c100": 69,
+        "after_o200": 70,
+        "before_c100": 53,
+        "before_o200": 54
+      },
+      ".github/workflows/systest.yml": {
+        "diff_c100": 293,
+        "diff_o200": 292,
+        "after_c100": 195,
+        "after_o200": 195,
+        "before_c100": 89,
+        "before_o200": 89
+      },
+      "CHANGELOG.md": {
+        "diff_c100": 184,
+        "diff_o200": 184,
+        "after_c100": 120,
+        "after_o200": 119,
+        "before_c100": 26,
+        "before_o200": 27
+      },
+      "Dockerfile": {
+        "diff_c100": 106,
+        "diff_o200": 106,
+        "after_c100": 44,
+        "after_o200": 44,
+        "before_c100": 27,
+        "before_o200": 27
+      },
+      "Makefile": {
+        "diff_c100": 341,
+        "diff_o200": 363,
+        "after_c100": 200,
+        "after_o200": 212,
+        "before_c100": 154,
+        "before_o200": 166
+      },
+      "activation/handler.go": {
+        "diff_c100": 3428,
+        "diff_o200": 3443,
+        "after_c100": 2235,
+        "after_o200": 2242,
+        "before_c100": 1167,
+        "before_o200": 1171
+      },
+      "activation/handler_test.go": {
+        "diff_c100": 2947,
+        "diff_o200": 2969,
+        "after_c100": 2306,
+        "after_o200": 2319,
+        "before_c100": 419,
+        "before_o200": 437
+      },
+      "activation/verify_state.go": {
+        "diff_c100": 900,
+        "diff_o200": 891
+      },
+      "activation/verify_state_test.go": {
+        "diff_c100": 745,
+        "diff_o200": 746
+      },
+      "activation/wire/wire_v1.go": {
+        "diff_c100": 307,
+        "diff_o200": 307,
+        "after_c100": 189,
+        "after_o200": 187,
+        "before_c100": 91,
+        "before_o200": 90
+      },
+      "bootstrap.Dockerfile": {
+        "diff_c100": 108,
+        "diff_o200": 108,
+        "after_c100": 42,
+        "after_o200": 42,
+        "before_c100": 25,
+        "before_o200": 25
+      },
+      "cmd/root.go": {
+        "diff_c100": 191,
+        "diff_o200": 191,
+        "after_c100": 112,
+        "after_o200": 108,
+        "before_c100": 68,
+        "before_o200": 68
+      },
+      "common/types/hashes.go": {
+        "diff_c100": 120,
+        "diff_o200": 120,
+        "after_c100": 58,
+        "after_o200": 57,
+        "before_c100": 39,
+        "before_o200": 38
+      },
+      "common/types/layer.go": {
+        "diff_c100": 122,
+        "diff_o200": 122,
+        "after_c100": 53,
+        "after_o200": 52,
+        "before_c100": 52,
+        "before_o200": 51
+      },
+      "config/config.go": {
+        "diff_c100": 165,
+        "diff_o200": 160,
+        "after_c100": 103,
+        "after_o200": 98,
+        "before_c100": 59,
+        "before_o200": 58
+      },
+      "config/mainnet.go": {
+        "diff_c100": 196,
+        "diff_o200": 195,
+        "after_c100": 103,
+        "after_o200": 102,
+        "before_c100": 85,
+        "before_o200": 85
+      },
+      "events/events.go": {
+        "diff_c100": 183,
+        "diff_o200": 189,
+        "after_c100": 103,
+        "after_o200": 107,
+        "before_c100": 73,
+        "before_o200": 76
+      },
+      "go.mod": {
+        "diff_c100": 122,
+        "diff_o200": 123,
+        "after_c100": 73,
+        "after_o200": 74,
+        "before_c100": 41,
+        "before_o200": 41
+      },
+      "go.sum": {
+        "diff_c100": 610,
+        "diff_o200": 596,
+        "after_c100": 422,
+        "after_o200": 411,
+        "before_c100": 416,
+        "before_o200": 402
+      },
+      "malfeasance/handler.go": {
+        "diff_c100": 845,
+        "diff_o200": 859,
+        "after_c100": 623,
+        "after_o200": 633,
+        "before_c100": 263,
+        "before_o200": 268
+      },
+      "malfeasance/handler_test.go": {
+        "diff_c100": 2632,
+        "diff_o200": 2695,
+        "after_c100": 2053,
+        "after_o200": 2105,
+        "before_c100": 335,
+        "before_o200": 351
+      },
+      "malfeasance/metrics.go": {
+        "diff_c100": 388,
+        "diff_o200": 389,
+        "after_c100": 262,
+        "after_o200": 260,
+        "before_c100": 207,
+        "before_o200": 205
+      },
+      "malfeasance/wire/malfeasance.go": {
+        "diff_c100": 1102,
+        "diff_o200": 1122,
+        "after_c100": 730,
+        "after_o200": 733,
+        "before_c100": 410,
+        "before_o200": 415
+      },
+      "malfeasance/wire/malfeasance_scale.go": {
+        "diff_c100": 368,
+        "diff_o200": 376,
+        "after_c100": 220,
+        "after_o200": 220,
+        "before_c100": 8,
+        "before_o200": 8
+      },
+      "malfeasance/wire/malfeasance_test.go": {
+        "diff_c100": 1167,
+        "diff_o200": 1176,
+        "after_c100": 920,
+        "after_o200": 921,
+        "before_c100": 196,
+        "before_o200": 188
+      },
+      "node/node.go": {
+        "diff_c100": 1014,
+        "diff_o200": 991,
+        "after_c100": 414,
+        "after_o200": 398,
+        "before_c100": 690,
+        "before_o200": 666
+      },
+      "sql/atxs/atxs.go": {
+        "diff_c100": 1649,
+        "diff_o200": 1660,
+        "after_c100": 889,
+        "after_o200": 891,
+        "before_c100": 652,
+        "before_o200": 647
+      },
+      "sql/atxs/atxs_test.go": {
+        "diff_c100": 1016,
+        "diff_o200": 1032,
+        "after_c100": 603,
+        "after_o200": 608,
+        "before_c100": 275,
+        "before_o200": 279
+      },
+      "sql/identities/identities.go": {
+        "diff_c100": 157,
+        "diff_o200": 157,
+        "after_c100": 63,
+        "after_o200": 62,
+        "before_c100": 64,
+        "before_o200": 63
+      },
+      "sql/migrations/state/0017_atxs_prev_id_nonce_placeholder.sql": {
+        "diff_c100": 102,
+        "diff_o200": 103,
+        "after_c100": 8,
+        "after_o200": 8
+      },
+      "sql/migrations/state_0017_migration_test.go": {
+        "diff_c100": 471,
+        "diff_o200": 482,
+        "after_c100": 334,
+        "after_o200": 341,
+        "before_c100": 51,
+        "before_o200": 51
+      },
+      "systest/Dockerfile": {
+        "diff_c100": 189,
+        "diff_o200": 189,
+        "after_c100": 112,
+        "after_o200": 112,
+        "before_c100": 66,
+        "before_o200": 66
+      },
+      "systest/Makefile": {
+        "diff_c100": 170,
+        "diff_o200": 176,
+        "after_c100": 62,
+        "after_o200": 65,
+        "before_c100": 37,
+        "before_o200": 40
+      },
+      "systest/tests/distributed_post_verification_test.go": {
+        "diff_c100": 644,
+        "diff_o200": 669,
+        "after_c100": 368,
+        "after_o200": 378,
+        "before_c100": 314,
+        "before_o200": 327
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 27722,
+      "all_diff_o200_tokens": 27959,
+      "all_after_c100_tokens": 17055,
+      "all_after_o200_tokens": 17168,
+      "all_before_c100_tokens": 9163,
+      "all_before_o200_tokens": 9213
+    }
   },
   "CVE-2024-35185": {
     "cveinfo": "data/go-cves/CVE-2024-35185.json",
     "fixes": "data/go-fixes/CVE-2024-35185_fixes.json.gz",
-    "cwe_id": "CWE-770"
+    "cwe_id": "CWE-770",
+    "token_counts_per_file": {
+      "internal/engine/ingester/rest/rest.go": {
+        "diff_c100": 342,
+        "diff_o200": 352,
+        "after_c100": 204,
+        "after_o200": 209,
+        "before_c100": 148,
+        "before_o200": 152
+      },
+      "internal/engine/ingester/rest/rest_test.go": {
+        "diff_c100": 538,
+        "diff_o200": 543,
+        "after_c100": 386,
+        "after_o200": 387,
+        "before_c100": 27,
+        "before_o200": 27
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 880,
+      "all_diff_o200_tokens": 895,
+      "all_after_c100_tokens": 590,
+      "all_after_o200_tokens": 596,
+      "all_before_c100_tokens": 175,
+      "all_before_o200_tokens": 179
+    }
   },
   "CVE-2024-35223": {
     "cveinfo": "data/go-cves/CVE-2024-35223.json",
     "fixes": "data/go-fixes/CVE-2024-35223_fixes.json.gz",
-    "cwe_id": "CWE-200"
+    "cwe_id": "CWE-200",
+    "token_counts_per_file": {
+      "docs/release_notes/v1.13.3.md": {
+        "diff_c100": 705,
+        "diff_o200": 713
+      },
+      "pkg/messaging/grpc_proxy.go": {
+        "diff_c100": 323,
+        "diff_o200": 325,
+        "after_c100": 157,
+        "after_o200": 155,
+        "before_c100": 154,
+        "before_o200": 152
+      },
+      "pkg/messaging/grpc_proxy_test.go": {
+        "diff_c100": 402,
+        "diff_o200": 402,
+        "after_c100": 249,
+        "after_o200": 248,
+        "before_c100": 202,
+        "before_o200": 204
+      },
+      "tests/integration/framework/process/daprd/options.go": {
+        "diff_c100": 156,
+        "diff_o200": 156,
+        "after_c100": 55,
+        "after_o200": 55,
+        "before_c100": 17,
+        "before_o200": 17
+      },
+      "tests/integration/suite/daprd/serviceinvocation/grpc/appapitoken/remotebothtokens.go": {
+        "diff_c100": 1126,
+        "diff_o200": 1159
+      },
+      "tests/integration/suite/daprd/serviceinvocation/grpc/appapitoken/remotereceiverhastoken.go": {
+        "diff_c100": 1110,
+        "diff_o200": 1123
+      },
+      "tests/integration/suite/daprd/serviceinvocation/grpc/appapitoken/remotereceivernotoken.go": {
+        "diff_c100": 1127,
+        "diff_o200": 1140
+      },
+      "tests/integration/suite/daprd/serviceinvocation/grpc/appapitoken/selfnotoken.go": {
+        "diff_c100": 1002,
+        "diff_o200": 1016
+      },
+      "tests/integration/suite/daprd/serviceinvocation/grpc/appapitoken/selfwithtoken.go": {
+        "diff_c100": 1028,
+        "diff_o200": 1042
+      },
+      "tests/integration/suite/daprd/serviceinvocation/grpc/appapitoken/server.go": {
+        "diff_c100": 474,
+        "diff_o200": 477
+      },
+      "tests/integration/suite/daprd/serviceinvocation/grpc/grpc.go": {
+        "diff_c100": 269,
+        "diff_o200": 277
+      },
+      "tests/integration/suite/daprd/serviceinvocation/http/appapitoken/remotebothtokens.go": {
+        "diff_c100": 907,
+        "diff_o200": 933
+      },
+      "tests/integration/suite/daprd/serviceinvocation/http/appapitoken/remotereceiverhastoken.go": {
+        "diff_c100": 889,
+        "diff_o200": 895
+      },
+      "tests/integration/suite/daprd/serviceinvocation/http/appapitoken/remotereceivernotoken.go": {
+        "diff_c100": 897,
+        "diff_o200": 903
+      },
+      "tests/integration/suite/daprd/serviceinvocation/http/appapitoken/selfnotoken.go": {
+        "diff_c100": 789,
+        "diff_o200": 796
+      },
+      "tests/integration/suite/daprd/serviceinvocation/http/appapitoken/selfwithtoken.go": {
+        "diff_c100": 804,
+        "diff_o200": 811
+      },
+      "tests/integration/suite/daprd/serviceinvocation/http/http.go": {
+        "diff_c100": 269,
+        "diff_o200": 268
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 12277,
+      "all_diff_o200_tokens": 12436,
+      "all_after_c100_tokens": 461,
+      "all_after_o200_tokens": 458,
+      "all_before_c100_tokens": 373,
+      "all_before_o200_tokens": 373
+    }
   },
   "CVE-2024-3727": {
     "cveinfo": "data/go-cves/CVE-2024-3727.json",
     "fixes": "data/go-fixes/CVE-2024-3727_fixes.json.gz",
-    "cwe_id": "CWE-354"
+    "cwe_id": "CWE-354",
+    "token_counts_per_file": {
+      "copy/progress_bars.go": {
+        "diff_c100": 399,
+        "diff_o200": 406,
+        "after_c100": 249,
+        "after_o200": 250,
+        "before_c100": 208,
+        "before_o200": 209
+      },
+      "copy/single.go": {
+        "diff_c100": 1086,
+        "diff_o200": 1107,
+        "after_c100": 702,
+        "after_o200": 715,
+        "before_c100": 570,
+        "before_o200": 583
+      },
+      "directory/directory_dest.go": {
+        "diff_c100": 618,
+        "diff_o200": 624,
+        "after_c100": 349,
+        "after_o200": 348,
+        "before_c100": 274,
+        "before_o200": 273
+      },
+      "directory/directory_src.go": {
+        "diff_c100": 570,
+        "diff_o200": 575,
+        "after_c100": 373,
+        "after_o200": 374,
+        "before_c100": 314,
+        "before_o200": 315
+      },
+      "directory/directory_test.go": {
+        "diff_c100": 340,
+        "diff_o200": 341,
+        "after_c100": 180,
+        "after_o200": 180,
+        "before_c100": 162,
+        "before_o200": 161
+      },
+      "directory/directory_transport.go": {
+        "diff_c100": 629,
+        "diff_o200": 629,
+        "after_c100": 384,
+        "after_o200": 380,
+        "before_c100": 227,
+        "before_o200": 223
+      },
+      "directory/directory_transport_test.go": {
+        "diff_c100": 779,
+        "diff_o200": 786,
+        "after_c100": 452,
+        "after_o200": 459,
+        "before_c100": 274,
+        "before_o200": 274
+      },
+      "docker/docker_client.go": {
+        "diff_c100": 788,
+        "diff_o200": 791,
+        "after_c100": 533,
+        "after_o200": 529,
+        "before_c100": 377,
+        "before_o200": 375
+      },
+      "docker/docker_image.go": {
+        "diff_c100": 207,
+        "diff_o200": 207,
+        "after_c100": 116,
+        "after_o200": 116,
+        "before_c100": 54,
+        "before_o200": 54
+      },
+      "docker/docker_image_dest.go": {
+        "diff_c100": 922,
+        "diff_o200": 932,
+        "after_c100": 630,
+        "after_o200": 636,
+        "before_c100": 513,
+        "before_o200": 519
+      },
+      "docker/docker_image_src.go": {
+        "diff_c100": 733,
+        "diff_o200": 737,
+        "after_c100": 481,
+        "after_o200": 480,
+        "before_c100": 349,
+        "before_o200": 350
+      },
+      "docker/internal/tarfile/dest.go": {
+        "diff_c100": 336,
+        "diff_o200": 343,
+        "after_c100": 181,
+        "after_o200": 184,
+        "before_c100": 127,
+        "before_o200": 130
+      },
+      "docker/internal/tarfile/writer.go": {
+        "diff_c100": 1037,
+        "diff_o200": 1040,
+        "after_c100": 731,
+        "after_o200": 732,
+        "before_c100": 541,
+        "before_o200": 541
+      },
+      "docker/registries_d.go": {
+        "diff_c100": 279,
+        "diff_o200": 283,
+        "after_c100": 164,
+        "after_o200": 167,
+        "before_c100": 115,
+        "before_o200": 118
+      },
+      "docker/registries_d_test.go": {
+        "diff_c100": 290,
+        "diff_o200": 293,
+        "after_c100": 169,
+        "after_o200": 172,
+        "before_c100": 101,
+        "before_o200": 102
+      },
+      "openshift/openshift_src.go": {
+        "diff_c100": 173,
+        "diff_o200": 174,
+        "after_c100": 80,
+        "after_o200": 81,
+        "before_c100": 45,
+        "before_o200": 46
+      },
+      "ostree/ostree_dest.go": {
+        "diff_c100": 374,
+        "diff_o200": 375,
+        "after_c100": 241,
+        "after_o200": 241,
+        "before_c100": 128,
+        "before_o200": 128
+      },
+      "ostree/ostree_src.go": {
+        "diff_c100": 254,
+        "diff_o200": 253,
+        "after_c100": 154,
+        "after_o200": 153,
+        "before_c100": 115,
+        "before_o200": 114
+      },
+      "pkg/blobcache/blobcache.go": {
+        "diff_c100": 395,
+        "diff_o200": 399,
+        "after_c100": 213,
+        "after_o200": 214,
+        "before_c100": 156,
+        "before_o200": 157
+      },
+      "pkg/blobcache/dest.go": {
+        "diff_c100": 1605,
+        "diff_o200": 1631,
+        "after_c100": 819,
+        "after_o200": 831,
+        "before_c100": 802,
+        "before_o200": 817
+      },
+      "pkg/blobcache/src.go": {
+        "diff_c100": 459,
+        "diff_o200": 466,
+        "after_c100": 264,
+        "after_o200": 268,
+        "before_c100": 217,
+        "before_o200": 221
+      },
+      "storage/storage_dest.go": {
+        "diff_c100": 972,
+        "diff_o200": 977,
+        "after_c100": 593,
+        "after_o200": 594,
+        "before_c100": 536,
+        "before_o200": 537
+      },
+      "storage/storage_image.go": {
+        "diff_c100": 401,
+        "diff_o200": 401,
+        "after_c100": 280,
+        "after_o200": 275,
+        "before_c100": 196,
+        "before_o200": 191
+      },
+      "storage/storage_reference.go": {
+        "diff_c100": 314,
+        "diff_o200": 313,
+        "after_c100": 178,
+        "after_o200": 177,
+        "before_c100": 131,
+        "before_o200": 130
+      },
+      "storage/storage_src.go": {
+        "diff_c100": 574,
+        "diff_o200": 577,
+        "after_c100": 380,
+        "after_o200": 383,
+        "before_c100": 285,
+        "before_o200": 288
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 14534,
+      "all_diff_o200_tokens": 14660,
+      "all_after_c100_tokens": 8896,
+      "all_after_o200_tokens": 8939,
+      "all_before_c100_tokens": 6817,
+      "all_before_o200_tokens": 6856
+    }
   },
   "CVE-2024-3817": {
     "cveinfo": "data/go-cves/CVE-2024-3817.json",
     "fixes": "data/go-fixes/CVE-2024-3817_fixes.json.gz",
-    "cwe_id": "CWE-88"
+    "cwe_id": "CWE-88",
+    "token_counts_per_file": {
+      "get_git.go": {
+        "diff_c100": 294,
+        "diff_o200": 294,
+        "after_c100": 153,
+        "after_o200": 152,
+        "before_c100": 149,
+        "before_o200": 148
+      },
+      "get_git_test.go": {
+        "diff_c100": 295,
+        "diff_o200": 294,
+        "after_c100": 197,
+        "after_o200": 195,
+        "before_c100": 29,
+        "before_o200": 28
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 589,
+      "all_diff_o200_tokens": 588,
+      "all_after_c100_tokens": 350,
+      "all_after_o200_tokens": 347,
+      "all_before_c100_tokens": 178,
+      "all_before_o200_tokens": 176
+    }
   },
   "CVE-2011-1021": {
     "cveinfo": "data/go-cves/CVE-2011-1021.json",
     "fixes": "data/go-fixes/CVE-2011-1021_fixes.json.gz",
-    "cwe_id": "CWE-264"
+    "cwe_id": "CWE-264",
+    "token_counts_per_file": {
+      "method-customizing.txt": {
+        "diff_c100": 123,
+        "diff_o200": 125,
+        "after_c100": 797,
+        "after_o200": 803,
+        "before_c100": 750,
+        "before_o200": 756
+      },
+      "Kconfig": {
+        "diff_c100": 207,
+        "diff_o200": 214,
+        "after_c100": 3061,
+        "after_o200": 3223,
+        "before_c100": 2922,
+        "before_o200": 3079
+      },
+      "Makefile": {
+        "diff_c100": 114,
+        "diff_o200": 115,
+        "after_c100": 702,
+        "after_o200": 709,
+        "before_c100": 688,
+        "before_o200": 695
+      },
+      "custom_method.c": {
+        "diff_c100": 682,
+        "diff_o200": 689,
+        "after_c100": 572,
+        "after_o200": 578,
+        "before_c100": 1,
+        "before_o200": 1
+      },
+      "debugfs.c": {
+        "diff_c100": 651,
+        "diff_o200": 659,
+        "after_c100": 105,
+        "after_o200": 106,
+        "before_c100": 559,
+        "before_o200": 565
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 1777,
+      "all_diff_o200_tokens": 1802,
+      "all_after_c100_tokens": 5237,
+      "all_after_o200_tokens": 5419,
+      "all_before_c100_tokens": 4920,
+      "all_before_o200_tokens": 5096
+    }
   },
   "CVE-2014-125026": {
     "cveinfo": "data/go-cves/CVE-2014-125026.json",
     "fixes": "data/go-fixes/CVE-2014-125026_fixes.json.gz",
-    "cwe_id": "CWE-787"
+    "cwe_id": "CWE-787",
+    "token_counts_per_file": {
+      "lz4.go": {
+        "diff_c100": 271,
+        "diff_o200": 271,
+        "after_c100": 110,
+        "after_o200": 107,
+        "before_c100": 121,
+        "before_o200": 119
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 271,
+      "all_diff_o200_tokens": 271,
+      "all_after_c100_tokens": 110,
+      "all_after_o200_tokens": 107,
+      "all_before_c100_tokens": 121,
+      "all_before_o200_tokens": 119
+    }
   },
   "CVE-2014-8681": {
     "cveinfo": "data/go-cves/CVE-2014-8681.json",
     "fixes": "data/go-fixes/CVE-2014-8681_fixes.json.gz",
-    "cwe_id": "CWE-89"
+    "cwe_id": "CWE-89",
+    "token_counts_per_file": {
+      "gogs.go": {
+        "diff_c100": 76,
+        "diff_o200": 76,
+        "after_c100": 237,
+        "after_o200": 237,
+        "before_c100": 237,
+        "before_o200": 237
+      },
+      "issue.go": {
+        "diff_c100": 127,
+        "diff_o200": 129,
+        "after_c100": 7967,
+        "after_o200": 7985,
+        "before_c100": 7943,
+        "before_o200": 7961
+      },
+      "repo.go": {
+        "diff_c100": 309,
+        "diff_o200": 316,
+        "after_c100": 10983,
+        "after_o200": 11085,
+        "before_c100": 10941,
+        "before_o200": 11043
+      },
+      "user.go": {
+        "diff_c100": 133,
+        "diff_o200": 138,
+        "after_c100": 4786,
+        "after_o200": 4843,
+        "before_c100": 4820,
+        "before_o200": 4878
+      },
+      "repos.go": {
+        "diff_c100": 210,
+        "diff_o200": 212,
+        "after_c100": 1048,
+        "after_o200": 1059,
+        "before_c100": 918,
+        "before_o200": 927
+      },
+      ".VERSION": {
+        "diff_c100": 44,
+        "diff_o200": 45,
+        "after_c100": 9,
+        "after_o200": 9,
+        "before_c100": 9,
+        "before_o200": 9
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 899,
+      "all_diff_o200_tokens": 916,
+      "all_after_c100_tokens": 25030,
+      "all_after_o200_tokens": 25218,
+      "all_before_c100_tokens": 24868,
+      "all_before_o200_tokens": 25055
+    }
   },
   "CVE-2015-10004": {
     "cveinfo": "data/go-cves/CVE-2015-10004.json",
     "fixes": "data/go-fixes/CVE-2015-10004_fixes.json.gz",
-    "cwe_id": "CWE-668"
+    "cwe_id": "CWE-668",
+    "token_counts_per_file": {
+      "algorithms.go": {
+        "diff_c100": 133,
+        "diff_o200": 137,
+        "after_c100": 50,
+        "after_o200": 50,
+        "before_c100": 47,
+        "before_o200": 47
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 133,
+      "all_diff_o200_tokens": 137,
+      "all_after_c100_tokens": 50,
+      "all_after_o200_tokens": 50,
+      "all_before_c100_tokens": 47,
+      "all_before_o200_tokens": 47
+    }
   },
   "CVE-2015-1340": {
     "cveinfo": "data/go-cves/CVE-2015-1340.json",
     "fixes": "data/go-fixes/CVE-2015-1340_fixes.json.gz",
-    "cwe_id": "CWE-362"
+    "cwe_id": "CWE-362",
+    "token_counts_per_file": {
+      "idmapset_linux.go": {
+        "diff_c100": 296,
+        "diff_o200": 297,
+        "after_c100": 2735,
+        "after_o200": 2731,
+        "before_c100": 2778,
+        "before_o200": 2774
+      },
+      "util_linux.go": {
+        "diff_c100": 788,
+        "diff_o200": 790,
+        "after_c100": 2359,
+        "after_o200": 2367,
+        "before_c100": 1866,
+        "before_o200": 1871
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 1084,
+      "all_diff_o200_tokens": 1087,
+      "all_after_c100_tokens": 5094,
+      "all_after_o200_tokens": 5098,
+      "all_before_c100_tokens": 4644,
+      "all_before_o200_tokens": 4645
+    }
   },
   "CVE-2015-2318": {
     "cveinfo": "data/go-cves/CVE-2015-2318.json",
     "fixes": "data/go-fixes/CVE-2015-2318_fixes.json.gz",
-    "cwe_id": "CWE-295"
+    "cwe_id": "CWE-295",
+    "token_counts_per_file": {
+      "ClientRecordProtocol.cs": {
+        "diff_c100": 661,
+        "diff_o200": 646,
+        "after_c100": 1444,
+        "after_o200": 1426,
+        "before_c100": 1157,
+        "before_o200": 1147
+      },
+      "Context.cs": {
+        "diff_c100": 63,
+        "diff_o200": 61,
+        "after_c100": 3287,
+        "after_o200": 3277,
+        "before_c100": 3274,
+        "before_o200": 3264
+      },
+      "RecordProtocol.cs": {
+        "diff_c100": 268,
+        "diff_o200": 269,
+        "after_c100": 6932,
+        "after_o200": 7020,
+        "before_c100": 6973,
+        "before_o200": 7059
+      },
+      "ServerRecordProtocol.cs": {
+        "diff_c100": 614,
+        "diff_o200": 608,
+        "after_c100": 1234,
+        "after_o200": 1214,
+        "before_c100": 1014,
+        "before_o200": 1000
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 1606,
+      "all_diff_o200_tokens": 1584,
+      "all_after_c100_tokens": 12897,
+      "all_after_o200_tokens": 12937,
+      "all_before_c100_tokens": 12418,
+      "all_before_o200_tokens": 12470
+    }
   },
   "CVE-2015-5739": {
     "cveinfo": "data/go-cves/CVE-2015-5739.json",
     "fixes": "data/go-fixes/CVE-2015-5739_fixes.json.gz",
-    "cwe_id": "CWE-444"
+    "cwe_id": "CWE-444",
+    "token_counts_per_file": {
+      "header.go": {
+        "diff_c100": 125,
+        "diff_o200": 127,
+        "after_c100": 1640,
+        "after_o200": 1611,
+        "before_c100": 1620,
+        "before_o200": 1591
+      },
+      "reader.go": {
+        "diff_c100": 705,
+        "diff_o200": 710,
+        "after_c100": 5113,
+        "after_o200": 5072,
+        "before_c100": 4822,
+        "before_o200": 4785
+      },
+      "reader_test.go": {
+        "diff_c100": 311,
+        "diff_o200": 313,
+        "after_c100": 3177,
+        "after_o200": 3207,
+        "before_c100": 3156,
+        "before_o200": 3186
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 1141,
+      "all_diff_o200_tokens": 1150,
+      "all_after_c100_tokens": 9930,
+      "all_after_o200_tokens": 9890,
+      "all_before_c100_tokens": 9598,
+      "all_before_o200_tokens": 9562
+    }
   },
   "CVE-2016-5386": {
     "cveinfo": "data/go-cves/CVE-2016-5386.json",
@@ -137,7 +1429,49 @@
   "CVE-2016-9123": {
     "cveinfo": "data/go-cves/CVE-2016-9123.json",
     "fixes": "data/go-fixes/CVE-2016-9123_fixes.json.gz",
-    "cwe_id": "CWE-190"
+    "cwe_id": "CWE-190",
+    "token_counts_per_file": {
+      "cbc_hmac.go": {
+        "diff_c100": 836,
+        "diff_o200": 841,
+        "after_c100": 1431,
+        "after_o200": 1437,
+        "before_c100": 1403,
+        "before_o200": 1409
+      },
+      "cbc_hmac_test.go": {
+        "diff_c100": 262,
+        "diff_o200": 264,
+        "after_c100": 6658,
+        "after_o200": 6664,
+        "before_c100": 6652,
+        "before_o200": 6658
+      },
+      "concat_kdf.go": {
+        "diff_c100": 179,
+        "diff_o200": 179,
+        "after_c100": 537,
+        "after_o200": 535,
+        "before_c100": 527,
+        "before_o200": 525
+      },
+      "ecdh_es.go": {
+        "diff_c100": 241,
+        "diff_o200": 239,
+        "after_c100": 578,
+        "after_o200": 577,
+        "before_c100": 528,
+        "before_o200": 528
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 1518,
+      "all_diff_o200_tokens": 1523,
+      "all_after_c100_tokens": 9204,
+      "all_after_o200_tokens": 9213,
+      "all_before_c100_tokens": 9110,
+      "all_before_o200_tokens": 9120
+    }
   },
   "CVE-2017-1000098": {
     "cveinfo": "data/go-cves/CVE-2017-1000098.json",
@@ -147,7 +1481,33 @@
   "CVE-2017-11480": {
     "cveinfo": "data/go-cves/CVE-2017-11480.json",
     "fixes": "data/go-fixes/CVE-2017-11480_fixes.json.gz",
-    "cwe_id": "CWE-404"
+    "cwe_id": "CWE-404",
+    "token_counts_per_file": {
+      "CHANGELOG.asciidoc": {
+        "diff_c100": 139,
+        "diff_o200": 144,
+        "after_c100": 47,
+        "after_o200": 48,
+        "before_c100": 28,
+        "before_o200": 28
+      },
+      "packetbeat/protos/pgsql/parse.go": {
+        "diff_c100": 167,
+        "diff_o200": 163,
+        "after_c100": 70,
+        "after_o200": 70,
+        "before_c100": 50,
+        "before_o200": 50
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 306,
+      "all_diff_o200_tokens": 307,
+      "all_after_c100_tokens": 117,
+      "all_after_o200_tokens": 118,
+      "all_before_c100_tokens": 78,
+      "all_before_o200_tokens": 78
+    }
   },
   "CVE-2017-15042": {
     "cveinfo": "data/go-cves/CVE-2017-15042.json",
@@ -157,42 +1517,234 @@
   "CVE-2017-20146": {
     "cveinfo": "data/go-cves/CVE-2017-20146.json",
     "fixes": "data/go-fixes/CVE-2017-20146_fixes.json.gz",
-    "cwe_id": "CWE-346"
+    "cwe_id": "CWE-346",
+    "token_counts_per_file": {
+      "cors.go": {
+        "diff_c100": 217,
+        "diff_o200": 217,
+        "after_c100": 123,
+        "after_o200": 122,
+        "before_c100": 38,
+        "before_o200": 38
+      },
+      "cors_test.go": {
+        "diff_c100": 476,
+        "diff_o200": 479,
+        "after_c100": 348,
+        "after_o200": 351,
+        "before_c100": 76,
+        "before_o200": 76
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 693,
+      "all_diff_o200_tokens": 696,
+      "all_after_c100_tokens": 471,
+      "all_after_o200_tokens": 473,
+      "all_before_c100_tokens": 114,
+      "all_before_o200_tokens": 114
+    }
   },
   "CVE-2017-8932": {
     "cveinfo": "data/go-cves/CVE-2017-8932.json",
     "fixes": "data/go-fixes/CVE-2017-8932_fixes.json.gz",
-    "cwe_id": "CWE-682"
+    "cwe_id": "CWE-682",
+    "token_counts_per_file": {
+      "elliptic_test.go": {
+        "diff_c100": 749,
+        "diff_o200": 751,
+        "after_c100": 7329,
+        "after_o200": 7352,
+        "before_c100": 6714,
+        "before_o200": 6735
+      },
+      "p256_asm_amd64.s": {
+        "diff_c100": 179,
+        "diff_o200": 187,
+        "after_c100": 19826,
+        "after_o200": 19890,
+        "before_c100": 19827,
+        "before_o200": 19891
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 928,
+      "all_diff_o200_tokens": 938,
+      "all_after_c100_tokens": 27155,
+      "all_after_o200_tokens": 27242,
+      "all_before_c100_tokens": 26541,
+      "all_before_o200_tokens": 26626
+    }
   },
   "CVE-2018-1000538": {
     "cveinfo": "data/go-cves/CVE-2018-1000538.json",
     "fixes": "data/go-fixes/CVE-2018-1000538_fixes.json.gz",
-    "cwe_id": "CWE-774"
+    "cwe_id": "CWE-774",
+    "token_counts_per_file": {
+      "auth-handler.go": {
+        "diff_c100": 984,
+        "diff_o200": 990,
+        "after_c100": 2346,
+        "after_o200": 2358,
+        "before_c100": 2303,
+        "before_o200": 2312
+      },
+      "auth-handler_test.go": {
+        "diff_c100": 348,
+        "diff_o200": 359,
+        "after_c100": 3923,
+        "after_o200": 3953,
+        "before_c100": 3896,
+        "before_o200": 3922
+      },
+      "reader.go": {
+        "diff_c100": 155,
+        "diff_o200": 155,
+        "after_c100": 1086,
+        "after_o200": 1089,
+        "before_c100": 1073,
+        "before_o200": 1076
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 1487,
+      "all_diff_o200_tokens": 1504,
+      "all_after_c100_tokens": 7355,
+      "all_after_o200_tokens": 7400,
+      "all_before_c100_tokens": 7272,
+      "all_before_o200_tokens": 7310
+    }
   },
   "CVE-2018-10856": {
     "cveinfo": "data/go-cves/CVE-2018-10856.json",
     "fixes": "data/go-fixes/CVE-2018-10856_fixes.json.gz",
-    "cwe_id": "CWE-250"
+    "cwe_id": "CWE-250",
+    "token_counts_per_file": {
+      "spec.go": {
+        "diff_c100": 325,
+        "diff_o200": 325,
+        "after_c100": 3447,
+        "after_o200": 3436,
+        "before_c100": 3305,
+        "before_o200": 3294
+      },
+      "run_test.go": {
+        "diff_c100": 263,
+        "diff_o200": 264,
+        "after_c100": 4831,
+        "after_o200": 4860,
+        "before_c100": 4725,
+        "before_o200": 4753
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 588,
+      "all_diff_o200_tokens": 589,
+      "all_after_c100_tokens": 8278,
+      "all_after_o200_tokens": 8296,
+      "all_before_c100_tokens": 8030,
+      "all_before_o200_tokens": 8047
+    }
   },
   "CVE-2018-12018": {
     "cveinfo": "data/go-cves/CVE-2018-12018.json",
     "fixes": "data/go-fixes/CVE-2018-12018_fixes.json.gz",
-    "cwe_id": "CWE-129"
+    "cwe_id": "CWE-129",
+    "token_counts_per_file": {
+      "handler.go": {
+        "diff_c100": 518,
+        "diff_o200": 523,
+        "after_c100": 11034,
+        "after_o200": 10944,
+        "before_c100": 10955,
+        "before_o200": 10865
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 518,
+      "all_diff_o200_tokens": 523,
+      "all_after_c100_tokens": 11034,
+      "all_after_o200_tokens": 10944,
+      "all_before_c100_tokens": 10955,
+      "all_before_o200_tokens": 10865
+    }
   },
   "CVE-2018-14474": {
     "cveinfo": "data/go-cves/CVE-2018-14474.json",
     "fixes": "data/go-fixes/CVE-2018-14474_fixes.json.gz",
-    "cwe_id": "CWE-601"
+    "cwe_id": "CWE-601",
+    "token_counts_per_file": {
+      "auth.go": {
+        "diff_c100": 207,
+        "diff_o200": 212,
+        "after_c100": 2163,
+        "after_o200": 2189,
+        "before_c100": 2147,
+        "before_o200": 2173
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 207,
+      "all_diff_o200_tokens": 212,
+      "all_after_c100_tokens": 2163,
+      "all_after_o200_tokens": 2189,
+      "all_before_c100_tokens": 2147,
+      "all_before_o200_tokens": 2173
+    }
   },
   "CVE-2018-16886": {
     "cveinfo": "data/go-cves/CVE-2018-16886.json",
     "fixes": "data/go-fixes/CVE-2018-16886_fixes.json.gz",
-    "cwe_id": "CWE-287"
+    "cwe_id": "CWE-287",
+    "token_counts_per_file": {
+      "auth/store.go": {
+        "diff_c100": 342,
+        "diff_o200": 342,
+        "after_c100": 244,
+        "after_o200": 244,
+        "before_c100": 44,
+        "before_o200": 44
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 342,
+      "all_diff_o200_tokens": 342,
+      "all_after_c100_tokens": 244,
+      "all_after_o200_tokens": 244,
+      "all_before_c100_tokens": 44,
+      "all_before_o200_tokens": 44
+    }
   },
   "CVE-2018-17075": {
     "cveinfo": "data/go-cves/CVE-2018-17075.json",
     "fixes": "data/go-fixes/CVE-2018-17075_fixes.json.gz",
-    "cwe_id": "CWE-476"
+    "cwe_id": "CWE-476",
+    "token_counts_per_file": {
+      "parse.go": {
+        "diff_c100": 298,
+        "diff_o200": 303,
+        "after_c100": 17235,
+        "after_o200": 17246,
+        "before_c100": 17321,
+        "before_o200": 17334
+      },
+      "template.dat": {
+        "diff_c100": 158,
+        "diff_o200": 154,
+        "after_c100": 5150,
+        "after_o200": 5151,
+        "before_c100": 5179,
+        "before_o200": 5180
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 456,
+      "all_diff_o200_tokens": 457,
+      "all_after_c100_tokens": 22385,
+      "all_after_o200_tokens": 22397,
+      "all_before_c100_tokens": 22500,
+      "all_before_o200_tokens": 22514
+    }
   },
   "CVE-2018-17143": {
     "cveinfo": "data/go-cves/CVE-2018-17143.json",
@@ -202,12 +1754,48 @@
   "CVE-2018-20461": {
     "cveinfo": "data/go-cves/CVE-2018-20461.json",
     "fixes": "data/go-fixes/CVE-2018-20461_fixes.json.gz",
-    "cwe_id": "CWE-125"
+    "cwe_id": "CWE-125",
+    "token_counts_per_file": {
+      "cmd_anal.c": {
+        "diff_c100": 367,
+        "diff_o200": 367,
+        "after_c100": 78144,
+        "after_o200": 78456,
+        "before_c100": 78082,
+        "before_o200": 78394
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 367,
+      "all_diff_o200_tokens": 367,
+      "all_after_c100_tokens": 78144,
+      "all_after_o200_tokens": 78456,
+      "all_before_c100_tokens": 78082,
+      "all_before_o200_tokens": 78394
+    }
   },
   "CVE-2018-25060": {
     "cveinfo": "data/go-cves/CVE-2018-25060.json",
     "fixes": "data/go-fixes/CVE-2018-25060_fixes.json.gz",
-    "cwe_id": "CWE-614"
+    "cwe_id": "CWE-614",
+    "token_counts_per_file": {
+      "csrf.go": {
+        "diff_c100": 179,
+        "diff_o200": 183,
+        "after_c100": 76,
+        "after_o200": 76,
+        "before_c100": 74,
+        "before_o200": 74
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 179,
+      "all_diff_o200_tokens": 183,
+      "all_after_c100_tokens": 76,
+      "all_after_o200_tokens": 76,
+      "all_before_c100_tokens": 74,
+      "all_before_o200_tokens": 74
+    }
   },
   "CVE-2018-6574": {
     "cveinfo": "data/go-cves/CVE-2018-6574.json",
@@ -222,17 +1810,135 @@
   "CVE-2022-2990": {
     "cveinfo": "data/go-cves/CVE-2022-2990.json",
     "fixes": "data/go-fixes/CVE-2022-2990_fixes.json.gz",
-    "cwe_id": "CWE-863"
+    "cwe_id": "CWE-863",
+    "token_counts_per_file": {
+      "run_common.go": {
+        "diff_c100": 133,
+        "diff_o200": 133,
+        "after_c100": 52,
+        "after_o200": 52,
+        "before_c100": 42,
+        "before_o200": 42
+      },
+      "tests/bud.bats": {
+        "diff_c100": 312,
+        "diff_o200": 313,
+        "after_c100": 230,
+        "after_o200": 231,
+        "before_c100": 42,
+        "before_o200": 43
+      },
+      "tests/bud/supplemental-groups/Dockerfile": {
+        "diff_c100": 111,
+        "diff_o200": 116
+      },
+      "tests/run.bats": {
+        "diff_c100": 224,
+        "diff_o200": 221,
+        "after_c100": 146,
+        "after_o200": 144,
+        "before_c100": 23,
+        "before_o200": 23
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 780,
+      "all_diff_o200_tokens": 783,
+      "all_after_c100_tokens": 428,
+      "all_after_o200_tokens": 427,
+      "all_before_c100_tokens": 107,
+      "all_before_o200_tokens": 108
+    }
   },
   "CVE-2022-4741": {
     "cveinfo": "data/go-cves/CVE-2022-4741.json",
     "fixes": "data/go-fixes/CVE-2022-4741_fixes.json.gz",
-    "cwe_id": "CWE-789"
+    "cwe_id": "CWE-789",
+    "token_counts_per_file": {
+      "docx.go": {
+        "diff_c100": 128,
+        "diff_o200": 130,
+        "after_c100": 48,
+        "after_o200": 49,
+        "before_c100": 41,
+        "before_o200": 42
+      },
+      "limit.go": {
+        "diff_c100": 77,
+        "diff_o200": 78
+      },
+      "odt.go": {
+        "diff_c100": 125,
+        "diff_o200": 127,
+        "after_c100": 41,
+        "after_o200": 42,
+        "before_c100": 34,
+        "before_o200": 35
+      },
+      "pages.go": {
+        "diff_c100": 129,
+        "diff_o200": 131,
+        "after_c100": 51,
+        "after_o200": 52,
+        "before_c100": 44,
+        "before_o200": 45
+      },
+      "xml.go": {
+        "diff_c100": 244,
+        "diff_o200": 245,
+        "after_c100": 124,
+        "after_o200": 124,
+        "before_c100": 110,
+        "before_o200": 110
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 703,
+      "all_diff_o200_tokens": 711,
+      "all_after_c100_tokens": 264,
+      "all_after_o200_tokens": 267,
+      "all_before_c100_tokens": 229,
+      "all_before_o200_tokens": 232
+    }
   },
   "CVE-2023-26046": {
     "cveinfo": "data/go-cves/CVE-2023-26046.json",
     "fixes": "data/go-fixes/CVE-2023-26046_fixes.json.gz",
-    "cwe_id": "CWE-80"
+    "cwe_id": "CWE-80",
+    "token_counts_per_file": {
+      "README.md": {
+        "diff_c100": 1163,
+        "diff_o200": 1163,
+        "after_c100": 600,
+        "after_o200": 601,
+        "before_c100": 600,
+        "before_o200": 601
+      },
+      "analyze.go": {
+        "diff_c100": 540,
+        "diff_o200": 548,
+        "after_c100": 278,
+        "after_o200": 280,
+        "before_c100": 254,
+        "before_o200": 256
+      },
+      "utils.go": {
+        "diff_c100": 288,
+        "diff_o200": 293,
+        "after_c100": 177,
+        "after_o200": 178,
+        "before_c100": 73,
+        "before_o200": 73
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 1991,
+      "all_diff_o200_tokens": 2004,
+      "all_after_c100_tokens": 1055,
+      "all_after_o200_tokens": 1059,
+      "all_before_c100_tokens": 927,
+      "all_before_o200_tokens": 930
+    }
   },
   "CVE-2023-29406": {
     "cveinfo": "data/go-cves/CVE-2023-29406.json",
@@ -242,22 +1948,186 @@
   "CVE-2024-1329": {
     "cveinfo": "data/go-cves/CVE-2024-1329.json",
     "fixes": "data/go-fixes/CVE-2024-1329_fixes.json.gz",
-    "cwe_id": "CWE-610"
+    "cwe_id": "CWE-610",
+    "token_counts_per_file": {
+      ".changelog/19887.txt": {
+        "diff_c100": 106,
+        "diff_o200": 107
+      },
+      "client/allocwatcher/alloc_watcher.go": {
+        "diff_c100": 1383,
+        "diff_o200": 1385,
+        "after_c100": 860,
+        "after_o200": 865,
+        "before_c100": 784,
+        "before_o200": 787
+      },
+      "client/allocwatcher/alloc_watcher_unix_test.go": {
+        "diff_c100": 1643,
+        "diff_o200": 1663,
+        "after_c100": 802,
+        "after_o200": 816,
+        "before_c100": 756,
+        "before_o200": 754
+      },
+      "helper/escapingfs/escapes.go": {
+        "diff_c100": 359,
+        "diff_o200": 357,
+        "after_c100": 158,
+        "after_o200": 153,
+        "before_c100": 118,
+        "before_o200": 119
+      },
+      "helper/escapingfs/escapes_test.go": {
+        "diff_c100": 497,
+        "diff_o200": 496,
+        "after_c100": 341,
+        "after_o200": 341,
+        "before_c100": 22,
+        "before_o200": 23
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 3988,
+      "all_diff_o200_tokens": 4008,
+      "all_after_c100_tokens": 2161,
+      "all_after_o200_tokens": 2175,
+      "all_before_c100_tokens": 1680,
+      "all_before_o200_tokens": 1683
+    }
   },
   "CVE-2024-23840": {
     "cveinfo": "data/go-cves/CVE-2024-23840.json",
     "fixes": "data/go-fixes/CVE-2024-23840_fixes.json.gz",
-    "cwe_id": "CWE-532"
+    "cwe_id": "CWE-532",
+    "token_counts_per_file": {
+      "internal/exec/exec.go": {
+        "diff_c100": 122,
+        "diff_o200": 130,
+        "after_c100": 42,
+        "after_o200": 42,
+        "before_c100": 52,
+        "before_o200": 52
+      },
+      "internal/pipe/sbom/sbom.go": {
+        "diff_c100": 162,
+        "diff_o200": 154,
+        "after_c100": 42,
+        "after_o200": 42,
+        "before_c100": 52,
+        "before_o200": 52
+      },
+      "internal/shell/shell.go": {
+        "diff_c100": 128,
+        "diff_o200": 127,
+        "after_c100": 50,
+        "after_o200": 49,
+        "before_c100": 59,
+        "before_o200": 58
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 412,
+      "all_diff_o200_tokens": 411,
+      "all_after_c100_tokens": 134,
+      "all_after_o200_tokens": 133,
+      "all_before_c100_tokens": 163,
+      "all_before_o200_tokens": 162
+    }
   },
   "CVE-2024-27916": {
     "cveinfo": "data/go-cves/CVE-2024-27916.json",
     "fixes": "data/go-fixes/CVE-2024-27916_fixes.json.gz",
-    "cwe_id": "CWE-285"
+    "cwe_id": "CWE-285",
+    "token_counts_per_file": {
+      "database/query/repositories.sql": {
+        "diff_c100": 178,
+        "diff_o200": 179,
+        "after_c100": 83,
+        "after_o200": 84,
+        "before_c100": 77,
+        "before_o200": 78
+      },
+      "internal/controlplane/handlers_artifacts.go": {
+        "diff_c100": 230,
+        "diff_o200": 228,
+        "after_c100": 128,
+        "after_o200": 128,
+        "before_c100": 103,
+        "before_o200": 103
+      },
+      "internal/controlplane/handlers_repositories.go": {
+        "diff_c100": 411,
+        "diff_o200": 413,
+        "after_c100": 190,
+        "after_o200": 192,
+        "before_c100": 158,
+        "before_o200": 160
+      },
+      "internal/db/repositories.sql.go": {
+        "diff_c100": 454,
+        "diff_o200": 453,
+        "after_c100": 227,
+        "after_o200": 226,
+        "before_c100": 197,
+        "before_o200": 196
+      },
+      "internal/db/repositories_test.go": {
+        "diff_c100": 208,
+        "diff_o200": 209,
+        "after_c100": 94,
+        "after_o200": 95,
+        "before_c100": 78,
+        "before_o200": 79
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 1481,
+      "all_diff_o200_tokens": 1482,
+      "all_after_c100_tokens": 722,
+      "all_after_o200_tokens": 725,
+      "all_before_c100_tokens": 613,
+      "all_before_o200_tokens": 616
+    }
   },
   "CVE-2019-11254": {
     "cveinfo": "data/go-cves/CVE-2019-11254.json",
     "fixes": "data/go-fixes/CVE-2019-11254_fixes.json.gz",
-    "cwe_id": "CWE-1050"
+    "cwe_id": "CWE-1050",
+    "token_counts_per_file": {
+      "limit_test.go": {
+        "diff_c100": 440,
+        "diff_o200": 438,
+        "after_c100": 344,
+        "after_o200": 342,
+        "before_c100": 253,
+        "before_o200": 252
+      },
+      "scannerc.go": {
+        "diff_c100": 932,
+        "diff_o200": 936,
+        "after_c100": 460,
+        "after_o200": 461,
+        "before_c100": 458,
+        "before_o200": 460
+      },
+      "yamlh.go": {
+        "diff_c100": 127,
+        "diff_o200": 126,
+        "after_c100": 58,
+        "after_o200": 58,
+        "before_c100": 39,
+        "before_o200": 39
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 1499,
+      "all_diff_o200_tokens": 1500,
+      "all_after_c100_tokens": 862,
+      "all_after_o200_tokens": 861,
+      "all_before_c100_tokens": 750,
+      "all_before_o200_tokens": 751
+    }
   },
   "CVE-2019-11840": {
     "cveinfo": "data/go-cves/CVE-2019-11840.json",
@@ -272,22 +2142,110 @@
   "CVE-2019-16097": {
     "cveinfo": "data/go-cves/CVE-2019-16097.json",
     "fixes": "data/go-fixes/CVE-2019-16097_fixes.json.gz",
-    "cwe_id": "CWE-862"
+    "cwe_id": "CWE-862",
+    "token_counts_per_file": {
+      "user.go": {
+        "diff_c100": 198,
+        "diff_o200": 200,
+        "after_c100": 4539,
+        "after_o200": 4664,
+        "before_c100": 4496,
+        "before_o200": 4621
+      },
+      "user_test.go": {
+        "diff_c100": 2066,
+        "diff_o200": 2052,
+        "after_c100": 5716,
+        "after_o200": 5739,
+        "before_c100": 5510,
+        "before_o200": 5533
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 2264,
+      "all_diff_o200_tokens": 2252,
+      "all_after_c100_tokens": 10255,
+      "all_after_o200_tokens": 10403,
+      "all_before_c100_tokens": 10006,
+      "all_before_o200_tokens": 10154
+    }
   },
   "CVE-2019-19794": {
     "cveinfo": "data/go-cves/CVE-2019-19794.json",
     "fixes": "data/go-fixes/CVE-2019-19794_fixes.json.gz",
-    "cwe_id": "CWE-338"
+    "cwe_id": "CWE-338",
+    "token_counts_per_file": {
+      "msg.go": {
+        "diff_c100": 669,
+        "diff_o200": 680,
+        "after_c100": 244,
+        "after_o200": 241,
+        "before_c100": 440,
+        "before_o200": 443
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 669,
+      "all_diff_o200_tokens": 680,
+      "all_after_c100_tokens": 244,
+      "all_after_o200_tokens": 241,
+      "all_before_c100_tokens": 440,
+      "all_before_o200_tokens": 443
+    }
   },
   "CVE-2019-19921": {
     "cveinfo": "data/go-cves/CVE-2019-19921.json",
     "fixes": "data/go-fixes/CVE-2019-19921_fixes.json.gz",
-    "cwe_id": "CWE-706"
+    "cwe_id": "CWE-706",
+    "token_counts_per_file": {
+      "libcontainer/rootfs_linux.go": {
+        "diff_c100": 289,
+        "diff_o200": 291,
+        "after_c100": 189,
+        "after_o200": 191,
+        "before_c100": 38,
+        "before_o200": 38
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 289,
+      "all_diff_o200_tokens": 291,
+      "all_after_c100_tokens": 189,
+      "all_after_o200_tokens": 191,
+      "all_before_c100_tokens": 38,
+      "all_before_o200_tokens": 38
+    }
   },
   "CVE-2019-3564": {
     "cveinfo": "data/go-cves/CVE-2019-3564.json",
     "fixes": "data/go-fixes/CVE-2019-3564_fixes.json.gz",
-    "cwe_id": "CWE-834"
+    "cwe_id": "CWE-834",
+    "token_counts_per_file": {
+      "binary_protocol_test.go": {
+        "diff_c100": 248,
+        "diff_o200": 250,
+        "after_c100": 396,
+        "after_o200": 397,
+        "before_c100": 216,
+        "before_o200": 217
+      },
+      "protocol.go": {
+        "diff_c100": 159,
+        "diff_o200": 163,
+        "after_c100": 1447,
+        "after_o200": 1468,
+        "before_c100": 1434,
+        "before_o200": 1454
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 407,
+      "all_diff_o200_tokens": 413,
+      "all_after_c100_tokens": 1843,
+      "all_after_o200_tokens": 1865,
+      "all_before_c100_tokens": 1650,
+      "all_before_o200_tokens": 1671
+    }
   },
   "CVE-2019-9634": {
     "cveinfo": "data/go-cves/CVE-2019-9634.json",
@@ -302,57 +2260,755 @@
   "CVE-2020-15111": {
     "cveinfo": "data/go-cves/CVE-2020-15111.json",
     "fixes": "data/go-fixes/CVE-2020-15111_fixes.json.gz",
-    "cwe_id": "CWE-93"
+    "cwe_id": "CWE-93",
+    "token_counts_per_file": {
+      "ctx.go": {
+        "diff_c100": 149,
+        "diff_o200": 146,
+        "after_c100": 63,
+        "after_o200": 61,
+        "before_c100": 60,
+        "before_o200": 58
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 149,
+      "all_diff_o200_tokens": 146,
+      "all_after_c100_tokens": 63,
+      "all_after_o200_tokens": 61,
+      "all_before_c100_tokens": 60,
+      "all_before_o200_tokens": 58
+    }
   },
   "CVE-2020-15185": {
     "cveinfo": "data/go-cves/CVE-2020-15185.json",
     "fixes": "data/go-fixes/CVE-2020-15185_fixes.json.gz",
-    "cwe_id": "CWE-694"
+    "cwe_id": "CWE-694",
+    "token_counts_per_file": {
+      "chart_downloader_test.go": {
+        "diff_c100": 86,
+        "diff_o200": 86,
+        "after_c100": 2996,
+        "after_o200": 3017,
+        "before_c100": 2996,
+        "before_o200": 3017
+      },
+      "index.go": {
+        "diff_c100": 396,
+        "diff_o200": 399,
+        "after_c100": 2299,
+        "after_o200": 2278,
+        "before_c100": 2095,
+        "before_o200": 2074
+      },
+      "index_test.go": {
+        "diff_c100": 338,
+        "diff_o200": 340,
+        "after_c100": 4256,
+        "after_o200": 4284,
+        "before_c100": 4005,
+        "before_o200": 4031
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 820,
+      "all_diff_o200_tokens": 825,
+      "all_after_c100_tokens": 9551,
+      "all_after_o200_tokens": 9579,
+      "all_before_c100_tokens": 9096,
+      "all_before_o200_tokens": 9122
+    }
   },
   "CVE-2020-15222": {
     "cveinfo": "data/go-cves/CVE-2020-15222.json",
     "fixes": "data/go-fixes/CVE-2020-15222_fixes.json.gz",
-    "cwe_id": "CWE-345"
+    "cwe_id": "CWE-345",
+    "token_counts_per_file": {
+      "client_authentication.go": {
+        "diff_c100": 673,
+        "diff_o200": 679,
+        "after_c100": 3383,
+        "after_o200": 3401,
+        "before_c100": 3154,
+        "before_o200": 3170
+      },
+      "client_authentication_test.go": {
+        "diff_c100": 2378,
+        "diff_o200": 2383,
+        "after_c100": 5125,
+        "after_o200": 5151,
+        "before_c100": 4683,
+        "before_o200": 4705
+      },
+      "client_manager.go": {
+        "diff_c100": 228,
+        "diff_o200": 229,
+        "after_c100": 406,
+        "after_o200": 405,
+        "before_c100": 278,
+        "before_o200": 277
+      },
+      "errors.go": {
+        "diff_c100": 166,
+        "diff_o200": 169,
+        "after_c100": 2933,
+        "after_o200": 2966,
+        "before_c100": 2879,
+        "before_o200": 2911
+      },
+      "go.mod": {
+        "diff_c100": 453,
+        "diff_o200": 454,
+        "after_c100": 556,
+        "after_o200": 556,
+        "before_c100": 612,
+        "before_o200": 612
+      },
+      "go.sum": {
+        "diff_c100": 1992,
+        "diff_o200": 1936,
+        "after_c100": 4002,
+        "after_o200": 3896,
+        "before_c100": 3267,
+        "before_o200": 3184
+      },
+      "flow_refresh.go": {
+        "diff_c100": 64,
+        "diff_o200": 64,
+        "after_c100": 1887,
+        "after_o200": 1883,
+        "before_c100": 1887,
+        "before_o200": 1883
+      },
+      "access_request.go": {
+        "diff_c100": 2902,
+        "diff_o200": 2808,
+        "after_c100": 2702,
+        "after_o200": 2560,
+        "before_c100": 2474,
+        "before_o200": 2332
+      },
+      "access_response.go": {
+        "diff_c100": 1270,
+        "diff_o200": 1306,
+        "after_c100": 1317,
+        "after_o200": 1327,
+        "before_c100": 1209,
+        "before_o200": 1219
+      },
+      "access_token_storage.go": {
+        "diff_c100": 635,
+        "diff_o200": 679,
+        "after_c100": 750,
+        "after_o200": 790,
+        "before_c100": 714,
+        "before_o200": 754
+      },
+      "access_token_strategy.go": {
+        "diff_c100": 581,
+        "diff_o200": 625,
+        "after_c100": 711,
+        "after_o200": 751,
+        "before_c100": 675,
+        "before_o200": 715
+      },
+      "authorize_code_storage.go": {
+        "diff_c100": 677,
+        "diff_o200": 683,
+        "after_c100": 804,
+        "after_o200": 797,
+        "before_c100": 768,
+        "before_o200": 761
+      },
+      "authorize_code_strategy.go": {
+        "diff_c100": 625,
+        "diff_o200": 628,
+        "after_c100": 767,
+        "after_o200": 758,
+        "before_c100": 731,
+        "before_o200": 722
+      },
+      "authorize_handler.go": {
+        "diff_c100": 247,
+        "diff_o200": 247,
+        "after_c100": 435,
+        "after_o200": 427,
+        "before_c100": 423,
+        "before_o200": 415
+      },
+      "authorize_request.go": {
+        "diff_c100": 3702,
+        "diff_o200": 3602,
+        "after_c100": 3366,
+        "after_o200": 3212,
+        "before_c100": 3078,
+        "before_o200": 2924
+      },
+      "authorize_response.go": {
+        "diff_c100": 1022,
+        "diff_o200": 1029,
+        "after_c100": 1083,
+        "after_o200": 1070,
+        "before_c100": 999,
+        "before_o200": 986
+      },
+      "client.go": {
+        "diff_c100": 1285,
+        "diff_o200": 1287,
+        "after_c100": 1221,
+        "after_o200": 1199,
+        "before_c100": 1125,
+        "before_o200": 1103
+      },
+      "hash.go": {
+        "diff_c100": 410,
+        "diff_o200": 402,
+        "after_c100": 528,
+        "after_o200": 500,
+        "before_c100": 504,
+        "before_o200": 476
+      },
+      "id_token_strategy.go": {
+        "diff_c100": 245,
+        "diff_o200": 245,
+        "after_c100": 467,
+        "after_o200": 460,
+        "before_c100": 455,
+        "before_o200": 448
+      },
+      "introspector.go": {
+        "diff_c100": 303,
+        "diff_o200": 303,
+        "after_c100": 502,
+        "after_o200": 494,
+        "before_c100": 490,
+        "before_o200": 482
+      },
+      "oauth2_client_storage.go": {
+        "diff_c100": 655,
+        "diff_o200": 685,
+        "after_c100": 800,
+        "after_o200": 815,
+        "before_c100": 764,
+        "before_o200": 779
+      },
+      "oauth2_owner_storage.go": {
+        "diff_c100": 1536,
+        "diff_o200": 1565,
+        "after_c100": 1586,
+        "after_o200": 1597,
+        "before_c100": 1502,
+        "before_o200": 1513
+      },
+      "oauth2_revoke_storage.go": {
+        "diff_c100": 1715,
+        "diff_o200": 1761,
+        "after_c100": 1683,
+        "after_o200": 1701,
+        "before_c100": 1587,
+        "before_o200": 1605
+      },
+      "oauth2_storage.go": {
+        "diff_c100": 1930,
+        "diff_o200": 1970,
+        "after_c100": 1831,
+        "after_o200": 1842,
+        "before_c100": 1723,
+        "before_o200": 1734
+      },
+      "oauth2_strategy.go": {
+        "diff_c100": 1764,
+        "diff_o200": 1800,
+        "after_c100": 1716,
+        "after_o200": 1725,
+        "before_c100": 1608,
+        "before_o200": 1617
+      },
+      "openid_id_token_storage.go": {
+        "diff_c100": 726,
+        "diff_o200": 728,
+        "after_c100": 874,
+        "after_o200": 865,
+        "before_c100": 838,
+        "before_o200": 829
+      },
+      "pkce_storage_strategy.go": {
+        "diff_c100": 799,
+        "diff_o200": 720,
+        "after_c100": 947,
+        "after_o200": 840,
+        "before_c100": 911,
+        "before_o200": 804
+      },
+      "refresh_token_strategy.go": {
+        "diff_c100": 621,
+        "diff_o200": 624,
+        "after_c100": 760,
+        "after_o200": 751,
+        "before_c100": 724,
+        "before_o200": 715
+      },
+      "request.go": {
+        "diff_c100": 2668,
+        "diff_o200": 2574,
+        "after_c100": 2498,
+        "after_o200": 2360,
+        "before_c100": 2282,
+        "before_o200": 2144
+      },
+      "revoke_handler.go": {
+        "diff_c100": 255,
+        "diff_o200": 256,
+        "after_c100": 434,
+        "after_o200": 427,
+        "before_c100": 422,
+        "before_o200": 415
+      },
+      "storage.go": {
+        "diff_c100": 635,
+        "diff_o200": 638,
+        "after_c100": 714,
+        "after_o200": 705,
+        "before_c100": 368,
+        "before_o200": 361
+      },
+      "token_handler.go": {
+        "diff_c100": 453,
+        "diff_o200": 450,
+        "after_c100": 602,
+        "after_o200": 589,
+        "before_c100": 578,
+        "before_o200": 565
+      },
+      "transactional.go": {
+        "diff_c100": 519,
+        "diff_o200": 519,
+        "after_c100": 608,
+        "after_o200": 596,
+        "before_c100": 572,
+        "before_o200": 560
+      },
+      "memory.go": {
+        "diff_c100": 652,
+        "diff_o200": 653,
+        "after_c100": 2350,
+        "after_o200": 2365,
+        "before_c100": 2156,
+        "before_o200": 2171
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 34786,
+      "all_diff_o200_tokens": 34701,
+      "all_after_c100_tokens": 50348,
+      "all_after_o200_tokens": 49781,
+      "all_before_c100_tokens": 46440,
+      "all_before_o200_tokens": 45891
+    }
   },
   "CVE-2020-15234": {
     "cveinfo": "data/go-cves/CVE-2020-15234.json",
     "fixes": "data/go-fixes/CVE-2020-15234_fixes.json.gz",
-    "cwe_id": "CWE-178"
+    "cwe_id": "CWE-178",
+    "token_counts_per_file": {
+      "authorize_helper.go": {
+        "diff_c100": 403,
+        "diff_o200": 411,
+        "after_c100": 1990,
+        "after_o200": 1992,
+        "before_c100": 1869,
+        "before_o200": 1873
+      },
+      "authorize_helper_test.go": {
+        "diff_c100": 1563,
+        "diff_o200": 1563,
+        "after_c100": 2773,
+        "after_o200": 2775,
+        "before_c100": 2403,
+        "before_o200": 2405
+      },
+      "helper_test.go": {
+        "diff_c100": 134,
+        "diff_o200": 131,
+        "after_c100": 543,
+        "after_o200": 547,
+        "before_c100": 543,
+        "before_o200": 547
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 2100,
+      "all_diff_o200_tokens": 2105,
+      "all_after_c100_tokens": 5306,
+      "all_after_o200_tokens": 5314,
+      "all_before_c100_tokens": 4815,
+      "all_before_o200_tokens": 4825
+    }
   },
   "CVE-2020-24710": {
     "cveinfo": "data/go-cves/CVE-2020-24710.json",
     "fixes": "data/go-fixes/CVE-2020-24710_fixes.json.gz",
-    "cwe_id": "CWE-918"
+    "cwe_id": "CWE-918",
+    "token_counts_per_file": {
+      "config.go": {
+        "diff_c100": 180,
+        "diff_o200": 181,
+        "after_c100": 483,
+        "after_o200": 480,
+        "before_c100": 464,
+        "before_o200": 462
+      },
+      "import.go": {
+        "diff_c100": 188,
+        "diff_o200": 191,
+        "after_c100": 1240,
+        "after_o200": 1268,
+        "before_c100": 1204,
+        "before_o200": 1232
+      },
+      "import_test.go": {
+        "diff_c100": 765,
+        "diff_o200": 770,
+        "after_c100": 671,
+        "after_o200": 675,
+        "before_c100": 1,
+        "before_o200": 1
+      },
+      "dialer.go": {
+        "diff_c100": 1544,
+        "diff_o200": 1529,
+        "after_c100": 1376,
+        "after_o200": 1346,
+        "before_c100": 1,
+        "before_o200": 1
+      },
+      "dialer_test.go": {
+        "diff_c100": 901,
+        "diff_o200": 883,
+        "after_c100": 806,
+        "after_o200": 787,
+        "before_c100": 1,
+        "before_o200": 1
+      },
+      "go.mod": {
+        "diff_c100": 361,
+        "diff_o200": 363,
+        "after_c100": 590,
+        "after_o200": 594,
+        "before_c100": 659,
+        "before_o200": 662
+      },
+      "go.sum": {
+        "diff_c100": 1119,
+        "diff_o200": 1095,
+        "after_c100": 6261,
+        "after_o200": 6102,
+        "before_c100": 6390,
+        "before_o200": 6231
+      },
+      "gophish.go": {
+        "diff_c100": 271,
+        "diff_o200": 269,
+        "after_c100": 1066,
+        "after_o200": 1071,
+        "before_c100": 976,
+        "before_o200": 983
+      },
+      "imap.go": {
+        "diff_c100": 288,
+        "diff_o200": 291,
+        "after_c100": 1491,
+        "after_o200": 1511,
+        "before_c100": 1449,
+        "before_o200": 1471
+      },
+      "smtp.go": {
+        "diff_c100": 204,
+        "diff_o200": 201,
+        "after_c100": 1781,
+        "after_o200": 1770,
+        "before_c100": 1754,
+        "before_o200": 1742
+      },
+      "smtp_test.go": {
+        "diff_c100": 166,
+        "diff_o200": 166,
+        "after_c100": 755,
+        "after_o200": 749,
+        "before_c100": 656,
+        "before_o200": 651
+      },
+      "webhook.go": {
+        "diff_c100": 89,
+        "diff_o200": 89,
+        "after_c100": 731,
+        "after_o200": 736,
+        "before_c100": 700,
+        "before_o200": 706
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 6076,
+      "all_diff_o200_tokens": 6028,
+      "all_after_c100_tokens": 17251,
+      "all_after_o200_tokens": 17089,
+      "all_before_c100_tokens": 14255,
+      "all_before_o200_tokens": 14143
+    }
   },
   "CVE-2020-24711": {
     "cveinfo": "data/go-cves/CVE-2020-24711.json",
     "fixes": "data/go-fixes/CVE-2020-24711_fixes.json.gz",
-    "cwe_id": "CWE-1021"
+    "cwe_id": "CWE-1021",
+    "token_counts_per_file": {
+      "route.go": {
+        "diff_c100": 123,
+        "diff_o200": 126,
+        "after_c100": 4091,
+        "after_o200": 4119,
+        "before_c100": 4086,
+        "before_o200": 4114
+      },
+      "middleware.go": {
+        "diff_c100": 167,
+        "diff_o200": 171,
+        "after_c100": 1660,
+        "after_o200": 1694,
+        "before_c100": 1566,
+        "before_o200": 1599
+      },
+      "middleware_test.go": {
+        "diff_c100": 202,
+        "diff_o200": 201,
+        "after_c100": 1481,
+        "after_o200": 1493,
+        "before_c100": 1342,
+        "before_o200": 1355
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 492,
+      "all_diff_o200_tokens": 498,
+      "all_after_c100_tokens": 7232,
+      "all_after_o200_tokens": 7306,
+      "all_before_c100_tokens": 6994,
+      "all_before_o200_tokens": 7068
+    }
   },
   "CVE-2020-25989": {
     "cveinfo": "data/go-cves/CVE-2020-25989.json",
     "fixes": "data/go-fixes/CVE-2020-25989_fixes.json.gz",
-    "cwe_id": "CWE-59"
+    "cwe_id": "CWE-59",
+    "token_counts_per_file": {
+      "profile.go": {
+        "diff_c100": 581,
+        "diff_o200": 581,
+        "after_c100": 17003,
+        "after_o200": 17219,
+        "before_c100": 16952,
+        "before_o200": 17168
+      },
+      "utils.go": {
+        "diff_c100": 58,
+        "diff_o200": 58,
+        "after_c100": 5662,
+        "after_o200": 5723,
+        "before_c100": 5654,
+        "before_o200": 5715
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 639,
+      "all_diff_o200_tokens": 639,
+      "all_after_c100_tokens": 22665,
+      "all_after_o200_tokens": 22942,
+      "all_before_c100_tokens": 22606,
+      "all_before_o200_tokens": 22883
+    }
   },
   "CVE-2020-26276": {
     "cveinfo": "data/go-cves/CVE-2020-26276.json",
     "fixes": "data/go-fixes/CVE-2020-26276_fixes.json.gz",
-    "cwe_id": "CWE-290"
+    "cwe_id": "CWE-290",
+    "token_counts_per_file": {
+      "go.mod": {
+        "diff_c100": 691,
+        "diff_o200": 699,
+        "after_c100": 1460,
+        "after_o200": 1464,
+        "before_c100": 1424,
+        "before_o200": 1428
+      },
+      "go.sum": {
+        "diff_c100": 2559,
+        "diff_o200": 2487,
+        "after_c100": 18381,
+        "after_o200": 17917,
+        "before_c100": 17726,
+        "before_o200": 17276
+      },
+      "validate.go": {
+        "diff_c100": 307,
+        "diff_o200": 311,
+        "after_c100": 1590,
+        "after_o200": 1583,
+        "before_c100": 1524,
+        "before_o200": 1517
+      },
+      "validate_test.go": {
+        "diff_c100": 13604,
+        "diff_o200": 12691,
+        "after_c100": 30295,
+        "after_o200": 28388,
+        "before_c100": 21190,
+        "before_o200": 19896
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 17161,
+      "all_diff_o200_tokens": 16188,
+      "all_after_c100_tokens": 51726,
+      "all_after_o200_tokens": 49352,
+      "all_before_c100_tokens": 41864,
+      "all_before_o200_tokens": 40117
+    }
   },
   "CVE-2020-27519": {
     "cveinfo": "data/go-cves/CVE-2020-27519.json",
     "fixes": "data/go-fixes/CVE-2020-27519_fixes.json.gz",
-    "cwe_id": "CWE-269"
+    "cwe_id": "CWE-269",
+    "token_counts_per_file": {
+      "profile.go": {
+        "diff_c100": 492,
+        "diff_o200": 500,
+        "after_c100": 17240,
+        "after_o200": 17483,
+        "before_c100": 16900,
+        "before_o200": 17135
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 492,
+      "all_diff_o200_tokens": 500,
+      "all_after_c100_tokens": 17240,
+      "all_after_o200_tokens": 17483,
+      "all_before_c100_tokens": 16900,
+      "all_before_o200_tokens": 17135
+    }
   },
   "CVE-2020-27795": {
     "cveinfo": "data/go-cves/CVE-2020-27795.json",
     "fixes": "data/go-fixes/CVE-2020-27795_fixes.json.gz",
-    "cwe_id": "CWE-908"
+    "cwe_id": "CWE-908",
+    "token_counts_per_file": {
+      "cmd_anal.c": {
+        "diff_c100": 195,
+        "diff_o200": 200,
+        "after_c100": 100507,
+        "after_o200": 100902,
+        "before_c100": 100502,
+        "before_o200": 100897
+      },
+      "x86_32": {
+        "diff_c100": 106,
+        "diff_o200": 110,
+        "after_c100": 36237,
+        "after_o200": 36459,
+        "before_c100": 36209,
+        "before_o200": 36429
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 301,
+      "all_diff_o200_tokens": 310,
+      "all_after_c100_tokens": 136744,
+      "all_after_o200_tokens": 137361,
+      "all_before_c100_tokens": 136711,
+      "all_before_o200_tokens": 137326
+    }
   },
   "CVE-2020-27846": {
     "cveinfo": "data/go-cves/CVE-2020-27846.json",
     "fixes": "data/go-fixes/CVE-2020-27846_fixes.json.gz",
-    "cwe_id": "CWE-115"
+    "cwe_id": "CWE-115",
+    "token_counts_per_file": {
+      "go.mod": {
+        "diff_c100": 183,
+        "diff_o200": 183,
+        "after_c100": 128,
+        "after_o200": 128,
+        "before_c100": 100,
+        "before_o200": 100
+      },
+      "identity_provider.go": {
+        "diff_c100": 278,
+        "diff_o200": 281,
+        "after_c100": 166,
+        "after_o200": 168,
+        "before_c100": 131,
+        "before_o200": 132
+      },
+      "identity_provider_test.go": {
+        "diff_c100": 1359,
+        "diff_o200": 1336,
+        "after_c100": 811,
+        "after_o200": 805,
+        "before_c100": 570,
+        "before_o200": 559
+      },
+      "samlidp/util.go": {
+        "diff_c100": 363,
+        "diff_o200": 365,
+        "after_c100": 198,
+        "after_o200": 198,
+        "before_c100": 159,
+        "before_o200": 159
+      },
+      "samlidp/util_test.go": {
+        "diff_c100": 570,
+        "diff_o200": 572
+      },
+      "samlsp/fetch_metadata.go": {
+        "diff_c100": 243,
+        "diff_o200": 246,
+        "after_c100": 135,
+        "after_o200": 136,
+        "before_c100": 96,
+        "before_o200": 97
+      },
+      "samlsp/fetch_metadata_test.go": {
+        "diff_c100": 687,
+        "diff_o200": 689,
+        "after_c100": 571,
+        "after_o200": 574,
+        "before_c100": 56,
+        "before_o200": 57
+      },
+      "service_provider.go": {
+        "diff_c100": 963,
+        "diff_o200": 981,
+        "after_c100": 618,
+        "after_o200": 628,
+        "before_c100": 359,
+        "before_o200": 362
+      },
+      "service_provider_test.go": {
+        "diff_c100": 6835,
+        "diff_o200": 6470,
+        "after_c100": 6673,
+        "after_o200": 6307,
+        "before_c100": 25,
+        "before_o200": 27
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 11481,
+      "all_diff_o200_tokens": 11123,
+      "all_after_c100_tokens": 9300,
+      "all_after_o200_tokens": 8944,
+      "all_before_c100_tokens": 1496,
+      "all_before_o200_tokens": 1493
+    }
   },
   "CVE-2020-36562": {
     "cveinfo": "data/go-cves/CVE-2020-36562.json",
@@ -362,42 +3018,866 @@
   "CVE-2020-36567": {
     "cveinfo": "data/go-cves/CVE-2020-36567.json",
     "fixes": "data/go-fixes/CVE-2020-36567_fixes.json.gz",
-    "cwe_id": "CWE-116"
+    "cwe_id": "CWE-116",
+    "token_counts_per_file": {
+      "logger.go": {
+        "diff_c100": 208,
+        "diff_o200": 205,
+        "after_c100": 111,
+        "after_o200": 108,
+        "before_c100": 111,
+        "before_o200": 108
+      },
+      "logger_test.go": {
+        "diff_c100": 792,
+        "diff_o200": 792,
+        "after_c100": 380,
+        "after_o200": 380,
+        "before_c100": 372,
+        "before_o200": 372
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 1000,
+      "all_diff_o200_tokens": 997,
+      "all_after_c100_tokens": 491,
+      "all_after_o200_tokens": 488,
+      "all_before_c100_tokens": 483,
+      "all_before_o200_tokens": 480
+    }
   },
   "CVE-2020-5300": {
     "cveinfo": "data/go-cves/CVE-2020-5300.json",
     "fixes": "data/go-fixes/CVE-2020-5300_fixes.json.gz",
-    "cwe_id": "CWE-294"
+    "cwe_id": "CWE-294",
+    "token_counts_per_file": {
+      "manager.go": {
+        "diff_c100": 56,
+        "diff_o200": 56,
+        "after_c100": 364,
+        "after_o200": 364,
+        "before_c100": 352,
+        "before_o200": 352
+      },
+      "provider_viper_test.go": {
+        "diff_c100": 142,
+        "diff_o200": 143,
+        "after_c100": 1116,
+        "after_o200": 1128,
+        "before_c100": 1116,
+        "before_o200": 1128
+      },
+      "go.mod": {
+        "diff_c100": 549,
+        "diff_o200": 551,
+        "after_c100": 1068,
+        "after_o200": 1071,
+        "before_c100": 1065,
+        "before_o200": 1068
+      },
+      "go.sum": {
+        "diff_c100": 2327,
+        "diff_o200": 2283,
+        "after_c100": 74637,
+        "after_o200": 72655,
+        "before_c100": 74166,
+        "before_o200": 72195
+      },
+      "fosite_store_helpers.go": {
+        "diff_c100": 1668,
+        "diff_o200": 1677,
+        "after_c100": 7805,
+        "after_o200": 7895,
+        "before_c100": 6590,
+        "before_o200": 6666
+      },
+      "fosite_store_memory.go": {
+        "diff_c100": 841,
+        "diff_o200": 842,
+        "after_c100": 2834,
+        "after_o200": 2856,
+        "before_c100": 2488,
+        "before_o200": 2509
+      },
+      "fosite_store_sql.go": {
+        "diff_c100": 991,
+        "diff_o200": 1009,
+        "after_c100": 4847,
+        "after_o200": 4867,
+        "before_c100": 4349,
+        "before_o200": 4362
+      },
+      "handler.go": {
+        "diff_c100": 263,
+        "diff_o200": 263,
+        "after_c100": 6428,
+        "after_o200": 6369,
+        "before_c100": 6427,
+        "before_o200": 6368
+      },
+      "10.sql": {
+        "diff_c100": 58,
+        "diff_o200": 59,
+        "after_c100": 42,
+        "after_o200": 42,
+        "before_c100": 1,
+        "before_o200": 1
+      },
+      "11.sql": {
+        "diff_c100": 115,
+        "diff_o200": 121,
+        "after_c100": 94,
+        "after_o200": 99,
+        "before_c100": 1,
+        "before_o200": 1
+      },
+      "11_test.sql": {
+        "diff_c100": 1378,
+        "diff_o200": 1373,
+        "after_c100": 1309,
+        "after_o200": 1303,
+        "before_c100": 1,
+        "before_o200": 1
+      },
+      "oauth2_auth_code_test.go": {
+        "diff_c100": 238,
+        "diff_o200": 242,
+        "after_c100": 15637,
+        "after_o200": 15838,
+        "before_c100": 15637,
+        "before_o200": 15838
+      },
+      "oauth2_refresh_token_test.go": {
+        "diff_c100": 194,
+        "diff_o200": 194,
+        "after_c100": 2474,
+        "after_o200": 2495,
+        "before_c100": 2474,
+        "before_o200": 2495
+      },
+      "sql_migration_files.go": {
+        "diff_c100": 8292,
+        "diff_o200": 8387,
+        "after_c100": 33808,
+        "after_o200": 34040,
+        "before_c100": 29103,
+        "before_o200": 29306
+      },
+      "x_fosite_migrations_test.go": {
+        "diff_c100": 359,
+        "diff_o200": 360,
+        "after_c100": 635,
+        "after_o200": 640,
+        "before_c100": 589,
+        "before_o200": 594
+      },
+      "clean_sql.go": {
+        "diff_c100": 91,
+        "diff_o200": 97,
+        "after_c100": 314,
+        "after_o200": 341,
+        "before_c100": 302,
+        "before_o200": 328
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 17562,
+      "all_diff_o200_tokens": 17657,
+      "all_after_c100_tokens": 153412,
+      "all_after_o200_tokens": 152003,
+      "all_before_c100_tokens": 144661,
+      "all_before_o200_tokens": 143212
+    }
   },
   "CVE-2020-8568": {
     "cveinfo": "data/go-cves/CVE-2020-8568.json",
     "fixes": "data/go-fixes/CVE-2020-8568_fixes.json.gz",
-    "cwe_id": "CWE-24"
+    "cwe_id": "CWE-24",
+    "token_counts_per_file": {
+      "controllers/secretproviderclasspodstatus_controller.go": {
+        "diff_c100": 1615,
+        "diff_o200": 1619,
+        "after_c100": 869,
+        "after_o200": 872,
+        "before_c100": 842,
+        "before_o200": 843
+      },
+      "controllers/secretproviderclasspodstatus_controller_test.go": {
+        "diff_c100": 698,
+        "diff_o200": 707,
+        "after_c100": 30,
+        "after_o200": 30,
+        "before_c100": 562,
+        "before_o200": 571
+      },
+      "go.mod": {
+        "diff_c100": 162,
+        "diff_o200": 164,
+        "after_c100": 108,
+        "after_o200": 110,
+        "before_c100": 94,
+        "before_o200": 96
+      },
+      "pkg/errors/errors.go": {
+        "diff_c100": 161,
+        "diff_o200": 166,
+        "after_c100": 99,
+        "after_o200": 104,
+        "before_c100": 48,
+        "before_o200": 50
+      },
+      "pkg/rotation/reconciler.go": {
+        "diff_c100": 687,
+        "diff_o200": 690,
+        "after_c100": 406,
+        "after_o200": 407,
+        "before_c100": 264,
+        "before_o200": 264
+      },
+      "pkg/rotation/reconciler_test.go": {
+        "diff_c100": 2170,
+        "diff_o200": 2207,
+        "after_c100": 1723,
+        "after_o200": 1767,
+        "before_c100": 394,
+        "before_o200": 405
+      },
+      "pkg/secrets-store/nodeserver.go": {
+        "diff_c100": 345,
+        "diff_o200": 346,
+        "after_c100": 199,
+        "after_o200": 199,
+        "before_c100": 165,
+        "before_o200": 165
+      },
+      "pkg/secrets-store/nodeserver_test.go": {
+        "diff_c100": 206,
+        "diff_o200": 205,
+        "after_c100": 97,
+        "after_o200": 97,
+        "before_c100": 85,
+        "before_o200": 84
+      },
+      "pkg/secrets-store/utils.go": {
+        "diff_c100": 522,
+        "diff_o200": 528,
+        "after_c100": 115,
+        "after_o200": 115,
+        "before_c100": 390,
+        "before_o200": 393
+      },
+      "pkg/util/fileutil/filesystem.go": {
+        "diff_c100": 365,
+        "diff_o200": 365,
+        "after_c100": 239,
+        "after_o200": 236,
+        "before_c100": 61,
+        "before_o200": 60
+      },
+      "pkg/util/fileutil/filesystem_test.go": {
+        "diff_c100": 3030,
+        "diff_o200": 3096,
+        "after_c100": 2755,
+        "after_o200": 2821,
+        "before_c100": 6,
+        "before_o200": 6
+      },
+      "pkg/util/k8sutil/volume.go": {
+        "diff_c100": 417,
+        "diff_o200": 416
+      },
+      "pkg/util/k8sutil/volume_test.go": {
+        "diff_c100": 1426,
+        "diff_o200": 1441
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 11804,
+      "all_diff_o200_tokens": 11950,
+      "all_after_c100_tokens": 6640,
+      "all_after_o200_tokens": 6758,
+      "all_before_c100_tokens": 2911,
+      "all_before_o200_tokens": 2937
+    }
   },
   "CVE-2020-8911": {
     "cveinfo": "data/go-cves/CVE-2020-8911.json",
     "fixes": "data/go-fixes/CVE-2020-8911_fixes.json.gz",
-    "cwe_id": "CWE-327"
+    "cwe_id": "CWE-327",
+    "token_counts_per_file": {
+      "CHANGELOG.md": {
+        "diff_c100": 319,
+        "diff_o200": 316,
+        "after_c100": 248,
+        "after_o200": 244,
+        "before_c100": 17,
+        "before_o200": 17
+      },
+      "CHANGELOG_PENDING.md": {
+        "diff_c100": 120,
+        "diff_o200": 119,
+        "after_c100": 9,
+        "after_o200": 9,
+        "before_c100": 59,
+        "before_o200": 58
+      },
+      "aws/endpoints/defaults.go": {
+        "diff_c100": 483,
+        "diff_o200": 486,
+        "after_c100": 343,
+        "after_o200": 346,
+        "before_c100": 223,
+        "before_o200": 224
+      },
+      "aws/version.go": {
+        "diff_c100": 96,
+        "diff_o200": 96,
+        "after_c100": 30,
+        "after_o200": 29,
+        "before_c100": 30,
+        "before_o200": 29
+      },
+      "models/apis/glue/2017-03-31/api-2.json": {
+        "diff_c100": 215,
+        "diff_o200": 218,
+        "after_c100": 83,
+        "after_o200": 84,
+        "before_c100": 69,
+        "before_o200": 70
+      },
+      "models/apis/glue/2017-03-31/docs-2.json": {
+        "diff_c100": 614,
+        "diff_o200": 620,
+        "after_c100": 341,
+        "after_o200": 343,
+        "before_c100": 258,
+        "before_o200": 260
+      },
+      "models/apis/organizations/2016-11-28/api-2.json": {
+        "diff_c100": 166,
+        "diff_o200": 170,
+        "after_c100": 55,
+        "after_o200": 57,
+        "before_c100": 37,
+        "before_o200": 39
+      },
+      "models/apis/organizations/2016-11-28/docs-2.json": {
+        "diff_c100": 714,
+        "diff_o200": 721,
+        "after_c100": 368,
+        "after_o200": 371,
+        "before_c100": 275,
+        "before_o200": 278
+      },
+      "models/apis/s3/2006-03-01/examples-1.json": {
+        "diff_c100": 6105,
+        "diff_o200": 6064,
+        "after_c100": 3606,
+        "after_o200": 3573,
+        "before_c100": 3606,
+        "before_o200": 3573
+      },
+      "models/apis/sms/2016-10-24/api-2.json": {
+        "diff_c100": 4866,
+        "diff_o200": 4915,
+        "after_c100": 3973,
+        "after_o200": 3988,
+        "before_c100": 1373,
+        "before_o200": 1373
+      },
+      "models/apis/sms/2016-10-24/docs-2.json": {
+        "diff_c100": 15698,
+        "diff_o200": 15564,
+        "after_c100": 10049,
+        "after_o200": 9933,
+        "before_c100": 7631,
+        "before_o200": 7543
+      },
+      "models/endpoints/endpoints.json": {
+        "diff_c100": 442,
+        "diff_o200": 447,
+        "after_c100": 325,
+        "after_o200": 326,
+        "before_c100": 211,
+        "before_o200": 212
+      },
+      "service/glue/api.go": {
+        "diff_c100": 485,
+        "diff_o200": 485,
+        "after_c100": 316,
+        "after_o200": 314,
+        "before_c100": 178,
+        "before_o200": 177
+      },
+      "service/organizations/api.go": {
+        "diff_c100": 469,
+        "diff_o200": 473,
+        "after_c100": 338,
+        "after_o200": 342,
+        "before_c100": 181,
+        "before_o200": 183
+      },
+      "service/s3/api.go": {
+        "diff_c100": 24088,
+        "diff_o200": 24008,
+        "after_c100": 16096,
+        "after_o200": 15290,
+        "before_c100": 10969,
+        "before_o200": 10465
+      },
+      "service/s3/examples_test.go": {
+        "diff_c100": 3881,
+        "diff_o200": 3829,
+        "after_c100": 1956,
+        "after_o200": 1893,
+        "before_c100": 1956,
+        "before_o200": 1893
+      },
+      "service/s3/s3manager/upload_input.go": {
+        "diff_c100": 229,
+        "diff_o200": 232,
+        "after_c100": 120,
+        "after_o200": 121,
+        "before_c100": 122,
+        "before_o200": 124
+      },
+      "service/sms/doc.go": {
+        "diff_c100": 405,
+        "diff_o200": 404,
+        "after_c100": 138,
+        "after_o200": 130,
+        "before_c100": 242,
+        "before_o200": 229
+      },
+      "service/sms/errors.go": {
+        "diff_c100": 237,
+        "diff_o200": 242,
+        "after_c100": 150,
+        "after_o200": 155,
+        "before_c100": 78,
+        "before_o200": 78
+      },
+      "service/sms/smsiface/interface.go": {
+        "diff_c100": 1520,
+        "diff_o200": 1483,
+        "after_c100": 1324,
+        "after_o200": 1287,
+        "before_c100": 760,
+        "before_o200": 725
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 61152,
+      "all_diff_o200_tokens": 60892,
+      "all_after_c100_tokens": 39868,
+      "all_after_o200_tokens": 38835,
+      "all_before_c100_tokens": 28275,
+      "all_before_o200_tokens": 27550
+    }
   },
   "CVE-2020-8918": {
     "cveinfo": "data/go-cves/CVE-2020-8918.json",
     "fixes": "data/go-fixes/CVE-2020-8918_fixes.json.gz",
-    "cwe_id": "CWE-665"
+    "cwe_id": "CWE-665",
+    "token_counts_per_file": {
+      "tpm/commands.go": {
+        "diff_c100": 588,
+        "diff_o200": 578,
+        "after_c100": 464,
+        "after_o200": 456,
+        "before_c100": 62,
+        "before_o200": 60
+      },
+      "tpm/constants.go": {
+        "diff_c100": 1383,
+        "diff_o200": 1373,
+        "after_c100": 766,
+        "after_o200": 758,
+        "before_c100": 522,
+        "before_o200": 519
+      },
+      "tpm/open_other.go": {
+        "diff_c100": 357,
+        "diff_o200": 351,
+        "after_c100": 249,
+        "after_o200": 245,
+        "before_c100": 141,
+        "before_o200": 140
+      },
+      "tpm/structures.go": {
+        "diff_c100": 220,
+        "diff_o200": 216,
+        "after_c100": 116,
+        "after_o200": 114,
+        "before_c100": 79,
+        "before_o200": 78
+      },
+      "tpm/testing.md": {
+        "diff_c100": 741,
+        "diff_o200": 729
+      },
+      "tpm/tpm.go": {
+        "diff_c100": 6492,
+        "diff_o200": 6469,
+        "after_c100": 4264,
+        "after_o200": 4241,
+        "before_c100": 2382,
+        "before_o200": 2366
+      },
+      "tpm/tpm_other_test.go": {
+        "diff_c100": 173,
+        "diff_o200": 162,
+        "after_c100": 66,
+        "after_o200": 64,
+        "before_c100": 62,
+        "before_o200": 60
+      },
+      "tpm/tpm_test.go": {
+        "diff_c100": 1003,
+        "diff_o200": 998,
+        "after_c100": 705,
+        "after_o200": 708,
+        "before_c100": 236,
+        "before_o200": 236
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 10957,
+      "all_diff_o200_tokens": 10876,
+      "all_after_c100_tokens": 6630,
+      "all_after_o200_tokens": 6586,
+      "all_before_c100_tokens": 3484,
+      "all_before_o200_tokens": 3459
+    }
   },
   "CVE-2020-8945": {
     "cveinfo": "data/go-cves/CVE-2020-8945.json",
     "fixes": "data/go-fixes/CVE-2020-8945_fixes.json.gz",
-    "cwe_id": "CWE-416"
+    "cwe_id": "CWE-416",
+    "token_counts_per_file": {
+      "go.mod": {
+        "diff_c100": 180,
+        "diff_o200": 182,
+        "after_c100": 952,
+        "after_o200": 954,
+        "before_c100": 964,
+        "before_o200": 966
+      },
+      "go.sum": {
+        "diff_c100": 1080,
+        "diff_o200": 1051,
+        "after_c100": 14208,
+        "after_o200": 13790,
+        "before_c100": 13932,
+        "before_o200": 13515
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 1260,
+      "all_diff_o200_tokens": 1233,
+      "all_after_c100_tokens": 15160,
+      "all_after_o200_tokens": 14744,
+      "all_before_c100_tokens": 14896,
+      "all_before_o200_tokens": 14481
+    }
   },
   "CVE-2021-20291": {
     "cveinfo": "data/go-cves/CVE-2021-20291.json",
     "fixes": "data/go-fixes/CVE-2021-20291_fixes.json.gz",
-    "cwe_id": "CWE-667"
+    "cwe_id": "CWE-667",
+    "token_counts_per_file": {
+      "contrib/cirrus/setup.sh": {
+        "diff_c100": 191,
+        "diff_o200": 191,
+        "after_c100": 115,
+        "after_o200": 115,
+        "before_c100": 83,
+        "before_o200": 83
+      },
+      "go.mod": {
+        "diff_c100": 202,
+        "diff_o200": 201,
+        "after_c100": 148,
+        "after_o200": 147,
+        "before_c100": 131,
+        "before_o200": 131
+      },
+      "go.sum": {
+        "diff_c100": 542,
+        "diff_o200": 529,
+        "after_c100": 448,
+        "after_o200": 437,
+        "before_c100": 345,
+        "before_o200": 339
+      },
+      "pkg/archive/archive.go": {
+        "diff_c100": 885,
+        "diff_o200": 878,
+        "after_c100": 325,
+        "after_o200": 319,
+        "before_c100": 635,
+        "before_o200": 624
+      },
+      "pkg/archive/archive_test.go": {
+        "diff_c100": 723,
+        "diff_o200": 729,
+        "after_c100": 64,
+        "after_o200": 66,
+        "before_c100": 582,
+        "before_o200": 588
+      },
+      "tests/apply-junk.bats": {
+        "diff_c100": 318,
+        "diff_o200": 319
+      },
+      "vendor/github.com/ulikunitz/xz/.gitignore": {
+        "diff_c100": 197,
+        "diff_o200": 194
+      },
+      "vendor/github.com/ulikunitz/xz/LICENSE": {
+        "diff_c100": 403,
+        "diff_o200": 401
+      },
+      "vendor/github.com/ulikunitz/xz/README.md": {
+        "diff_c100": 651,
+        "diff_o200": 646
+      },
+      "vendor/github.com/ulikunitz/xz/SECURITY.md": {
+        "diff_c100": 169,
+        "diff_o200": 165
+      },
+      "vendor/github.com/ulikunitz/xz/TODO.md": {
+        "diff_c100": 3265,
+        "diff_o200": 3282
+      },
+      "vendor/github.com/ulikunitz/xz/bits.go": {
+        "diff_c100": 805,
+        "diff_o200": 803
+      },
+      "vendor/github.com/ulikunitz/xz/crc.go": {
+        "diff_c100": 545,
+        "diff_o200": 542
+      },
+      "vendor/github.com/ulikunitz/xz/format.go": {
+        "diff_c100": 5540,
+        "diff_o200": 5562
+      },
+      "vendor/github.com/ulikunitz/xz/go.mod": {
+        "diff_c100": 110,
+        "diff_o200": 106
+      },
+      "vendor/github.com/ulikunitz/xz/internal/hash/cyclic_poly.go": {
+        "diff_c100": 4093,
+        "diff_o200": 4099
+      },
+      "vendor/github.com/ulikunitz/xz/internal/hash/doc.go": {
+        "diff_c100": 222,
+        "diff_o200": 218
+      },
+      "vendor/github.com/ulikunitz/xz/internal/hash/rabin_karp.go": {
+        "diff_c100": 714,
+        "diff_o200": 717
+      },
+      "vendor/github.com/ulikunitz/xz/internal/hash/roller.go": {
+        "diff_c100": 343,
+        "diff_o200": 340
+      },
+      "vendor/github.com/ulikunitz/xz/internal/xlog/xlog.go": {
+        "diff_c100": 4281,
+        "diff_o200": 4306
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/bintree.go": {
+        "diff_c100": 3915,
+        "diff_o200": 3915
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/bitops.go": {
+        "diff_c100": 593,
+        "diff_o200": 593
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/breader.go": {
+        "diff_c100": 388,
+        "diff_o200": 386
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/buffer.go": {
+        "diff_c100": 1460,
+        "diff_o200": 1464
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/bytewriter.go": {
+        "diff_c100": 386,
+        "diff_o200": 385
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/decoder.go": {
+        "diff_c100": 2388,
+        "diff_o200": 2404
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/decoderdict.go": {
+        "diff_c100": 1172,
+        "diff_o200": 1180
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/directcodec.go": {
+        "diff_c100": 469,
+        "diff_o200": 463
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/distcodec.go": {
+        "diff_c100": 1316,
+        "diff_o200": 1328
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/encoder.go": {
+        "diff_c100": 2343,
+        "diff_o200": 2348
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/encoderdict.go": {
+        "diff_c100": 1260,
+        "diff_o200": 1268
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/hashtable.go": {
+        "diff_c100": 2646,
+        "diff_o200": 2643
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/header.go": {
+        "diff_c100": 1497,
+        "diff_o200": 1505
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/header2.go": {
+        "diff_c100": 3055,
+        "diff_o200": 3075
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/lengthcodec.go": {
+        "diff_c100": 1073,
+        "diff_o200": 1071
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/literalcodec.go": {
+        "diff_c100": 1159,
+        "diff_o200": 1160
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/matchalgorithm.go": {
+        "diff_c100": 455,
+        "diff_o200": 457
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/operation.go": {
+        "diff_c100": 452,
+        "diff_o200": 451
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/prob.go": {
+        "diff_c100": 571,
+        "diff_o200": 569
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/properties.go": {
+        "diff_c100": 687,
+        "diff_o200": 687
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/rangecodec.go": {
+        "diff_c100": 1917,
+        "diff_o200": 1910
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/reader.go": {
+        "diff_c100": 933,
+        "diff_o200": 944
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/reader2.go": {
+        "diff_c100": 1849,
+        "diff_o200": 1882
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/state.go": {
+        "diff_c100": 1253,
+        "diff_o200": 1253
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/treecodecs.go": {
+        "diff_c100": 1301,
+        "diff_o200": 1293
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/writer.go": {
+        "diff_c100": 1761,
+        "diff_o200": 1771
+      },
+      "vendor/github.com/ulikunitz/xz/lzma/writer2.go": {
+        "diff_c100": 2525,
+        "diff_o200": 2531
+      },
+      "vendor/github.com/ulikunitz/xz/lzmafilter.go": {
+        "diff_c100": 1035,
+        "diff_o200": 1059
+      },
+      "vendor/github.com/ulikunitz/xz/make-docs": {
+        "diff_c100": 162,
+        "diff_o200": 159
+      },
+      "vendor/github.com/ulikunitz/xz/none-check.go": {
+        "diff_c100": 270,
+        "diff_o200": 267
+      },
+      "vendor/github.com/ulikunitz/xz/reader.go": {
+        "diff_c100": 2933,
+        "diff_o200": 2955
+      },
+      "vendor/github.com/ulikunitz/xz/writer.go": {
+        "diff_c100": 3115,
+        "diff_o200": 3095
+      },
+      "vendor/modules.txt": {
+        "diff_c100": 200,
+        "diff_o200": 196,
+        "after_c100": 133,
+        "after_o200": 130,
+        "before_c100": 65,
+        "before_o200": 67
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 70738,
+      "all_diff_o200_tokens": 70895,
+      "all_after_c100_tokens": 1233,
+      "all_after_o200_tokens": 1214,
+      "all_before_c100_tokens": 1841,
+      "all_before_o200_tokens": 1832
+    }
   },
   "CVE-2021-20329": {
     "cveinfo": "data/go-cves/CVE-2021-20329.json",
     "fixes": "data/go-fixes/CVE-2021-20329_fixes.json.gz",
-    "cwe_id": "CWE-1287"
+    "cwe_id": "CWE-1287",
+    "token_counts_per_file": {
+      "bson/bsonrw/value_writer.go": {
+        "diff_c100": 499,
+        "diff_o200": 503,
+        "after_c100": 294,
+        "after_o200": 298,
+        "before_c100": 211,
+        "before_o200": 212
+      },
+      "bson/marshal_test.go": {
+        "diff_c100": 436,
+        "diff_o200": 434,
+        "after_c100": 309,
+        "after_o200": 309,
+        "before_c100": 22,
+        "before_o200": 22
+      },
+      "x/bsonx/bsoncore/bsoncore.go": {
+        "diff_c100": 661,
+        "diff_o200": 658,
+        "after_c100": 377,
+        "after_o200": 374,
+        "before_c100": 271,
+        "before_o200": 265
+      },
+      "x/bsonx/bsoncore/bsoncore_test.go": {
+        "diff_c100": 668,
+        "diff_o200": 669,
+        "after_c100": 508,
+        "after_o200": 509,
+        "before_c100": 91,
+        "before_o200": 93
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 2264,
+      "all_diff_o200_tokens": 2264,
+      "all_after_c100_tokens": 1488,
+      "all_after_o200_tokens": 1490,
+      "all_before_c100_tokens": 595,
+      "all_before_o200_tokens": 592
+    }
   },
   "CVE-2021-21237": {
     "cveinfo": "data/go-cves/CVE-2021-21237.json",
@@ -407,17 +3887,95 @@
   "CVE-2021-21390": {
     "cveinfo": "data/go-cves/CVE-2021-21390.json",
     "fixes": "data/go-fixes/CVE-2021-21390_fixes.json.gz",
-    "cwe_id": "CWE-924"
+    "cwe_id": "CWE-924",
+    "token_counts_per_file": {
+      "streaming-signature-v4.go": {
+        "diff_c100": 2778,
+        "diff_o200": 2796,
+        "after_c100": 3651,
+        "after_o200": 3664,
+        "before_c100": 3303,
+        "before_o200": 3300
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 2778,
+      "all_diff_o200_tokens": 2796,
+      "all_after_c100_tokens": 3651,
+      "all_after_o200_tokens": 3664,
+      "all_before_c100_tokens": 3303,
+      "all_before_o200_tokens": 3300
+    }
   },
   "CVE-2021-21403": {
     "cveinfo": "data/go-cves/CVE-2021-21403.json",
     "fixes": "data/go-fixes/CVE-2021-21403_fixes.json.gz",
-    "cwe_id": "CWE-305"
+    "cwe_id": "CWE-305",
+    "token_counts_per_file": {
+      "memory.go": {
+        "diff_c100": 314,
+        "diff_o200": 318,
+        "after_c100": 198,
+        "after_o200": 197,
+        "before_c100": 69,
+        "before_o200": 70
+      },
+      "apis.go": {
+        "diff_c100": 121,
+        "diff_o200": 117,
+        "after_c100": 497,
+        "after_o200": 469,
+        "before_c100": 506,
+        "before_o200": 477
+      },
+      "utils.go": {
+        "diff_c100": 333,
+        "diff_o200": 327,
+        "after_c100": 214,
+        "after_o200": 209,
+        "before_c100": 294,
+        "before_o200": 291
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 768,
+      "all_diff_o200_tokens": 762,
+      "all_after_c100_tokens": 909,
+      "all_after_o200_tokens": 875,
+      "all_before_c100_tokens": 869,
+      "all_before_o200_tokens": 838
+    }
   },
   "CVE-2021-22538": {
     "cveinfo": "data/go-cves/CVE-2021-22538.json",
     "fixes": "data/go-fixes/CVE-2021-22538_fixes.json.gz",
-    "cwe_id": "CWE-276"
+    "cwe_id": "CWE-276",
+    "token_counts_per_file": {
+      "rbac.go": {
+        "diff_c100": 215,
+        "diff_o200": 216,
+        "after_c100": 1729,
+        "after_o200": 1701,
+        "before_c100": 1619,
+        "before_o200": 1590
+      },
+      "rbac_test.go": {
+        "diff_c100": 230,
+        "diff_o200": 231,
+        "after_c100": 1620,
+        "after_o200": 1615,
+        "before_c100": 1460,
+        "before_o200": 1454
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 445,
+      "all_diff_o200_tokens": 447,
+      "all_after_c100_tokens": 3349,
+      "all_after_o200_tokens": 3316,
+      "all_before_c100_tokens": 3079,
+      "all_before_o200_tokens": 3044
+    }
   },
   "CVE-2021-31525": {
     "cveinfo": "data/go-cves/CVE-2021-31525.json",
@@ -427,57 +3985,551 @@
   "CVE-2021-32783": {
     "cveinfo": "data/go-cves/CVE-2021-32783.json",
     "fixes": "data/go-fixes/CVE-2021-32783_fixes.json.gz",
-    "cwe_id": "CWE-441"
+    "cwe_id": "CWE-441",
+    "token_counts_per_file": {
+      "serve.go": {
+        "diff_c100": 526,
+        "diff_o200": 515,
+        "after_c100": 8242,
+        "after_o200": 8232,
+        "before_c100": 8143,
+        "before_o200": 8132
+      },
+      "01-contour-config.yaml": {
+        "diff_c100": 165,
+        "diff_o200": 165,
+        "after_c100": 1589,
+        "after_o200": 1581,
+        "before_c100": 1488,
+        "before_o200": 1480
+      },
+      "contour-gateway.yaml": {
+        "diff_c100": 164,
+        "diff_o200": 164,
+        "after_c100": 56598,
+        "after_o200": 56879,
+        "before_c100": 56498,
+        "before_o200": 56779
+      },
+      "contour.yaml": {
+        "diff_c100": 164,
+        "diff_o200": 164,
+        "after_c100": 26132,
+        "after_o200": 26208,
+        "before_c100": 26032,
+        "before_o200": 26108
+      },
+      "go.mod": {
+        "diff_c100": 139,
+        "diff_o200": 139,
+        "after_c100": 566,
+        "after_o200": 568,
+        "before_c100": 548,
+        "before_o200": 550
+      },
+      "accessors.go": {
+        "diff_c100": 667,
+        "diff_o200": 668,
+        "after_c100": 2140,
+        "after_o200": 2105,
+        "before_c100": 1808,
+        "before_o200": 1779
+      },
+      "accessors_test.go": {
+        "diff_c100": 1067,
+        "diff_o200": 1079,
+        "after_c100": 1505,
+        "after_o200": 1520,
+        "before_c100": 857,
+        "before_o200": 865
+      },
+      "builder_test.go": {
+        "diff_c100": 1057,
+        "diff_o200": 1047,
+        "after_c100": 82582,
+        "after_o200": 83165,
+        "before_c100": 82114,
+        "before_o200": 82706
+      },
+      "extension_processor.go": {
+        "diff_c100": 146,
+        "diff_o200": 144,
+        "after_c100": 1765,
+        "after_o200": 1763,
+        "before_c100": 1730,
+        "before_o200": 1729
+      },
+      "gatewayapi_processor.go": {
+        "diff_c100": 292,
+        "diff_o200": 294,
+        "after_c100": 7551,
+        "after_o200": 7547,
+        "before_c100": 7476,
+        "before_o200": 7472
+      },
+      "httpproxy_processor.go": {
+        "diff_c100": 501,
+        "diff_o200": 504,
+        "after_c100": 9314,
+        "after_o200": 9289,
+        "before_c100": 9237,
+        "before_o200": 9212
+      },
+      "ingress_processor.go": {
+        "diff_c100": 261,
+        "diff_o200": 261,
+        "after_c100": 2731,
+        "after_o200": 2714,
+        "before_c100": 2660,
+        "before_o200": 2643
+      },
+      "status_test.go": {
+        "diff_c100": 676,
+        "diff_o200": 680,
+        "after_c100": 36827,
+        "after_o200": 37210,
+        "before_c100": 36791,
+        "before_o200": 37174
+      },
+      "externalname_test.go": {
+        "diff_c100": 421,
+        "diff_o200": 422,
+        "after_c100": 3098,
+        "after_o200": 3132,
+        "before_c100": 2901,
+        "before_o200": 2934
+      },
+      "headerpolicy_test.go": {
+        "diff_c100": 107,
+        "diff_o200": 108,
+        "after_c100": 1929,
+        "after_o200": 1938,
+        "before_c100": 1894,
+        "before_o200": 1903
+      },
+      "parameters.go": {
+        "diff_c100": 142,
+        "diff_o200": 139,
+        "after_c100": 6260,
+        "after_o200": 6240,
+        "before_c100": 6205,
+        "before_o200": 6185
+      },
+      "configuration.md": {
+        "diff_c100": 175,
+        "diff_o200": 175,
+        "after_c100": 6910,
+        "after_o200": 6924,
+        "before_c100": 6842,
+        "before_o200": 6856
+      },
+      "018_external_name_test.go": {
+        "diff_c100": 796,
+        "diff_o200": 809,
+        "after_c100": 1705,
+        "after_o200": 1731,
+        "before_c100": 1187,
+        "before_o200": 1204
+      },
+      "httpproxy_test.go": {
+        "diff_c100": 653,
+        "diff_o200": 670,
+        "after_c100": 2524,
+        "after_o200": 2591,
+        "before_c100": 2242,
+        "before_o200": 2303
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 8119,
+      "all_diff_o200_tokens": 8147,
+      "all_after_c100_tokens": 259968,
+      "all_after_o200_tokens": 261337,
+      "all_before_c100_tokens": 256653,
+      "all_before_o200_tokens": 258014
+    }
   },
   "CVE-2021-3602": {
     "cveinfo": "data/go-cves/CVE-2021-3602.json",
     "fixes": "data/go-fixes/CVE-2021-3602_fixes.json.gz",
-    "cwe_id": "CWE-212"
+    "cwe_id": "CWE-212",
+    "token_counts_per_file": {
+      "run.go": {
+        "diff_c100": 823,
+        "diff_o200": 843,
+        "after_c100": 13748,
+        "after_o200": 13930,
+        "before_c100": 13794,
+        "before_o200": 13978
+      },
+      "buildah-bud.md": {
+        "diff_c100": 286,
+        "diff_o200": 289,
+        "after_c100": 9408,
+        "after_o200": 9483,
+        "before_c100": 9366,
+        "before_o200": 9442
+      },
+      "buildah-from.md": {
+        "diff_c100": 284,
+        "diff_o200": 287,
+        "after_c100": 7259,
+        "after_o200": 7314,
+        "before_c100": 7217,
+        "before_o200": 7273
+      },
+      "buildah-run.md": {
+        "diff_c100": 279,
+        "diff_o200": 280,
+        "after_c100": 3351,
+        "after_o200": 3389,
+        "before_c100": 3304,
+        "before_o200": 3344
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 1672,
+      "all_diff_o200_tokens": 1699,
+      "all_after_c100_tokens": 33766,
+      "all_after_o200_tokens": 34116,
+      "all_before_c100_tokens": 33681,
+      "all_before_o200_tokens": 34037
+    }
   },
   "CVE-2021-3911": {
     "cveinfo": "data/go-cves/CVE-2021-3911.json",
     "fixes": "data/go-fixes/CVE-2021-3911_fixes.json.gz",
-    "cwe_id": "CWE-252"
+    "cwe_id": "CWE-252",
+    "token_counts_per_file": {
+      "validator/lib/cert.go": {
+        "diff_c100": 260,
+        "diff_o200": 260,
+        "after_c100": 130,
+        "after_o200": 130,
+        "before_c100": 88,
+        "before_o200": 88
+      },
+      "validator/lib/roa.go": {
+        "diff_c100": 461,
+        "diff_o200": 463,
+        "after_c100": 273,
+        "after_o200": 274,
+        "before_c100": 200,
+        "before_o200": 201
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 721,
+      "all_diff_o200_tokens": 723,
+      "all_after_c100_tokens": 403,
+      "all_after_o200_tokens": 404,
+      "all_before_c100_tokens": 288,
+      "all_before_o200_tokens": 289
+    }
   },
   "CVE-2021-4070": {
     "cveinfo": "data/go-cves/CVE-2021-4070.json",
     "fixes": "data/go-fixes/CVE-2021-4070_fixes.json.gz",
-    "cwe_id": "CWE-193"
+    "cwe_id": "CWE-193",
+    "token_counts_per_file": {
+      "commands.go": {
+        "diff_c100": 97,
+        "diff_o200": 97,
+        "after_c100": 1007,
+        "after_o200": 1007,
+        "before_c100": 1005,
+        "before_o200": 1005
+      },
+      "commands_test.go": {
+        "diff_c100": 211,
+        "diff_o200": 213,
+        "after_c100": 381,
+        "after_o200": 384,
+        "before_c100": 252,
+        "before_o200": 254
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 308,
+      "all_diff_o200_tokens": 310,
+      "all_after_c100_tokens": 1388,
+      "all_after_o200_tokens": 1391,
+      "all_before_c100_tokens": 1257,
+      "all_before_o200_tokens": 1259
+    }
   },
   "CVE-2021-41232": {
     "cveinfo": "data/go-cves/CVE-2021-41232.json",
     "fixes": "data/go-fixes/CVE-2021-41232_fixes.json.gz",
-    "cwe_id": "CWE-90"
+    "cwe_id": "CWE-90",
+    "token_counts_per_file": {
+      "auth.go": {
+        "diff_c100": 139,
+        "diff_o200": 149,
+        "after_c100": 949,
+        "after_o200": 976,
+        "before_c100": 945,
+        "before_o200": 972
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 139,
+      "all_diff_o200_tokens": 149,
+      "all_after_c100_tokens": 949,
+      "all_after_o200_tokens": 976,
+      "all_before_c100_tokens": 945,
+      "all_before_o200_tokens": 972
+    }
   },
   "CVE-2021-4238": {
     "cveinfo": "data/go-cves/CVE-2021-4238.json",
     "fixes": "data/go-fixes/CVE-2021-4238_fixes.json.gz",
-    "cwe_id": "CWE-331"
+    "cwe_id": "CWE-331",
+    "token_counts_per_file": {
+      "cryptorandomstringutils.go": {
+        "diff_c100": 450,
+        "diff_o200": 451,
+        "after_c100": 115,
+        "after_o200": 117,
+        "before_c100": 271,
+        "before_o200": 273
+      },
+      "cryptorandomstringutils_test.go": {
+        "diff_c100": 394,
+        "diff_o200": 396,
+        "after_c100": 266,
+        "after_o200": 267,
+        "before_c100": 24,
+        "before_o200": 23
+      },
+      "randomstringutils.go": {
+        "diff_c100": 402,
+        "diff_o200": 404,
+        "after_c100": 97,
+        "after_o200": 99,
+        "before_c100": 249,
+        "before_o200": 251
+      },
+      "randomstringutils_test.go": {
+        "diff_c100": 390,
+        "diff_o200": 393,
+        "after_c100": 269,
+        "after_o200": 273,
+        "before_c100": 29,
+        "before_o200": 31
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 1636,
+      "all_diff_o200_tokens": 1644,
+      "all_after_c100_tokens": 747,
+      "all_after_o200_tokens": 756,
+      "all_before_c100_tokens": 573,
+      "all_before_o200_tokens": 578
+    }
   },
   "CVE-2021-4294": {
     "cveinfo": "data/go-cves/CVE-2021-4294.json",
     "fixes": "data/go-fixes/CVE-2021-4294_fixes.json.gz",
-    "cwe_id": "CWE-208"
+    "cwe_id": "CWE-208",
+    "token_counts_per_file": {
+      "client.go": {
+        "diff_c100": 162,
+        "diff_o200": 164,
+        "after_c100": 78,
+        "after_o200": 77,
+        "before_c100": 60,
+        "before_o200": 60
+      },
+      "util.go": {
+        "diff_c100": 164,
+        "diff_o200": 166,
+        "after_c100": 78,
+        "after_o200": 79,
+        "before_c100": 62,
+        "before_o200": 62
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 326,
+      "all_diff_o200_tokens": 330,
+      "all_after_c100_tokens": 156,
+      "all_after_o200_tokens": 156,
+      "all_before_c100_tokens": 122,
+      "all_before_o200_tokens": 122
+    }
   },
   "CVE-2021-43839": {
     "cveinfo": "data/go-cves/CVE-2021-43839.json",
     "fixes": "data/go-fixes/CVE-2021-43839_fixes.json.gz",
-    "cwe_id": "CWE-670"
+    "cwe_id": "CWE-670",
+    "token_counts_per_file": {
+      "CHANGELOG.md": {
+        "diff_c100": 111,
+        "diff_o200": 111,
+        "after_c100": 2384,
+        "after_o200": 2380,
+        "before_c100": 2311,
+        "before_o200": 2308
+      },
+      "go.mod": {
+        "diff_c100": 133,
+        "diff_o200": 130,
+        "after_c100": 3202,
+        "after_o200": 3213,
+        "before_c100": 3202,
+        "before_o200": 3213
+      },
+      "go.sum": {
+        "diff_c100": 584,
+        "diff_o200": 567,
+        "after_c100": 101851,
+        "after_o200": 99005,
+        "before_c100": 101852,
+        "before_o200": 99006
+      },
+      "gomod2nix.toml": {
+        "diff_c100": 310,
+        "diff_o200": 307,
+        "after_c100": 89962,
+        "after_o200": 89684,
+        "before_c100": 89963,
+        "before_o200": 89683
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 1138,
+      "all_diff_o200_tokens": 1115,
+      "all_after_c100_tokens": 197399,
+      "all_after_o200_tokens": 194282,
+      "all_before_c100_tokens": 197328,
+      "all_before_o200_tokens": 194210
+    }
   },
   "CVE-2022-0664": {
     "cveinfo": "data/go-cves/CVE-2022-0664.json",
     "fixes": "data/go-fixes/CVE-2022-0664_fixes.json.gz",
-    "cwe_id": "CWE-321"
+    "cwe_id": "CWE-321",
+    "token_counts_per_file": {
+      "jwts.go": {
+        "diff_c100": 151,
+        "diff_o200": 151,
+        "after_c100": 920,
+        "after_o200": 916,
+        "before_c100": 889,
+        "before_o200": 884
+      },
+      "util.go": {
+        "diff_c100": 447,
+        "diff_o200": 456,
+        "after_c100": 2677,
+        "after_o200": 2629,
+        "before_c100": 2756,
+        "before_o200": 2692
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 598,
+      "all_diff_o200_tokens": 607,
+      "all_after_c100_tokens": 3597,
+      "all_after_o200_tokens": 3545,
+      "all_before_c100_tokens": 3645,
+      "all_before_o200_tokens": 3576
+    }
   },
   "CVE-2022-1996": {
     "cveinfo": "data/go-cves/CVE-2022-1996.json",
     "fixes": "data/go-fixes/CVE-2022-1996_fixes.json.gz",
-    "cwe_id": "CWE-639"
+    "cwe_id": "CWE-639",
+    "token_counts_per_file": {
+      "cors_filter.go": {
+        "diff_c100": 816,
+        "diff_o200": 819,
+        "after_c100": 1498,
+        "after_o200": 1506,
+        "before_c100": 1531,
+        "before_o200": 1536
+      },
+      "cors_filter_test.go": {
+        "diff_c100": 594,
+        "diff_o200": 596,
+        "after_c100": 1562,
+        "after_o200": 1559,
+        "before_c100": 1128,
+        "before_o200": 1124
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 1410,
+      "all_diff_o200_tokens": 1415,
+      "all_after_c100_tokens": 3060,
+      "all_after_o200_tokens": 3065,
+      "all_before_c100_tokens": 2659,
+      "all_before_o200_tokens": 2660
+    }
   },
   "CVE-2022-22845": {
     "cveinfo": "data/go-cves/CVE-2022-22845.json",
     "fixes": "data/go-fixes/CVE-2022-22845_fixes.json.gz",
-    "cwe_id": "CWE-798"
+    "cwe_id": "CWE-798",
+    "token_counts_per_file": {
+      "claims.go": {
+        "diff_c100": 168,
+        "diff_o200": 166,
+        "after_c100": 370,
+        "after_o200": 367,
+        "before_c100": 354,
+        "before_o200": 352
+      },
+      "constants.go": {
+        "diff_c100": 58,
+        "diff_o200": 57,
+        "after_c100": 30,
+        "after_o200": 30,
+        "before_c100": 58,
+        "before_o200": 57
+      },
+      "config.go": {
+        "diff_c100": 81,
+        "diff_o200": 81,
+        "after_c100": 940,
+        "after_o200": 939,
+        "before_c100": 924,
+        "before_o200": 923
+      },
+      "webapp_config.json": {
+        "diff_c100": 104,
+        "diff_o200": 105,
+        "after_c100": 1502,
+        "after_o200": 1503,
+        "before_c100": 1473,
+        "before_o200": 1475
+      },
+      "main.go": {
+        "diff_c100": 564,
+        "diff_o200": 563,
+        "after_c100": 14788,
+        "after_o200": 15160,
+        "before_c100": 14566,
+        "before_o200": 14940
+      },
+      "version.go": {
+        "diff_c100": 52,
+        "diff_o200": 53,
+        "after_c100": 49,
+        "after_o200": 50,
+        "before_c100": 49,
+        "before_o200": 50
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 1027,
+      "all_diff_o200_tokens": 1025,
+      "all_after_c100_tokens": 17679,
+      "all_after_o200_tokens": 18049,
+      "all_before_c100_tokens": 17424,
+      "all_before_o200_tokens": 17797
+    }
   },
   "CVE-2022-2306": {
     "cveinfo": "data/go-cves/CVE-2022-2306.json",
@@ -487,27 +4539,181 @@
   "CVE-2022-2321": {
     "cveinfo": "data/go-cves/CVE-2022-2321.json",
     "fixes": "data/go-fixes/CVE-2022-2321_fixes.json.gz",
-    "cwe_id": "CWE-307"
+    "cwe_id": "CWE-307",
+    "token_counts_per_file": {
+      "main.go": {
+        "diff_c100": 465,
+        "diff_o200": 468,
+        "after_c100": 2585,
+        "after_o200": 2595,
+        "before_c100": 2565,
+        "before_o200": 2575
+      },
+      "console.go": {
+        "diff_c100": 449,
+        "diff_o200": 449,
+        "after_c100": 5370,
+        "after_o200": 5458,
+        "before_c100": 5345,
+        "before_o200": 5433
+      },
+      "console_authenticate.go": {
+        "diff_c100": 1287,
+        "diff_o200": 1295,
+        "after_c100": 1766,
+        "after_o200": 1770,
+        "before_c100": 1412,
+        "before_o200": 1412
+      },
+      "login_attempt_cache.go": {
+        "diff_c100": 1327,
+        "diff_o200": 1341,
+        "after_c100": 1143,
+        "after_o200": 1149,
+        "before_c100": 1,
+        "before_o200": 1
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 3528,
+      "all_diff_o200_tokens": 3553,
+      "all_after_c100_tokens": 10864,
+      "all_after_o200_tokens": 10972,
+      "all_before_c100_tokens": 9323,
+      "all_before_o200_tokens": 9421
+    }
   },
   "CVE-2022-23536": {
     "cveinfo": "data/go-cves/CVE-2022-23536.json",
     "fixes": "data/go-fixes/CVE-2022-23536_fixes.json.gz",
-    "cwe_id": "CWE-73"
+    "cwe_id": "CWE-73",
+    "token_counts_per_file": {
+      "CHANGELOG.md": {
+        "diff_c100": 245,
+        "diff_o200": 247,
+        "after_c100": 189,
+        "after_o200": 190,
+        "before_c100": 165,
+        "before_o200": 166
+      },
+      "pkg/alertmanager/api.go": {
+        "diff_c100": 520,
+        "diff_o200": 526,
+        "after_c100": 387,
+        "after_o200": 386,
+        "before_c100": 228,
+        "before_o200": 224
+      },
+      "pkg/alertmanager/api_test.go": {
+        "diff_c100": 402,
+        "diff_o200": 409,
+        "after_c100": 289,
+        "after_o200": 292,
+        "before_c100": 93,
+        "before_o200": 94
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 1167,
+      "all_diff_o200_tokens": 1182,
+      "all_after_c100_tokens": 865,
+      "all_after_o200_tokens": 868,
+      "all_before_c100_tokens": 486,
+      "all_before_o200_tokens": 484
+    }
   },
   "CVE-2022-28948": {
     "cveinfo": "data/go-cves/CVE-2022-28948.json",
     "fixes": "data/go-fixes/CVE-2022-28948_fixes.json.gz",
-    "cwe_id": "CWE-502"
+    "cwe_id": "CWE-502",
+    "token_counts_per_file": {
+      "decode.go": {
+        "diff_c100": 185,
+        "diff_o200": 184,
+        "after_c100": 100,
+        "after_o200": 99,
+        "before_c100": 42,
+        "before_o200": 42
+      },
+      "decode_test.go": {
+        "diff_c100": 251,
+        "diff_o200": 252,
+        "after_c100": 182,
+        "after_o200": 183,
+        "before_c100": 156,
+        "before_o200": 157
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 436,
+      "all_diff_o200_tokens": 436,
+      "all_after_c100_tokens": 282,
+      "all_after_o200_tokens": 282,
+      "all_before_c100_tokens": 198,
+      "all_before_o200_tokens": 199
+    }
   },
   "CVE-2022-29189": {
     "cveinfo": "data/go-cves/CVE-2022-29189.json",
     "fixes": "data/go-fixes/CVE-2022-29189_fixes.json.gz",
-    "cwe_id": "CWE-120"
+    "cwe_id": "CWE-120",
+    "token_counts_per_file": {
+      "errors.go": {
+        "diff_c100": 156,
+        "diff_o200": 151,
+        "after_c100": 2181,
+        "after_o200": 2135,
+        "before_c100": 2152,
+        "before_o200": 2107
+      },
+      "fragment_buffer.go": {
+        "diff_c100": 307,
+        "diff_o200": 306,
+        "after_c100": 902,
+        "after_o200": 897,
+        "before_c100": 800,
+        "before_o200": 797
+      },
+      "fragment_buffer_test.go": {
+        "diff_c100": 470,
+        "diff_o200": 470,
+        "after_c100": 3223,
+        "after_o200": 3218,
+        "before_c100": 2960,
+        "before_o200": 2956
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 933,
+      "all_diff_o200_tokens": 927,
+      "all_after_c100_tokens": 6306,
+      "all_after_o200_tokens": 6250,
+      "all_before_c100_tokens": 5912,
+      "all_before_o200_tokens": 5860
+    }
   },
   "CVE-2022-31022": {
     "cveinfo": "data/go-cves/CVE-2022-31022.json",
     "fixes": "data/go-fixes/CVE-2022-31022_fixes.json.gz",
-    "cwe_id": "CWE-306"
+    "cwe_id": "CWE-306",
+    "token_counts_per_file": {
+      "README.md": {
+        "diff_c100": 190,
+        "diff_o200": 191,
+        "after_c100": 124,
+        "after_o200": 124,
+        "before_c100": 84,
+        "before_o200": 84
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 190,
+      "all_diff_o200_tokens": 191,
+      "all_after_c100_tokens": 124,
+      "all_after_o200_tokens": 124,
+      "all_before_c100_tokens": 84,
+      "all_before_o200_tokens": 84
+    }
   },
   "CVE-2022-32149": {
     "cveinfo": "data/go-cves/CVE-2022-32149.json",
@@ -522,7 +4728,25 @@
   "CVE-2022-39304": {
     "cveinfo": "data/go-cves/CVE-2022-39304.json",
     "fixes": "data/go-fixes/CVE-2022-39304_fixes.json.gz",
-    "cwe_id": "CWE-209"
+    "cwe_id": "CWE-209",
+    "token_counts_per_file": {
+      "transport.go": {
+        "diff_c100": 163,
+        "diff_o200": 165,
+        "after_c100": 53,
+        "after_o200": 54,
+        "before_c100": 67,
+        "before_o200": 68
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 163,
+      "all_diff_o200_tokens": 165,
+      "all_after_c100_tokens": 53,
+      "all_after_o200_tokens": 54,
+      "all_before_c100_tokens": 67,
+      "all_before_o200_tokens": 68
+    }
   },
   "CVE-2022-4123": {
     "cveinfo": "data/go-cves/CVE-2022-4123.json",
@@ -532,27 +4756,225 @@
   "CVE-2022-46146": {
     "cveinfo": "data/go-cves/CVE-2022-46146.json",
     "fixes": "data/go-fixes/CVE-2022-46146_fixes.json.gz",
-    "cwe_id": "CWE-303"
+    "cwe_id": "CWE-303",
+    "token_counts_per_file": {
+      "web/handler.go": {
+        "diff_c100": 354,
+        "diff_o200": 359,
+        "after_c100": 187,
+        "after_o200": 189,
+        "before_c100": 162,
+        "before_o200": 162
+      },
+      "web/handler_test.go": {
+        "diff_c100": 577,
+        "diff_o200": 577,
+        "after_c100": 454,
+        "after_o200": 452,
+        "before_c100": 31,
+        "before_o200": 30
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 931,
+      "all_diff_o200_tokens": 936,
+      "all_after_c100_tokens": 641,
+      "all_after_o200_tokens": 641,
+      "all_before_c100_tokens": 193,
+      "all_before_o200_tokens": 192
+    }
   },
   "CVE-2023-0778": {
     "cveinfo": "data/go-cves/CVE-2023-0778.json",
     "fixes": "data/go-fixes/CVE-2023-0778_fixes.json.gz",
-    "cwe_id": "CWE-367"
+    "cwe_id": "CWE-367",
+    "token_counts_per_file": {
+      "libpod/container_internal.go": {
+        "diff_c100": 248,
+        "diff_o200": 248,
+        "after_c100": 128,
+        "after_o200": 128,
+        "before_c100": 123,
+        "before_o200": 123
+      },
+      "utils/utils.go": {
+        "diff_c100": 479,
+        "diff_o200": 479,
+        "after_c100": 337,
+        "after_o200": 333,
+        "before_c100": 144,
+        "before_o200": 139
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 727,
+      "all_diff_o200_tokens": 727,
+      "all_after_c100_tokens": 465,
+      "all_after_o200_tokens": 461,
+      "all_before_c100_tokens": 267,
+      "all_before_o200_tokens": 262
+    }
   },
   "CVE-2023-1800": {
     "cveinfo": "data/go-cves/CVE-2023-1800.json",
     "fixes": "data/go-fixes/CVE-2023-1800_fixes.json.gz",
-    "cwe_id": "CWE-434"
+    "cwe_id": "CWE-434",
+    "token_counts_per_file": {
+      "build.sh": {
+        "diff_c100": 459,
+        "diff_o200": 469,
+        "after_c100": 283,
+        "after_o200": 293,
+        "before_c100": 193,
+        "before_o200": 200
+      },
+      "go.mod": {
+        "diff_c100": 236,
+        "diff_o200": 236,
+        "after_c100": 165,
+        "after_o200": 165,
+        "before_c100": 165,
+        "before_o200": 165
+      },
+      "server/http_download.go": {
+        "diff_c100": 156,
+        "diff_o200": 155,
+        "after_c100": 76,
+        "after_o200": 75,
+        "before_c100": 45,
+        "before_o200": 45
+      },
+      "server/http_header.go": {
+        "diff_c100": 183,
+        "diff_o200": 187,
+        "after_c100": 122,
+        "after_o200": 126,
+        "before_c100": 114,
+        "before_o200": 118
+      },
+      "server/http_upload.go": {
+        "diff_c100": 143,
+        "diff_o200": 144,
+        "after_c100": 70,
+        "after_o200": 70,
+        "before_c100": 47,
+        "before_o200": 47
+      },
+      "static/uppy.html": {
+        "diff_c100": 875,
+        "diff_o200": 858
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 2052,
+      "all_diff_o200_tokens": 2049,
+      "all_after_c100_tokens": 716,
+      "all_after_o200_tokens": 729,
+      "all_before_c100_tokens": 564,
+      "all_before_o200_tokens": 575
+    }
   },
   "CVE-2023-2253": {
     "cveinfo": "data/go-cves/CVE-2023-2253.json",
     "fixes": "data/go-fixes/CVE-2023-2253_fixes.json.gz",
-    "cwe_id": "CWE-475"
+    "cwe_id": "CWE-475",
+    "token_counts_per_file": {
+      "configuration/configuration.go": {
+        "diff_c100": 408,
+        "diff_o200": 415,
+        "after_c100": 284,
+        "after_o200": 278,
+        "before_c100": 135,
+        "before_o200": 132
+      },
+      "configuration/configuration_test.go": {
+        "diff_c100": 219,
+        "diff_o200": 226,
+        "after_c100": 132,
+        "after_o200": 131,
+        "before_c100": 107,
+        "before_o200": 107
+      },
+      "registry/api/v2/descriptors.go": {
+        "diff_c100": 465,
+        "diff_o200": 469,
+        "after_c100": 217,
+        "after_o200": 222,
+        "before_c100": 186,
+        "before_o200": 192
+      },
+      "registry/api/v2/errors.go": {
+        "diff_c100": 161,
+        "diff_o200": 164,
+        "after_c100": 75,
+        "after_o200": 78,
+        "before_c100": 64,
+        "before_o200": 67
+      },
+      "registry/handlers/api_test.go": {
+        "diff_c100": 3757,
+        "diff_o200": 3761,
+        "after_c100": 2841,
+        "after_o200": 2850,
+        "before_c100": 814,
+        "before_o200": 812
+      },
+      "registry/handlers/catalog.go": {
+        "diff_c100": 874,
+        "diff_o200": 880,
+        "after_c100": 560,
+        "after_o200": 563,
+        "before_c100": 291,
+        "before_o200": 297
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 5884,
+      "all_diff_o200_tokens": 5915,
+      "all_after_c100_tokens": 4109,
+      "all_after_o200_tokens": 4122,
+      "all_before_c100_tokens": 1597,
+      "all_before_o200_tokens": 1607
+    }
   },
   "CVE-2023-26047": {
     "cveinfo": "data/go-cves/CVE-2023-26047.json",
     "fixes": "data/go-fixes/CVE-2023-26047_fixes.json.gz",
-    "cwe_id": "CWE-692"
+    "cwe_id": "CWE-692",
+    "token_counts_per_file": {
+      "README.md": {
+        "diff_c100": 1167,
+        "diff_o200": 1167,
+        "after_c100": 600,
+        "after_o200": 601,
+        "before_c100": 600,
+        "before_o200": 601
+      },
+      "analyze.go": {
+        "diff_c100": 346,
+        "diff_o200": 350,
+        "after_c100": 183,
+        "after_o200": 184,
+        "before_c100": 156,
+        "before_o200": 157
+      },
+      "filters.json": {
+        "diff_c100": 205,
+        "diff_o200": 208,
+        "after_c100": 97,
+        "after_o200": 98,
+        "before_c100": 94,
+        "before_o200": 95
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 1718,
+      "all_diff_o200_tokens": 1725,
+      "all_after_c100_tokens": 880,
+      "all_after_o200_tokens": 883,
+      "all_before_c100_tokens": 850,
+      "all_before_o200_tokens": 853
+    }
   },
   "CVE-2023-29194": {
     "cveinfo": "data/go-cves/CVE-2023-29194.json",
@@ -572,31 +4994,391 @@
   "CVE-2023-44378": {
     "cveinfo": "data/go-cves/CVE-2023-44378.json",
     "fixes": "data/go-fixes/CVE-2023-44378_fixes.json.gz",
-    "cwe_id": "CWE-697"
+    "cwe_id": "CWE-697",
+    "token_counts_per_file": {
+      "frontend/api.go": {
+        "diff_c100": 388,
+        "diff_o200": 388,
+        "after_c100": 253,
+        "after_o200": 252,
+        "before_c100": 135,
+        "before_o200": 134
+      },
+      "frontend/cs/r1cs/api.go": {
+        "diff_c100": 386,
+        "diff_o200": 392,
+        "after_c100": 206,
+        "after_o200": 207,
+        "before_c100": 163,
+        "before_o200": 165
+      },
+      "frontend/cs/r1cs/api_assertions.go": {
+        "diff_c100": 763,
+        "diff_o200": 761,
+        "after_c100": 363,
+        "after_o200": 358,
+        "before_c100": 268,
+        "before_o200": 263
+      },
+      "frontend/cs/scs/api.go": {
+        "diff_c100": 269,
+        "diff_o200": 273,
+        "after_c100": 148,
+        "after_o200": 148,
+        "before_c100": 89,
+        "before_o200": 90
+      },
+      "frontend/cs/scs/api_assertions.go": {
+        "diff_c100": 1135,
+        "diff_o200": 1137,
+        "after_c100": 613,
+        "after_o200": 610,
+        "before_c100": 459,
+        "before_o200": 456
+      },
+      "internal/backend/circuits/hint.go": {
+        "diff_c100": 179,
+        "diff_o200": 178,
+        "after_c100": 74,
+        "after_o200": 73,
+        "before_c100": 74,
+        "before_o200": 73
+      },
+      "internal/regression_tests/doc.go": {
+        "diff_c100": 87,
+        "diff_o200": 89
+      },
+      "internal/regression_tests/issue_836_test.go": {
+        "diff_c100": 1789,
+        "diff_o200": 1733
+      },
+      "std/math/bits/conversion.go": {
+        "diff_c100": 620,
+        "diff_o200": 620,
+        "after_c100": 400,
+        "after_o200": 388,
+        "before_c100": 171,
+        "before_o200": 169
+      },
+      "std/math/bits/conversion_binary.go": {
+        "diff_c100": 597,
+        "diff_o200": 594,
+        "after_c100": 442,
+        "after_o200": 439,
+        "before_c100": 102,
+        "before_o200": 100
+      },
+      "std/math/bits/intf_constcheck.go": {
+        "diff_c100": 185,
+        "diff_o200": 188
+      },
+      "test/engine.go": {
+        "diff_c100": 310,
+        "diff_o200": 313,
+        "after_c100": 219,
+        "after_o200": 217,
+        "before_c100": 26,
+        "before_o200": 26
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 6708,
+      "all_diff_o200_tokens": 6666,
+      "all_after_c100_tokens": 2718,
+      "all_after_o200_tokens": 2692,
+      "all_before_c100_tokens": 1487,
+      "all_before_o200_tokens": 1476
+    }
   },
   "CVE-2023-45128": {
     "cveinfo": "data/go-cves/CVE-2023-45128.json",
     "fixes": "data/go-fixes/CVE-2023-45128_fixes.json.gz",
-    "cwe_id": "CWE-807"
+    "cwe_id": "CWE-807",
+    "token_counts_per_file": {
+      "docs/api/middleware/csrf.md": {
+        "diff_c100": 3013,
+        "diff_o200": 3037,
+        "after_c100": 2454,
+        "after_o200": 2477,
+        "before_c100": 1024,
+        "before_o200": 1037
+      },
+      "middleware/csrf/csrf.go": {
+        "diff_c100": 2413,
+        "diff_o200": 2445,
+        "after_c100": 1677,
+        "after_o200": 1689,
+        "before_c100": 608,
+        "before_o200": 613
+      },
+      "middleware/csrf/csrf_test.go": {
+        "diff_c100": 3988,
+        "diff_o200": 4069,
+        "after_c100": 3217,
+        "after_o200": 3280,
+        "before_c100": 672,
+        "before_o200": 690
+      },
+      "middleware/csrf/extractors.go": {
+        "diff_c100": 671,
+        "diff_o200": 671,
+        "after_c100": 340,
+        "after_o200": 335,
+        "before_c100": 335,
+        "before_o200": 335
+      },
+      "middleware/csrf/helpers.go": {
+        "diff_c100": 107,
+        "diff_o200": 112
+      },
+      "middleware/csrf/config.go": {
+        "diff_c100": 1011,
+        "diff_o200": 1027,
+        "after_c100": 720,
+        "after_o200": 730,
+        "before_c100": 370,
+        "before_o200": 372
+      },
+      "middleware/csrf/session_manager.go": {
+        "diff_c100": 584,
+        "diff_o200": 590
+      },
+      "middleware/csrf/storage_manager.go": {
+        "diff_c100": 661,
+        "diff_o200": 665,
+        "after_c100": 412,
+        "after_o200": 408,
+        "before_c100": 333,
+        "before_o200": 331
+      },
+      "middleware/csrf/token.go": {
+        "diff_c100": 119,
+        "diff_o200": 124
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 12567,
+      "all_diff_o200_tokens": 12740,
+      "all_after_c100_tokens": 8820,
+      "all_after_o200_tokens": 8919,
+      "all_before_c100_tokens": 3342,
+      "all_before_o200_tokens": 3378
+    }
   },
   "CVE-2023-46129": {
     "cveinfo": "data/go-cves/CVE-2023-46129.json",
     "fixes": "data/go-fixes/CVE-2023-46129_fixes.json.gz",
-    "cwe_id": "CWE-325"
+    "cwe_id": "CWE-325",
+    "token_counts_per_file": {
+      "xkeys.go": {
+        "diff_c100": 652,
+        "diff_o200": 659,
+        "after_c100": 335,
+        "after_o200": 333,
+        "before_c100": 326,
+        "before_o200": 327
+      },
+      "xkeys_test.go": {
+        "diff_c100": 412,
+        "diff_o200": 414,
+        "after_c100": 299,
+        "after_o200": 297,
+        "before_c100": 74,
+        "before_o200": 71
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 1064,
+      "all_diff_o200_tokens": 1073,
+      "all_after_c100_tokens": 634,
+      "all_after_o200_tokens": 630,
+      "all_before_c100_tokens": 400,
+      "all_before_o200_tokens": 398
+    }
   },
   "CVE-2023-46239": {
     "cveinfo": "data/go-cves/CVE-2023-46239.json",
     "fixes": "data/go-fixes/CVE-2023-46239_fixes.json.gz",
-    "cwe_id": "CWE-248"
+    "cwe_id": "CWE-248",
+    "token_counts_per_file": {
+      "connection.go": {
+        "diff_c100": 1034,
+        "diff_o200": 1027,
+        "after_c100": 708,
+        "after_o200": 700,
+        "before_c100": 423,
+        "before_o200": 418
+      },
+      "connection_test.go": {
+        "diff_c100": 1482,
+        "diff_o200": 1444,
+        "after_c100": 707,
+        "after_o200": 683,
+        "before_c100": 1090,
+        "before_o200": 1057
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 2516,
+      "all_diff_o200_tokens": 2471,
+      "all_after_c100_tokens": 1415,
+      "all_after_o200_tokens": 1383,
+      "all_before_c100_tokens": 1513,
+      "all_before_o200_tokens": 1475
+    }
   },
   "CVE-2017-3204": {
     "cveinfo": "data/go-cves/CVE-2017-3204.json",
     "fixes": "data/go-fixes/CVE-2017-3204_fixes.json.gz",
-    "cwe_id": "CWE-310"
+    "cwe_id": "CWE-310",
+    "token_counts_per_file": {
+      "client_test.go": {
+        "diff_c100": 526,
+        "diff_o200": 529,
+        "after_c100": 581,
+        "after_o200": 582,
+        "before_c100": 246,
+        "before_o200": 244
+      },
+      "example_test.go": {
+        "diff_c100": 1009,
+        "diff_o200": 1019,
+        "after_c100": 2286,
+        "after_o200": 2307,
+        "before_c100": 1930,
+        "before_o200": 1947
+      },
+      "server_test.go": {
+        "diff_c100": 102,
+        "diff_o200": 101,
+        "after_c100": 1485,
+        "after_o200": 1488,
+        "before_c100": 1470,
+        "before_o200": 1473
+      },
+      "certs.go": {
+        "diff_c100": 125,
+        "diff_o200": 127,
+        "after_c100": 3726,
+        "after_o200": 3673,
+        "before_c100": 3735,
+        "before_o200": 3684
+      },
+      "client.go": {
+        "diff_c100": 812,
+        "diff_o200": 827,
+        "after_c100": 1900,
+        "after_o200": 1894,
+        "before_c100": 1558,
+        "before_o200": 1546
+      },
+      "client_auth_test.go": {
+        "diff_c100": 1058,
+        "diff_o200": 1060,
+        "after_c100": 3481,
+        "after_o200": 3474,
+        "before_c100": 3322,
+        "before_o200": 3315
+      },
+      "doc.go": {
+        "diff_c100": 124,
+        "diff_o200": 126,
+        "after_c100": 212,
+        "after_o200": 212,
+        "before_c100": 186,
+        "before_o200": 186
+      },
+      "handshake.go": {
+        "diff_c100": 207,
+        "diff_o200": 211,
+        "after_c100": 4316,
+        "after_o200": 4277,
+        "before_c100": 4338,
+        "before_o200": 4302
+      },
+      "handshake_test.go": {
+        "diff_c100": 119,
+        "diff_o200": 116,
+        "after_c100": 3672,
+        "after_o200": 3662,
+        "before_c100": 3660,
+        "before_o200": 3650
+      },
+      "session_test.go": {
+        "diff_c100": 267,
+        "diff_o200": 265,
+        "after_c100": 5563,
+        "after_o200": 5550,
+        "before_c100": 5523,
+        "before_o200": 5510
+      },
+      "cert_test.go": {
+        "diff_c100": 88,
+        "diff_o200": 86,
+        "after_c100": 324,
+        "after_o200": 319,
+        "before_c100": 310,
+        "before_o200": 305
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 4437,
+      "all_diff_o200_tokens": 4467,
+      "all_after_c100_tokens": 27546,
+      "all_after_o200_tokens": 27438,
+      "all_before_c100_tokens": 26278,
+      "all_before_o200_tokens": 26162
+    }
   },
   "CVE-2024-25124": {
     "cveinfo": "data/go-cves/CVE-2024-25124.json",
     "fixes": "data/go-fixes/CVE-2024-25124_fixes.json.gz",
-    "cwe_id": "CWE-942"
+    "cwe_id": "CWE-942",
+    "token_counts_per_file": {
+      "docs/api/middleware/cors.md": {
+        "diff_c100": 1221,
+        "diff_o200": 1192,
+        "after_c100": 674,
+        "after_o200": 663,
+        "before_c100": 502,
+        "before_o200": 492
+      },
+      "middleware/cors/cors.go": {
+        "diff_c100": 1249,
+        "diff_o200": 1222,
+        "after_c100": 852,
+        "after_o200": 827,
+        "before_c100": 474,
+        "before_o200": 463
+      },
+      "middleware/cors/cors_test.go": {
+        "diff_c100": 2517,
+        "diff_o200": 2511,
+        "after_c100": 1652,
+        "after_o200": 1644,
+        "before_c100": 1009,
+        "before_o200": 1006
+      },
+      "middleware/cors/utils.go": {
+        "diff_c100": 1130,
+        "diff_o200": 1142,
+        "after_c100": 634,
+        "after_o200": 636,
+        "before_c100": 400,
+        "before_o200": 403
+      },
+      "middleware/cors/utils_test.go": {
+        "diff_c100": 2467,
+        "diff_o200": 2475
+      }
+    },
+    "token_counts_all": {
+      "all_diff_c100_tokens": 8584,
+      "all_diff_o200_tokens": 8542,
+      "all_after_c100_tokens": 3812,
+      "all_after_o200_tokens": 3770,
+      "all_before_c100_tokens": 2385,
+      "all_before_o200_tokens": 2364
+    }
   }
 }

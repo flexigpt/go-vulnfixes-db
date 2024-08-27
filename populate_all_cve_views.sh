@@ -1,0 +1,8 @@
+python -m src.dataviewcmd.cve_views ./data/all_cwe_to_cveinfo_index.json --include-noinfo --output-path ./data/views/all_cwes_all_cves.json
+python -m src.dataviewcmd.cve_views ./data/all_cwe_to_cveinfo_index.json --per-cwe-one --output-path ./data/views/all_cwes_one_cve.json
+python -m src.dataviewcmd.cve_views ./data/all_cwe_to_cveinfo_index.json --selected-cves-path ./data/cwe-699/cwe_top25_2023.json --output-path ./data/views/top25cwe_2023_all_cves.json
+python -m src.dataviewcmd.cve_views ./data/all_cwe_to_cveinfo_index.json --selected-cves-path ./data/cwe-699/cwe_top25_2023.json --per-cwe-one --output-path ./data/views/top25cwe_2023_one_cve.json
+python -m src.dataviewcmd.cve_views ./data/all_cwe_to_cveinfo_index.json --selected-cves-path ./data/cwe-699/cwe_top10_cisa_kev.json --output-path ./data/views/top10cwe_cisa_kev_all_cves.json
+python -m src.dataviewcmd.cve_views ./data/all_cwe_to_cveinfo_index.json --selected-cves-path ./data/cwe-699/cwe_top10_cisa_kev.json --per-cwe-one --output-path ./data/views/top10cwe_cisa_kev_one_cve.json
+python -m src.dataviewcmd.cve_views ./data/all_cwe_to_cveinfo_index.json --selected-cves-path ./data/cwe-699/cwe_top25_2023_stubborn.json --output-path ./data/views/top25cwe_2023_stubborn_all_cves.json
+python -m src.dataviewcmd.cve_views ./data/all_cwe_to_cveinfo_index.json --selected-cves-path ./data/cwe-699/cwe_top25_2023_stubborn.json --per-cwe-one --output-path ./data/views/top25cwe_2023_stubborn_one_cve.json
