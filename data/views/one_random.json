@@ -1,6 +1,53 @@
 {
-    "CVE-2022-22116": {
-        "cveinfo": "data/go-cves/CVE-2022-22116.json",
-        "fixes": "data/go-fixes/CVE-2022-22116_fixes.json.gz"
+    "CVE-2024-25124": {
+        "cveinfo": "data/go-cves/CVE-2024-25124.json",
+        "fixes": "data/go-fixes/CVE-2024-25124_fixes.json.gz",
+        "cwe_id": "CWE-942",
+        "token_counts_per_file": {
+            "docs/api/middleware/cors.md": {
+                "diff_c100": 1221,
+                "diff_o200": 1192,
+                "after_c100": 674,
+                "after_o200": 663,
+                "before_c100": 502,
+                "before_o200": 492
+            },
+            "middleware/cors/cors.go": {
+                "diff_c100": 1249,
+                "diff_o200": 1222,
+                "after_c100": 852,
+                "after_o200": 827,
+                "before_c100": 474,
+                "before_o200": 463
+            },
+            "middleware/cors/cors_test.go": {
+                "diff_c100": 2517,
+                "diff_o200": 2511,
+                "after_c100": 1652,
+                "after_o200": 1644,
+                "before_c100": 1009,
+                "before_o200": 1006
+            },
+            "middleware/cors/utils.go": {
+                "diff_c100": 1130,
+                "diff_o200": 1142,
+                "after_c100": 634,
+                "after_o200": 636,
+                "before_c100": 400,
+                "before_o200": 403
+            },
+            "middleware/cors/utils_test.go": {
+                "diff_c100": 2467,
+                "diff_o200": 2475
+            }
+        },
+        "token_counts_all": {
+            "all_diff_c100_tokens": 8584,
+            "all_diff_o200_tokens": 8542,
+            "all_after_c100_tokens": 3812,
+            "all_after_o200_tokens": 3770,
+            "all_before_c100_tokens": 2385,
+            "all_before_o200_tokens": 2364
+        }
     }
 }
