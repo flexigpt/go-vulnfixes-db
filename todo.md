@@ -20,3 +20,10 @@
 - [x] get associated commits one by one
 - [x] calculate commits metadata and add in cveinfo
 - [x] create file changes and method changes in filechanges json
+
+- [x] Views of the dataset to evaluate
+  - [x] The view should contain cveID, cwe, fixes, tokens
+  - [x] Create multiple useful views based on different samples, but the view should be consistent
+  - [x] Ideally the view should be created and stored in a json file so that it can be read and processed deterministically each time
+  - [x] Dataset needs to be balanced
+  - [x] Ideally some token metrics info related to the dataset needs to be present to do a dry run wrt cost of the dataset run
